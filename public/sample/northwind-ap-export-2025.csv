@@ -1,0 +1,1421 @@
+Vendor ID,Vendor,Type,Bill No.,Bill Date,Paid Date,Amount,Memo
+V1005,Adatum Cloud Hosting,Bill,ADH-11366,01/01/2025,01/23/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27120,01/01/2025,01/18/2025,"12,500.00",Office rent
+V1010,Bluewater Freight Co,Bill,BWF/40465,01/01/2025,01/20/2025,"2,041.15",Freight
+V1027,Consolidated Messenger,Bill,CM40853,01/01/2025,02/13/2025,491.00,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045605,01/01/2025,01/22/2025,"2,939.19",Facilities maintenance
+V1020,Evergreen Landscaping Co,Bill,EL-42560,01/01/2025,01/08/2025,"1,670.88",Grounds
+V1018,Granite Peak Security,Bill,GPS-29926,01/01/2025,01/23/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37701,01/01/2025,01/15/2025,"4,125.75",Insurance premium
+V1013,Relecloud Software,Bill,RS-37661,01/01/2025,01/11/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34706,01/01/2025,01/12/2025,987.44,Telecom
+V1024,Trey Research Labs,Bill,TRL-21642,01/01/2025,01/27/2025,"9,072.00",Lab testing
+V1026,Wingtip Toys,Bill,WT-31237,01/01/2025,02/01/2025,221.10,Promotional items
+V1003,Fabrikam Electrical Supply,Bill,44182,01/02/2025,02/03/2025,"1,859.59",Electrical parts
+V1006,Litware Office Products,Bill,LOP11177,01/02/2025,02/08/2025,300.07,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39959,01/02/2025,01/31/2025,"1,446.57",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40494,01/03/2025,02/03/2025,"1,404.30",Freight
+V1027,Consolidated Messenger,Bill,CM40943,01/03/2025,02/13/2025,153.81,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44116,01/03/2025,01/12/2025,"2,150.00",Electrical parts
+V1028,Margie's Travel,Bill,MT-29120,01/03/2025,02/05/2025,"1,969.76",Travel bookings
+V1014,Wide World Importers,Bill,WWI0047067,01/03/2025,01/30/2025,"7,673.44",Imported goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42501,01/03/2025,01/17/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40890,01/04/2025,01/27/2025,200.00,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045515,01/04/2025,01/19/2025,"3,838.00",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44042,01/04/2025,01/20/2025,"1,736.04",Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5433,01/04/2025,01/31/2025,51.59,Pantry
+V1012,Fourth Coffee Supply,Bill,FC5443,01/04/2025,02/07/2025,303.14,Pantry
+V1006,Litware Office Products,Bill,LOP11119,01/04/2025,01/21/2025,580.22,Office supplies
+V1027,Consolidated Messenger,Bill,CM41005,01/05/2025,02/01/2025,178.75,Messenger
+V1012,Fourth Coffee Supply,Bill,FC5473,01/05/2025,02/06/2025,116.49,Pantry
+V1028,Margie's Travel,Bill,MT-29127,01/05/2025,01/18/2025,"3,951.39",Travel bookings
+V1007,Proseware Consulting Group,Bill,PCG-2025-21142,01/05/2025,02/03/2025,"4,385.00",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS39911,01/05/2025,01/22/2025,"1,663.41",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40567,01/06/2025,02/18/2025,685.91,Freight
+V1004,Tailspin Courier Services,Bill,TCS39945,01/06/2025,01/20/2025,624.46,Courier
+V1004,Tailspin Courier Services,Bill,TCS39945,01/06/2025,02/19/2025,624.46,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40558,01/07/2025,01/23/2025,"3,276.16",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40563,01/07/2025,02/04/2025,"3,281.60",Freight
+V1027,Consolidated Messenger,Bill,CM40881,01/07/2025,02/02/2025,480.15,Messenger
+V1022,Summit Staffing Partners,Bill,SSP-6035,01/07/2025,01/15/2025,"3,837.93",Temporary staff
+V1014,Wide World Importers,Bill,WWI0047008,01/07/2025,02/15/2025,"8,203.10",Imported goods
+V1021,Ironclad Machine Parts,Bill,IMP34437,01/08/2025,02/17/2025,"3,355.26",Machine parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3784,01/08/2025,01/28/2025,"6,100.00",Plumbing repairs
+V1024,Trey Research Labs,Bill,TRL-21669,01/08/2025,01/29/2025,"2,349.70",Lab testing
+V1010,Bluewater Freight Co,Bill,BWF/40523,01/09/2025,02/07/2025,"1,976.18",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40554,01/09/2025,02/18/2025,"3,083.72",Freight
+V1021,Ironclad Machine Parts,Bill,IMP34382,01/09/2025,01/16/2025,"4,842.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11136,01/09/2025,02/05/2025,844.02,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1569,01/10/2025,02/22/2025,"5,850.00",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39920,01/10/2025,02/11/2025,"1,205.00",Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42503,01/10/2025,01/24/2025,465.00,Weekly cleaning
+V1023,Copperleaf Printing,Bill,CLP27895,01/11/2025,01/28/2025,"1,064.27",Print jobs
+V1020,Evergreen Landscaping Co,Bill,EL-42569,01/11/2025,02/03/2025,"1,250.00",Grounds
+V1003,Fabrikam Electrical Supply,Bill,44128,01/11/2025,02/08/2025,"1,740.37",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44165,01/11/2025,02/12/2025,"1,457.92",Electrical parts
+V1006,Litware Office Products,Bill,LOP11118,01/11/2025,02/07/2025,925.29,Office supplies
+V1007,Proseware Consulting Group,Bill,PCG-2025-21128,01/11/2025,02/01/2025,"9,111.29",Consulting services
+V1010,Bluewater Freight Co,Bill,BWF/40566,01/12/2025,02/15/2025,748.07,Freight
+V1027,Consolidated Messenger,Bill,CM40929,01/12/2025,02/01/2025,315.00,Messenger
+V1006,Litware Office Products,Bill,LOP11116,01/13/2025,01/23/2025,490.42,Office supplies
+V1003,Fabrikam Electrical Supply,Bill,44136,01/14/2025,01/25/2025,"2,400.00",Electrical parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1586,01/14/2025,02/28/2025,"4,757.10",Stock purchase
+V1027,Consolidated Messenger,Bill,CM40988,01/15/2025,01/27/2025,362.71,Messenger
+V1020,Evergreen Landscaping Co,Bill,EL-42556,01/15/2025,02/16/2025,"1,701.00",Grounds
+V1007,Proseware Consulting Group,Bill,PCG-2025-21140,01/15/2025,02/27/2025,"9,143.95",Consulting services
+V1010,Bluewater Freight Co,Bill,BWF/40606,01/16/2025,01/25/2025,"2,070.70",Freight
+V1001,Northwind Traders Ltd,Bill,NW-25-1588,01/16/2025,02/25/2025,"1,337.15",Stock purchase
+V1007,Proseware Consulting Group,Bill,PCG-2025-21145,01/16/2025,01/28/2025,"13,982.85",Consulting services
+V1022,Summit Staffing Partners,Bill,SSP-5977,01/16/2025,02/07/2025,"15,318.99",Temporary staff
+V1024,Trey Research Labs,Bill,TRL-21657,01/16/2025,03/01/2025,"4,285.69",Lab testing
+V1025,VanArsdel Ltd,Bill,VA13531,01/16/2025,02/04/2025,"2,190.33",Components
+V1010,Bluewater Freight Co,Bill,BWF/40599,01/17/2025,02/15/2025,681.83,Freight
+V1021,Ironclad Machine Parts,Bill,IMP34353,01/17/2025,01/24/2025,"1,072.21",Machine parts
+V1021,Ironclad Machine Parts,Vendor Credit,CR-667,01/17/2025,,-106.72,Returned goods
+V1006,Litware Office Products,Bill,LOP11220,01/17/2025,02/06/2025,250.00,Office supplies
+V1016,Lucerne Publishing,Bill,LP5556,01/17/2025,02/21/2025,91.00,Printing
+V1028,Margie's Travel,Bill,MT-29132,01/17/2025,02/20/2025,"4,844.62",Travel bookings
+V1022,Summit Staffing Partners,Bill,SSP-5989,01/17/2025,02/15/2025,"11,985.56",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42506,01/17/2025,01/31/2025,465.00,Weekly cleaning
+V1003,Fabrikam Electrical Supply,Bill,44034,01/18/2025,01/25/2025,"1,298.00",Electrical parts
+V1006,Litware Office Products,Bill,LOP11114,01/18/2025,02/28/2025,615.59,Office supplies
+V1025,VanArsdel Ltd,Bill,VA13518,01/18/2025,02/06/2025,450.00,Components
+V1027,Consolidated Messenger,Bill,CM40925,01/19/2025,03/01/2025,308.00,Messenger
+V1027,Consolidated Messenger,Bill,CM40963,01/19/2025,03/05/2025,145.92,Messenger
+V1021,Ironclad Machine Parts,Bill,IMP34376,01/19/2025,02/10/2025,"8,154.28",Machine parts
+V1006,Litware Office Products,Bill,LOP11192,01/19/2025,03/03/2025,33.00,Office supplies
+V1006,Litware Office Products,Bill,LOP11255,01/19/2025,02/07/2025,338.00,Office supplies
+V1025,VanArsdel Ltd,Bill,VA13568,01/19/2025,02/08/2025,793.58,Components
+V1002,Contoso Facilities Inc,Bill,INV-045549,01/20/2025,02/02/2025,"1,025.02",Facilities maintenance
+V1007,Proseware Consulting Group,Bill,PCG-2025-21110,01/20/2025,02/07/2025,"10,339.98",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS40156,01/20/2025,02/14/2025,"1,312.83",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40509,01/21/2025,02/22/2025,"1,405.45",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045514,01/21/2025,02/05/2025,"1,473.58",Facilities maintenance
+V1004,Tailspin Courier Services,Bill,TCS39954,01/21/2025,01/29/2025,509.90,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40584,01/22/2025,02/26/2025,563.77,Freight
+V1020,Evergreen Landscaping Co,Bill,EL-42545,01/22/2025,02/03/2025,"2,005.95",Grounds
+V1006,Litware Office Products,Bill,LOP11115,01/22/2025,02/09/2025,235.40,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1552,01/22/2025,01/29/2025,"4,600.00",Stock purchase
+V1011,Coho Packaging Ltd,Bill,CP-47021,01/23/2025,02/08/2025,"3,100.00",Packaging
+V1027,Consolidated Messenger,Bill,CM40859,01/23/2025,02/16/2025,261.20,Messenger
+V1026,Wingtip Toys,Bill,WT-31244,01/23/2025,02/26/2025,"1,682.61",Promotional items
+V1023,Copperleaf Printing,Bill,CLP27884,01/24/2025,02/19/2025,754.67,Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44099,01/24/2025,03/05/2025,"1,154.00",Electrical parts
+V1014,Wide World Importers,Bill,WWI0047078,01/24/2025,02/02/2025,"3,362.73",Imported goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42509,01/24/2025,02/07/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40532,01/25/2025,02/16/2025,"3,582.12",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47073,01/25/2025,02/09/2025,100.00,Packaging
+V1001,Northwind Traders Ltd,Bill,NW-25-1512,01/25/2025,03/08/2025,"3,805.00",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40052,01/25/2025,02/01/2025,152.88,Courier
+V1004,Tailspin Courier Services,Bill,TCS40073,01/25/2025,02/12/2025,"1,723.86",Courier
+V1004,Tailspin Courier Services,Bill,40052,01/25/2025,02/08/2025,152.88,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40550,01/26/2025,02/24/2025,942.00,Freight
+V1240,Bluewater Freight Company,Bill,BWF/40550,01/26/2025,03/02/2025,942.00,Freight
+V1022,Summit Staffing Partners,Bill,SSP-6020,01/26/2025,02/18/2025,"5,625.00",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS39915,01/26/2025,02/18/2025,691.04,Courier
+V1028,Margie's Travel,Bill,MT-29105,01/27/2025,02/04/2025,"2,239.44",Travel bookings
+V1001,Northwind Traders Ltd,Bill,NW-25-1590,01/27/2025,02/10/2025,"1,788.66",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39995,01/27/2025,02/14/2025,"1,040.15",Courier
+V1025,VanArsdel Ltd,Bill,VA13532,01/27/2025,02/15/2025,"3,163.34",Components
+V1016,Lucerne Publishing,Bill,LP5588,01/28/2025,03/14/2025,871.62,Printing
+V1027,Consolidated Messenger,Bill,CM40928,01/29/2025,02/10/2025,310.00,Messenger
+V1007,Proseware Consulting Group,Bill,PCG-2025-21156,01/29/2025,02/07/2025,"17,500.00",Consulting services
+V1023,Copperleaf Printing,Bill,CLP27864,01/30/2025,03/12/2025,800.00,Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44152,01/30/2025,02/10/2025,"1,548.21",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44223,01/30/2025,03/09/2025,"2,100.00",Electrical parts
+V1022,Summit Staffing Partners,Bill,SSP-6050,01/30/2025,02/22/2025,"14,650.00",Temporary staff
+V1017,Kingfisher Plumbing & Heating,Bill,K3789,01/31/2025,02/23/2025,"2,160.02",Plumbing repairs
+V1001,Northwind Traders Ltd,Bill,NW-25-1606,01/31/2025,02/13/2025,"4,119.79",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39875,01/31/2025,02/07/2025,969.63,Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42511,01/31/2025,02/14/2025,465.00,Weekly cleaning
+V1005,Adatum Cloud Hosting,Bill,ADH-11368,02/01/2025,02/25/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27122,02/01/2025,02/14/2025,"12,500.00",Office rent
+V1011,Coho Packaging Ltd,Bill,CP-47090,02/01/2025,03/08/2025,"4,229.82",Packaging
+V1018,Granite Peak Security,Bill,GPS-29927,02/01/2025,02/26/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37702,02/01/2025,02/19/2025,"4,125.75",Insurance premium
+V1001,Northwind Traders Ltd,Bill,NW-25-1500,02/01/2025,02/21/2025,"1,900.00",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-25-1565,02/01/2025,02/21/2025,"2,951.00",Stock purchase
+V1013,Relecloud Software,Bill,RS-37662,02/01/2025,02/19/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34709,02/01/2025,02/22/2025,987.44,Telecom
+V1012,Fourth Coffee Supply,Bill,FC5436,02/02/2025,03/03/2025,288.00,Pantry
+V1028,Margie's Travel,Bill,MT-29083,02/02/2025,02/10/2025,"2,602.00",Travel bookings
+V1003,Fabrikam Electrical Supply,Bill,44065,02/03/2025,03/15/2025,"1,114.53",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44102,02/03/2025,03/17/2025,583.00,Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34435,02/03/2025,02/11/2025,"7,161.84",Machine parts
+V1006,Litware Office Products,Bill,LOP11173,02/04/2025,02/25/2025,457.45,Office supplies
+V1006,Litware Office Products,Bill,LOP11307,02/04/2025,03/04/2025,500.00,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40002,02/04/2025,03/17/2025,"1,403.84",Courier
+V1011,Coho Packaging Ltd,Bill,CP-47079,02/05/2025,02/26/2025,"2,500.33",Packaging
+V1003,Fabrikam Electrical Supply,Bill,44037,02/05/2025,03/06/2025,"2,627.00",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34371,02/05/2025,02/24/2025,"1,800.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11206,02/05/2025,02/27/2025,34.30,Office supplies
+V1006,Litware Office Products,Bill,LOP11266,02/05/2025,03/19/2025,665.54,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1592,02/05/2025,03/11/2025,"2,114.00",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40082,02/05/2025,02/28/2025,100.00,Courier
+V1014,Wide World Importers,Bill,WWI0047017,02/05/2025,03/17/2025,"9,931.24",Imported goods
+V1001,Northwind Traders Ltd,Bill,NW-25-1611,02/06/2025,03/22/2025,"1,748.40",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40084,02/06/2025,02/17/2025,81.05,Courier
+V1003,Fabrikam Electrical Supply,Bill,44081,02/07/2025,03/02/2025,400.00,Electrical parts
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42514,02/07/2025,02/21/2025,465.00,Weekly cleaning
+V1014,Wide World Importers,Bill,WWI0047049,02/08/2025,03/15/2025,"5,090.90",Imported goods
+V1012,Fourth Coffee Supply,Bill,FC5412,02/09/2025,03/21/2025,119.46,Pantry
+V1017,Kingfisher Plumbing & Heating,Bill,K3752,02/09/2025,02/16/2025,"3,085.14",Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11111,02/09/2025,02/24/2025,937.97,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39924,02/09/2025,02/16/2025,207.83,Courier
+V1003,Fabrikam Electrical Supply,Bill,44121,02/11/2025,03/28/2025,950.00,Electrical parts
+V1006,Litware Office Products,Bill,LOP11125,02/11/2025,03/11/2025,739.38,Office supplies
+V1007,Proseware Consulting Group,Bill,PCG-2025-21133,02/11/2025,03/20/2025,"3,209.25",Consulting services
+V1024,Trey Research Labs,Bill,TRL-21647,02/11/2025,03/02/2025,"11,960.95",Lab testing
+V1011,Coho Packaging Ltd,Bill,CP-47001,02/12/2025,03/03/2025,196.00,Packaging
+V1003,Fabrikam Electrical Supply,Bill,44107,02/12/2025,03/18/2025,948.67,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44111,02/12/2025,02/25/2025,400.00,Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34297,02/12/2025,02/19/2025,"7,104.22",Machine parts
+V1004,Tailspin Courier Services,Bill,TCS40022,02/12/2025,03/02/2025,116.00,Courier
+V1004,Tailspin Courier Services,Bill,TCS40022,02/12/2025,03/12/2025,116.00,Courier
+V1026,Wingtip Toys,Bill,WT-31233,02/12/2025,03/05/2025,"1,864.71",Promotional items
+V1006,Litware Office Products,Bill,LOP11186,02/13/2025,03/24/2025,785.03,Office supplies
+V1006,Litware Office Products,Bill,LOP11280,02/13/2025,02/28/2025,524.09,Office supplies
+V1006,Litware Office Products,Bill,LOP11318,02/13/2025,03/14/2025,605.01,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1598,02/13/2025,03/16/2025,422.53,Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39878,02/13/2025,03/18/2025,900.20,Courier
+V1002,Contoso Facilities Inc,Bill,INV-045560,02/14/2025,03/04/2025,"2,719.86",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045601,02/14/2025,03/08/2025,"3,341.11",Facilities maintenance
+V1012,Fourth Coffee Supply,Bill,FC5481,02/14/2025,03/23/2025,343.00,Pantry
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42516,02/14/2025,02/28/2025,465.00,Weekly cleaning
+V1004,Tailspin Courier Services,Bill,TCS40048,02/15/2025,03/29/2025,"1,779.00",Courier
+V1020,Evergreen Landscaping Co,Bill,EL-42551,02/16/2025,03/13/2025,"2,000.00",Grounds
+V1003,Fabrikam Electrical Supply,Bill,44170,02/16/2025,03/21/2025,"1,750.00",Electrical parts
+V1012,Fourth Coffee Supply,Vendor Credit,CR-182,02/16/2025,,-344.48,Returned goods
+V1006,Litware Office Products,Bill,LOP11203,02/16/2025,03/19/2025,200.00,Office supplies
+V1011,Coho Packaging Ltd,Bill,CP-47006,02/17/2025,04/02/2025,"4,946.00",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045571,02/17/2025,03/02/2025,"1,697.74",Facilities maintenance
+V1004,Tailspin Courier Services,Bill,TCS39889,02/17/2025,03/26/2025,669.17,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40612,02/18/2025,03/22/2025,586.37,Freight
+V1023,Copperleaf Printing,Bill,CLP27871,02/18/2025,02/27/2025,938.00,Print jobs
+V1021,Ironclad Machine Parts,Bill,IMP34373,02/18/2025,03/25/2025,"1,390.79",Machine parts
+V1014,Wide World Importers,Bill,WWI0047010,02/18/2025,04/02/2025,"13,613.00",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40581,02/19/2025,03/20/2025,345.03,Freight
+V1014,Wide World Importers,Bill,WWI0047086,02/19/2025,03/25/2025,"8,648.81",Imported goods
+V1023,Copperleaf Printing,Bill,CLP27894,02/20/2025,03/14/2025,"1,700.00",Print jobs
+V1006,Litware Office Products,Bill,LOP11267,02/20/2025,04/05/2025,149.76,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40030,02/20/2025,03/25/2025,229.37,Courier
+V1020,Evergreen Landscaping Co,Bill,EL-42535,02/21/2025,03/29/2025,779.00,Grounds
+V1003,Fabrikam Electrical Supply,Bill,44084,02/21/2025,03/24/2025,377.00,Electrical parts
+V1004,Tailspin Courier Services,Bill,TCS40014,02/21/2025,02/28/2025,986.04,Courier
+V1025,VanArsdel Ltd,Bill,VA13503,02/21/2025,03/24/2025,"2,800.00",Components
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42518,02/21/2025,03/07/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40572,02/22/2025,03/08/2025,500.00,Freight
+V1010,Bluewater Freight Co,Bill,BWF/40586,02/22/2025,03/12/2025,"3,475.90",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47034,02/22/2025,04/05/2025,"3,250.00",Packaging
+V1006,Litware Office Products,Bill,LOP11162,02/22/2025,03/04/2025,592.12,Office supplies
+V1003,Fabrikam Electrical Supply,Bill,44051,02/23/2025,03/23/2025,"2,757.78",Electrical parts
+V1006,Litware Office Products,Bill,LOP11310,02/23/2025,03/21/2025,371.10,Office supplies
+V1028,Margie's Travel,Bill,MT-29080,02/23/2025,04/03/2025,"3,501.25",Travel bookings
+V1025,VanArsdel Ltd,Bill,VA13494,02/23/2025,04/04/2025,"1,777.13",Components
+V1025,VanArsdel Ltd,Bill,VA13543,02/23/2025,04/04/2025,"4,416.00",Components
+V1026,Wingtip Toys,Bill,WT-31195,02/23/2025,03/21/2025,"1,400.00",Promotional items
+V1027,Consolidated Messenger,Bill,CM41014,02/24/2025,03/26/2025,416.00,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44007,02/24/2025,03/12/2025,"2,406.00",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34367,02/24/2025,03/18/2025,"1,400.00",Machine parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3746,02/24/2025,03/16/2025,"5,237.17",Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11337,02/24/2025,03/28/2025,500.00,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39968,02/24/2025,03/18/2025,"1,871.96",Courier
+V1017,Kingfisher Plumbing & Heating,Bill,K3773,02/25/2025,03/31/2025,"5,397.60",Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11170,02/25/2025,03/22/2025,700.00,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39879,02/25/2025,03/04/2025,397.53,Courier
+V1003,Fabrikam Electrical Supply,Vendor Credit,CR-611,02/26/2025,,-172.43,Returned goods
+V1004,Tailspin Courier Services,Bill,TCS40069,02/26/2025,04/10/2025,550.00,Courier
+V1014,Wide World Importers,Bill,WWI0047030,02/26/2025,03/21/2025,"6,319.00",Imported goods
+V1203,Wide World Importers Inc.,Bill,WWI0047030,02/26/2025,04/09/2025,"6,319.00",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40501,02/27/2025,03/12/2025,"2,588.42",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40505,02/27/2025,03/15/2025,"1,971.99",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40589,02/27/2025,03/25/2025,"2,434.06",Freight
+V1003,Fabrikam Electrical Supply,Bill,44050,02/27/2025,03/07/2025,275.95,Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5462,02/27/2025,03/29/2025,175.44,Pantry
+V1017,Kingfisher Plumbing & Heating,Bill,K3760,02/27/2025,03/30/2025,"6,901.48",Plumbing repairs
+V1028,Margie's Travel,Bill,MT-29059,02/27/2025,03/27/2025,"5,448.12",Travel bookings
+V1004,Tailspin Courier Services,Bill,TCS39948,02/27/2025,03/16/2025,"1,666.00",Courier
+V1004,Tailspin Courier Services,Bill,TCS40134,02/27/2025,03/20/2025,900.00,Courier
+V1024,Trey Research Labs,Bill,TRL-21635,02/27/2025,03/31/2025,"9,872.95",Lab testing
+V1011,Coho Packaging Ltd,Bill,CP-47030,02/28/2025,04/09/2025,"2,296.51",Packaging
+V1027,Consolidated Messenger,Bill,CM40900,02/28/2025,04/05/2025,209.46,Messenger
+V1006,Litware Office Products,Bill,LOP11259,02/28/2025,03/12/2025,245.00,Office supplies
+V1028,Margie's Travel,Bill,MT-29072,02/28/2025,04/12/2025,"2,717.83",Travel bookings
+V1028,Margie's Travel,Bill,MT-29088,02/28/2025,04/11/2025,"3,784.77",Travel bookings
+V1022,Summit Staffing Partners,Bill,SSP-6016,02/28/2025,03/21/2025,"10,469.76",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42520,02/28/2025,03/14/2025,465.00,Weekly cleaning
+V1005,Adatum Cloud Hosting,Bill,ADH-11371,03/01/2025,03/11/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27125,03/01/2025,03/25/2025,"12,500.00",Office rent
+V1010,Bluewater Freight Co,Bill,BWF/40442,03/01/2025,04/07/2025,325.00,Freight
+V1012,Fourth Coffee Supply,Bill,FC5432,03/01/2025,03/22/2025,316.74,Pantry
+V1018,Granite Peak Security,Bill,GPS-29928,03/01/2025,03/15/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37705,03/01/2025,03/16/2025,"4,125.75",Insurance premium
+V1016,Lucerne Publishing,Bill,LP5559,03/01/2025,03/24/2025,"1,183.65",Printing
+V1013,Relecloud Software,Bill,RS-37665,03/01/2025,03/24/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34712,03/01/2025,03/25/2025,987.44,Telecom
+V1004,Tailspin Courier Services,Bill,TCS39983,03/01/2025,03/31/2025,"1,182.50",Courier
+V1014,Wide World Importers,Bill,WWI0047006,03/01/2025,03/31/2025,"11,345.18",Imported goods
+V1016,Lucerne Publishing,Bill,LP5606,03/02/2025,03/11/2025,233.56,Printing
+V1017,Kingfisher Plumbing & Heating,Bill,K3764,03/03/2025,03/27/2025,175.06,Plumbing repairs
+V1004,Tailspin Courier Services,Bill,TCS39918,03/03/2025,03/13/2025,"1,236.00",Courier
+V1004,Tailspin Courier Services,Bill,TCS39957,03/03/2025,03/26/2025,955.98,Courier
+V1024,Trey Research Labs,Bill,TRL-21655,03/03/2025,03/31/2025,"2,782.42",Lab testing
+V1010,Bluewater Freight Co,Bill,BWF/40439,03/04/2025,03/23/2025,"1,846.38",Freight
+V1010,Bluewater Freight Co,Bill,,03/04/2025,04/02/2025,"2,434.06",Freight
+V1003,Fabrikam Electrical Supply,Bill,44208,03/04/2025,04/18/2025,731.00,Electrical parts
+V1004,Tailspin Courier Services,Bill,TCS39904,03/04/2025,03/26/2025,"1,156.00",Courier
+V1025,VanArsdel Ltd,Bill,VA13573,03/04/2025,04/08/2025,"4,679.77",Components
+V1002,Contoso Facilities Inc,Bill,INV-045557,03/05/2025,03/20/2025,575.00,Facilities maintenance
+V1023,Copperleaf Printing,Bill,CLP27878,03/05/2025,04/13/2025,900.14,Print jobs
+V1012,Fourth Coffee Supply,Bill,FC5470,03/05/2025,04/06/2025,313.95,Pantry
+V1004,Tailspin Courier Services,Bill,TCS39982,03/05/2025,04/17/2025,443.00,Courier
+V1011,Coho Packaging Ltd,Bill,CP-47025,03/06/2025,04/07/2025,"3,480.93",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34422,03/06/2025,03/25/2025,"3,953.80",Machine parts
+V1004,Tailspin Courier Services,Bill,TCS40047,03/06/2025,04/02/2025,446.00,Courier
+V1014,Wide World Importers,Bill,WWI0047069,03/06/2025,04/10/2025,"12,067.44",Imported goods
+V1002,Contoso Facilities Inc,Bill,INV-045528,03/07/2025,04/17/2025,"1,694.00",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44178,03/07/2025,03/16/2025,"1,561.35",Electrical parts
+V1188,Northwind Traders Limited,Bill,NW-25-1628,03/07/2025,05/03/2025,"1,860.10",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-25-1497,03/07/2025,03/24/2025,"6,490.49",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-25-1628,03/07/2025,04/10/2025,"1,860.10",Stock purchase
+V1022,Summit Staffing Partners,Bill,SSP-5982,03/07/2025,04/12/2025,"14,798.57",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42523,03/07/2025,03/21/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40432,03/08/2025,03/27/2025,"2,657.14",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045554,03/08/2025,03/18/2025,"3,886.04",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44104,03/08/2025,04/21/2025,862.21,Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5427,03/08/2025,03/27/2025,302.26,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34423,03/08/2025,04/20/2025,"6,162.49",Machine parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1530,03/08/2025,04/10/2025,"5,011.23",Stock purchase
+V1011,Coho Packaging Ltd,Bill,CP-47005,03/09/2025,04/15/2025,"1,090.61",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34290,03/09/2025,04/15/2025,"5,455.91",Machine parts
+V1028,Margie's Travel,Vendor Credit,CR-301,03/09/2025,,-281.48,Returned goods
+V1025,VanArsdel Ltd,Bill,VA13559,03/09/2025,03/29/2025,"2,586.54",Components
+V1001,Northwind Traders Ltd,Bill,NW-25-1527,03/10/2025,04/05/2025,"3,183.20",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39902,03/10/2025,04/13/2025,630.40,Courier
+V1023,Copperleaf Printing,Bill,CLP27881,03/11/2025,04/10/2025,"1,783.00",Print jobs
+V1021,Ironclad Machine Parts,Bill,IMP34443,03/11/2025,04/14/2025,"5,267.25",Machine parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3743,03/11/2025,04/08/2025,"6,078.00",Plumbing repairs
+V1011,Coho Packaging Ltd,Bill,CP-47107,03/12/2025,04/09/2025,"1,963.57",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045567,03/13/2025,03/24/2025,"2,919.20",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44139,03/13/2025,04/09/2025,"1,652.81",Electrical parts
+V1028,Margie's Travel,Bill,MT-29128,03/13/2025,03/21/2025,"1,783.50",Travel bookings
+V1004,Tailspin Courier Services,Bill,TCS39989,03/13/2025,04/04/2025,755.87,Courier
+V1014,Wide World Importers,Bill,WWI0047089,03/13/2025,03/26/2025,"2,000.00",Imported goods
+V1012,Fourth Coffee Supply,Bill,FC5415,03/14/2025,03/24/2025,316.73,Pantry
+V1006,Litware Office Products,Bill,LOP11169,03/14/2025,04/24/2025,722.00,Office supplies
+V1006,Litware Office Products,Bill,LOP11240,03/14/2025,03/31/2025,585.61,Office supplies
+V1014,Wide World Importers,Bill,WWI0047065,03/14/2025,03/28/2025,"5,354.30",Imported goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42526,03/14/2025,03/28/2025,465.00,Weekly cleaning
+V1002,Contoso Facilities Inc,Bill,INV-045589,03/15/2025,04/12/2025,"2,201.00",Facilities maintenance
+V1023,Copperleaf Printing,Bill,CLP27891,03/15/2025,03/28/2025,"1,672.06",Print jobs
+V1006,Litware Office Products,Bill,LOP11320,03/15/2025,04/10/2025,525.33,Office supplies
+V1017,Kingfisher Plumbing & Heating,Bill,K3795,03/16/2025,04/26/2025,"7,380.82",Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11139,03/16/2025,03/24/2025,510.12,Office supplies
+V1020,Evergreen Landscaping Co,Bill,EL-42540,03/17/2025,03/27/2025,"1,900.00",Grounds
+V1003,Fabrikam Electrical Supply,Bill,44135,03/17/2025,04/26/2025,"1,917.60",Electrical parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3779,03/17/2025,03/26/2025,"3,370.00",Plumbing repairs
+V1022,Summit Staffing Partners,Bill,SSP-5986,03/17/2025,04/17/2025,"15,186.63",Temporary staff
+V1002,Contoso Facilities Inc,Bill,INV-045548,03/18/2025,04/28/2025,"2,786.00",Facilities maintenance
+V1001,Northwind Traders Ltd,Bill,NW-25-1492,03/18/2025,05/02/2025,"3,826.70",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39952,03/18/2025,05/01/2025,"1,600.00",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40460,03/19/2025,04/12/2025,"3,523.97",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47075,03/19/2025,04/14/2025,281.61,Packaging
+V1027,Consolidated Messenger,Bill,CM40976,03/19/2025,04/28/2025,575.46,Messenger
+V1022,Summit Staffing Partners,Bill,SSP-5978,03/19/2025,04/11/2025,"14,650.00",Temporary staff
+V1027,Consolidated Messenger,Bill,CM40869,03/20/2025,04/06/2025,282.32,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44201,03/20/2025,05/04/2025,700.00,Electrical parts
+V1016,Lucerne Publishing,Bill,LP5553,03/20/2025,04/01/2025,"1,038.53",Printing
+V1028,Margie's Travel,Bill,MT-29131,03/20/2025,04/04/2025,"1,661.78",Travel bookings
+V1022,Summit Staffing Partners,Bill,SSP-6049,03/20/2025,04/18/2025,"2,620.77",Temporary staff
+V1022,Summit Staffing Partners,Bill,SSP-6061,03/20/2025,04/25/2025,"8,888.37",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS39984,03/20/2025,04/09/2025,472.00,Courier
+V1026,Wingtip Toys,Bill,WT-31249,03/20/2025,04/11/2025,"1,807.09",Promotional items
+V1001,Northwind Traders Ltd,Bill,NW-25-1547,03/21/2025,04/11/2025,"4,196.87",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39971,03/21/2025,05/03/2025,536.51,Courier
+V1004,Tailspin Courier Services,Bill,TCS40127,03/21/2025,04/19/2025,990.00,Courier
+V1004,Tailspin Courier Services,Bill,TCS40141,03/21/2025,04/23/2025,"1,400.00",Courier
+V1014,Wide World Importers,Bill,WWI0047057,03/21/2025,04/13/2025,"5,007.46",Imported goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42529,03/21/2025,04/04/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40884,03/22/2025,04/10/2025,250.00,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045543,03/22/2025,05/04/2025,"1,700.36",Facilities maintenance
+V1021,Ironclad Machine Parts,Bill,IMP34441,03/22/2025,04/05/2025,"6,843.07",Machine parts
+V1022,Summit Staffing Partners,Bill,SSP-6033,03/22/2025,04/21/2025,"9,917.28",Temporary staff
+V1022,Summit Staffing Partners,Bill,SSP-5995,03/23/2025,04/13/2025,"3,364.35",Temporary staff
+V1025,VanArsdel Ltd,Bill,VA13496,03/23/2025,04/22/2025,"1,197.91",Components
+V1006,Litware Office Products,Bill,LOP11113,03/24/2025,05/07/2025,844.65,Office supplies
+V1007,Proseware Consulting Group,Bill,PCG-2025-21131,03/24/2025,04/08/2025,"15,600.00",Consulting services
+V1003,Fabrikam Electrical Supply,Bill,44033,03/25/2025,04/12/2025,903.29,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44133,03/25/2025,04/02/2025,360.98,Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5388,03/25/2025,04/05/2025,357.07,Pantry
+V1028,Margie's Travel,Bill,MT-29133,03/25/2025,05/07/2025,"3,300.00",Travel bookings
+V1011,Coho Packaging Ltd,Bill,CP-47103,03/26/2025,04/08/2025,"1,661.00",Packaging
+V1027,Consolidated Messenger,Bill,CM40970,03/26/2025,04/08/2025,387.72,Messenger
+V1006,Litware Office Products,Bill,LOP11278,03/26/2025,04/08/2025,264.22,Office supplies
+V1025,VanArsdel Ltd,Bill,VA13521,03/26/2025,04/08/2025,"3,894.00",Components
+V1003,Fabrikam Electrical Supply,Bill,44012,03/27/2025,04/15/2025,"1,900.00",Electrical parts
+V1027,Consolidated Messenger,Bill,CM40876,03/28/2025,05/08/2025,465.40,Messenger
+V1006,Litware Office Products,Bill,LOP11250,03/28/2025,04/07/2025,213.99,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40079,03/28/2025,04/10/2025,"1,022.18",Courier
+V1026,Wingtip Toys,Bill,WT-31221,03/28/2025,05/11/2025,932.74,Promotional items
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42530,03/28/2025,04/11/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40892,03/29/2025,04/28/2025,54.00,Messenger
+V1021,Ironclad Machine Parts,Bill,IMP34291,03/29/2025,04/23/2025,"4,797.63",Machine parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3741,03/29/2025,04/05/2025,"5,707.60",Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11157,03/29/2025,05/10/2025,533.33,Office supplies
+V1010,Bluewater Freight Co,Bill,BWF/40574,03/30/2025,05/10/2025,"1,583.65",Freight
+V1027,Consolidated Messenger,Bill,CM41002,03/30/2025,05/03/2025,638.00,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44016,03/30/2025,05/10/2025,580.00,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44225,03/30/2025,05/05/2025,175.00,Electrical parts
+V1016,Lucerne Publishing,Bill,LP5594,03/30/2025,05/11/2025,750.00,Printing
+V1014,Wide World Importers,Bill,WWI0047082,03/30/2025,05/09/2025,"10,700.19",Imported goods
+V1027,Consolidated Messenger,Bill,CM40875,03/31/2025,04/08/2025,429.67,Messenger
+V1027,Consolidated Messenger,Bill,,03/31/2025,04/16/2025,387.72,Messenger
+V1012,Fourth Coffee Supply,Bill,FC5419,03/31/2025,04/11/2025,152.22,Pantry
+V1016,Lucerne Publishing,Bill,LP5593,03/31/2025,04/29/2025,722.23,Printing
+V1004,Tailspin Courier Services,Bill,TCS40094,03/31/2025,05/10/2025,"1,271.12",Courier
+V1005,Adatum Cloud Hosting,Bill,ADH-11373,04/01/2025,04/12/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27126,04/01/2025,04/18/2025,"12,500.00",Office rent
+V1002,Contoso Facilities Inc,Bill,INV-045523,04/01/2025,05/08/2025,"2,807.83",Facilities maintenance
+V1018,Granite Peak Security,Bill,GPS-29929,04/01/2025,04/14/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37707,04/01/2025,04/21/2025,"4,125.75",Insurance premium
+V1028,Margie's Travel,Bill,MT-29077,04/01/2025,04/19/2025,"5,173.72",Travel bookings
+V1001,Northwind Traders Ltd,Bill,NW-25-1563,04/01/2025,04/29/2025,"2,698.97",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-25-1608,04/01/2025,04/27/2025,"1,500.00",Stock purchase
+V1013,Relecloud Software,Bill,RS-37666,04/01/2025,04/26/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34715,04/01/2025,04/13/2025,987.44,Telecom
+V1024,Trey Research Labs,Bill,TRL-21656,04/01/2025,04/26/2025,"7,922.45",Lab testing
+V1010,Bluewater Freight Co,Bill,BWF/40575,04/02/2025,05/17/2025,"3,566.55",Freight
+V1003,Fabrikam Electrical Supply,Bill,44122,04/02/2025,04/09/2025,"1,630.93",Electrical parts
+V1006,Litware Office Products,Bill,LOP11279,04/02/2025,04/18/2025,200.00,Office supplies
+V1010,Bluewater Freight Co,Bill,BWF/40535,04/03/2025,05/10/2025,687.20,Freight
+V1003,Fabrikam Electrical Supply,Bill,44146,04/03/2025,05/02/2025,"2,166.00",Electrical parts
+V1016,Lucerne Publishing,Bill,LP5590,04/03/2025,05/13/2025,695.64,Printing
+V1025,VanArsdel Ltd,Bill,VA13556,04/03/2025,04/12/2025,"4,430.39",Components
+V1002,Contoso Facilities Inc,Bill,INV-045602,04/04/2025,04/29/2025,"2,162.77",Facilities maintenance
+V1006,Litware Office Products,Bill,LOP11209,04/04/2025,04/30/2025,618.91,Office supplies
+V1028,Margie's Travel,Bill,MT-29065,04/04/2025,05/01/2025,"5,003.42",Travel bookings
+V1007,Proseware Consulting Group,Bill,PCG-2025-21150,04/04/2025,04/12/2025,"8,337.62",Consulting services
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42533,04/04/2025,04/18/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40949,04/05/2025,04/17/2025,165.27,Messenger
+V1012,Fourth Coffee Supply,Bill,FC5386,04/05/2025,05/05/2025,122.47,Pantry
+V1012,Fourth Coffee Supply,Bill,FC5475,04/05/2025,05/09/2025,209.57,Pantry
+V1011,Coho Packaging Ltd,Bill,CP-47032,04/06/2025,04/16/2025,"2,935.03",Packaging
+V1027,Consolidated Messenger,Bill,CM40991,04/06/2025,05/14/2025,395.33,Messenger
+V1006,Litware Office Products,Bill,LOP11308,04/06/2025,05/09/2025,600.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-6025,04/06/2025,05/06/2025,"14,975.01",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS40005,04/06/2025,04/24/2025,263.00,Courier
+V1003,Fabrikam Electrical Supply,Bill,44155,04/07/2025,05/18/2025,"2,448.55",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34366,04/07/2025,05/16/2025,"2,111.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11176,04/07/2025,04/19/2025,192.00,Office supplies
+V1006,Litware Office Products,Bill,LOP11285,04/07/2025,05/20/2025,447.21,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39919,04/07/2025,04/14/2025,592.06,Courier
+V1003,Fabrikam Electrical Supply,Bill,44022,04/08/2025,05/06/2025,"2,684.47",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44048,04/08/2025,05/22/2025,144.00,Electrical parts
+V1004,Tailspin Courier Services,Bill,TCS40147,04/08/2025,04/30/2025,631.62,Courier
+V1004,Tailspin Courier Services,Bill,TCS40106,04/09/2025,05/14/2025,903.27,Courier
+V1017,Kingfisher Plumbing & Heating,Bill,K3765,04/10/2025,04/26/2025,850.00,Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11213,04/10/2025,04/28/2025,849.28,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39958,04/10/2025,04/26/2025,"1,758.02",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40435,04/11/2025,04/30/2025,"1,627.00",Freight
+V1012,Fourth Coffee Supply,Bill,FC5437,04/11/2025,05/03/2025,362.89,Pantry
+V1004,Tailspin Courier Services,Bill,TCS39965,04/11/2025,05/04/2025,"1,446.59",Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42536,04/11/2025,04/25/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40508,04/12/2025,05/26/2025,"1,112.03",Freight
+V1003,Fabrikam Electrical Supply,Bill,44185,04/12/2025,04/20/2025,839.29,Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5425,04/12/2025,05/27/2025,281.53,Pantry
+V1026,Wingtip Toys,Bill,WT-31197,04/12/2025,04/29/2025,687.83,Promotional items
+V1010,Bluewater Freight Co,Bill,BWF/40450,04/13/2025,04/26/2025,"3,072.00",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045531,04/13/2025,05/09/2025,"2,386.24",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44053,04/13/2025,05/16/2025,"1,753.00",Electrical parts
+V1016,Lucerne Publishing,Bill,LP5587,04/13/2025,05/17/2025,"1,571.53",Printing
+V1010,Bluewater Freight Co,Bill,BWF/40556,04/14/2025,05/02/2025,"2,889.00",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47066,04/14/2025,05/19/2025,"3,983.00",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34414,04/15/2025,05/03/2025,"3,799.81",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34426,04/15/2025,05/24/2025,"1,018.21",Machine parts
+V1004,Tailspin Courier Services,Bill,TCS40101,04/15/2025,05/14/2025,95.04,Courier
+V1011,Coho Packaging Ltd,Bill,CP-47111,04/16/2025,05/05/2025,592.12,Packaging
+V1011,Coho Packaging Ltd,Bill,CP-47114,04/16/2025,05/16/2025,592.12,Packaging
+V1023,Copperleaf Printing,Bill,CLP27898,04/16/2025,04/29/2025,706.00,Print jobs
+V1028,Margie's Travel,Bill,MT-29136,04/16/2025,04/23/2025,838.00,Travel bookings
+V1007,Proseware Consulting Group,Bill,PCG-2025-21127,04/16/2025,05/31/2025,"9,695.78",Consulting services
+V1027,Consolidated Messenger,Bill,CM40966,04/17/2025,05/06/2025,629.00,Messenger
+V1006,Litware Office Products,Bill,LOP11133,04/17/2025,04/27/2025,450.00,Office supplies
+V1006,Litware Office Products,Bill,LOP11271,04/17/2025,05/16/2025,756.00,Office supplies
+V1006,Litware Office Products,Bill,LOP11133,04/17/2025,05/21/2025,450.00,Office supplies
+V1028,Margie's Travel,Bill,MT-29117,04/17/2025,05/03/2025,"1,715.11",Travel bookings
+V1025,VanArsdel Ltd,Bill,VA13511,04/17/2025,05/26/2025,"4,701.37",Components
+V1026,Wingtip Toys,Bill,WT-31239,04/17/2025,05/04/2025,664.20,Promotional items
+V1010,Bluewater Freight Co,Bill,BWF/40561,04/18/2025,05/15/2025,"1,750.00",Freight
+V1027,Consolidated Messenger,Bill,CM40866,04/18/2025,05/24/2025,137.73,Messenger
+V1006,Litware Office Products,Bill,LOP11294,04/18/2025,05/15/2025,583.76,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1594,04/18/2025,05/11/2025,"1,750.28",Stock purchase
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42538,04/18/2025,05/02/2025,465.00,Weekly cleaning
+V1017,Kingfisher Plumbing & Heating,Bill,K3805,04/19/2025,05/09/2025,452.35,Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11129,04/19/2025,06/01/2025,136.08,Office supplies
+V1027,Consolidated Messenger,Bill,CM40686,04/20/2025,06/04/2025,137.73,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44009,04/20/2025,05/29/2025,"1,500.00",Electrical parts
+V1028,Margie's Travel,Bill,MT-29111,04/20/2025,05/18/2025,356.54,Travel bookings
+V1004,Tailspin Courier Services,Bill,TCS40039,04/20/2025,05/14/2025,76.84,Courier
+V1006,Litware Office Products,Bill,LOP11239,04/21/2025,05/02/2025,470.19,Office supplies
+V1028,Margie's Travel,Bill,MT-29122,04/21/2025,05/10/2025,"2,455.21",Travel bookings
+V1004,Tailspin Courier Services,Bill,TCS39897,04/21/2025,04/30/2025,"1,028.43",Courier
+V1023,Copperleaf Printing,Bill,CLP27875,04/22/2025,05/11/2025,"1,070.14",Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44074,04/22/2025,05/15/2025,"2,295.66",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34346,04/22/2025,06/03/2025,"3,126.83",Machine parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1550,04/22/2025,05/09/2025,"3,102.58",Stock purchase
+V1002,Contoso Facilities Inc,Bill,INV-045541,04/23/2025,05/23/2025,"2,876.15",Facilities maintenance
+V1023,Copperleaf Printing,Bill,CLP27844,04/23/2025,05/29/2025,"1,338.79",Print jobs
+V1012,Fourth Coffee Supply,Bill,FC5416,04/23/2025,05/06/2025,118.08,Pantry
+V1001,Northwind Traders Ltd,Bill,NW-25-1579,04/23/2025,05/06/2025,"3,971.10",Stock purchase
+V1024,Trey Research Labs,Bill,TRL-21659,04/23/2025,05/09/2025,925.59,Lab testing
+V1027,Consolidated Messenger,Bill,CM41007,04/24/2025,05/29/2025,337.38,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44203,04/24/2025,05/20/2025,"2,231.16",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34327,04/24/2025,05/03/2025,"9,800.00",Machine parts
+V1004,Tailspin Courier Services,Bill,TCS39892,04/24/2025,05/23/2025,"1,805.63",Courier
+V1004,Tailspin Courier Services,Bill,TCS39922,04/24/2025,05/22/2025,"1,218.68",Courier
+V1011,Coho Packaging Ltd,Bill,CP-47097,04/25/2025,06/04/2025,"1,493.00",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045534,04/25/2025,05/11/2025,204.00,Facilities maintenance
+V1020,Evergreen Landscaping Co,Bill,EL-42563,04/25/2025,05/18/2025,879.47,Grounds
+V1026,Wingtip Toys,Bill,WT-31246,04/25/2025,05/11/2025,"1,854.80",Promotional items
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42540,04/25/2025,05/09/2025,465.00,Weekly cleaning
+V1003,Fabrikam Electrical Supply,Bill,44069,04/26/2025,05/13/2025,"1,014.55",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34359,04/26/2025,05/05/2025,"5,777.00",Machine parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1619,04/26/2025,05/19/2025,"6,300.00",Stock purchase
+V1026,Wingtip Toys,Bill,WT-31223,04/26/2025,05/19/2025,83.42,Promotional items
+V1001,Northwind Traders Ltd,Bill,NW-25-1616,04/27/2025,05/18/2025,"5,950.00",Stock purchase
+V1021,Ironclad Machine Parts,Bill,IMP34343,04/28/2025,05/05/2025,"6,354.78",Machine parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3738,04/28/2025,05/31/2025,"5,444.36",Plumbing repairs
+V1028,Margie's Travel,Bill,MT-29119,04/28/2025,06/07/2025,"3,500.00",Travel bookings
+V1027,Consolidated Messenger,Bill,CM40877,04/29/2025,06/11/2025,199.51,Messenger
+V1001,Northwind Traders Ltd,Bill,NW-25-1603,04/29/2025,06/01/2025,426.23,Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40008,04/29/2025,06/03/2025,"1,127.00",Courier
+V1004,Tailspin Courier Services,Bill,TCS40139,04/29/2025,05/17/2025,104.72,Courier
+V1026,Wingtip Toys,Bill,WT-31210,04/29/2025,06/04/2025,90.00,Promotional items
+V1002,Contoso Facilities Inc,Bill,INV-045592,04/30/2025,05/14/2025,675.90,Facilities maintenance
+V1007,Proseware Consulting Group,Bill,PCG-2025-21159,04/30/2025,05/10/2025,"4,492.11",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS40076,04/30/2025,05/09/2025,850.00,Courier
+V1026,Wingtip Toys,Vendor Credit,CR-239,04/30/2025,,-28.34,Returned goods
+V1005,Adatum Cloud Hosting,Bill,ADH-11374,05/01/2025,05/12/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27127,05/01/2025,05/11/2025,"12,500.00",Office rent
+V1018,Granite Peak Security,Bill,GPS-29930,05/01/2025,05/21/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37708,05/01/2025,05/15/2025,"4,125.75",Insurance premium
+V1001,Northwind Traders Ltd,Bill,NW-25-1509,05/01/2025,06/05/2025,"3,678.52",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-025-1509,05/01/2025,06/09/2025,"3,678.52",Stock purchase
+V1013,Relecloud Software,Bill,RS-37667,05/01/2025,05/23/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34718,05/01/2025,05/25/2025,987.44,Telecom
+V1004,Tailspin Courier Services,Bill,TCS40004,05/01/2025,05/30/2025,"1,555.01",Courier
+V1006,Litware Office Products,Bill,LOP11153,05/02/2025,05/24/2025,405.97,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1536,05/02/2025,05/24/2025,"1,500.00",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39944,05/02/2025,06/11/2025,"1,557.48",Courier
+V1004,Tailspin Courier Services,Bill,TCS40044,05/02/2025,06/07/2025,"1,211.24",Courier
+V1004,Tailspin Courier Services,Bill,TCS40109,05/02/2025,06/16/2025,"1,856.19",Courier
+V1014,Wide World Importers,Bill,WWI0047036,05/02/2025,06/09/2025,"7,522.85",Imported goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42543,05/02/2025,05/16/2025,465.00,Weekly cleaning
+V1012,Fourth Coffee Supply,Bill,FC5435,05/03/2025,06/12/2025,327.10,Pantry
+V1016,Lucerne Publishing,Bill,LP5570,05/03/2025,06/02/2025,800.00,Printing
+V1007,Proseware Consulting Group,Bill,PCG-2025-21114,05/03/2025,05/11/2025,"9,403.34",Consulting services
+V1022,Summit Staffing Partners,Bill,SSP-6067,05/03/2025,05/20/2025,"15,342.30",Temporary staff
+V1011,Coho Packaging Ltd,Bill,CP-47104,05/04/2025,05/30/2025,905.68,Packaging
+V1027,Consolidated Messenger,Bill,CM40939,05/04/2025,06/03/2025,211.35,Messenger
+V1010,Bluewater Freight Co,Bill,BWF/40486,05/05/2025,06/10/2025,"1,350.00",Freight
+V1012,Fourth Coffee Supply,Bill,FC5394,05/05/2025,05/16/2025,350.49,Pantry
+V1001,Northwind Traders Ltd,Bill,NW-25-1578,05/05/2025,05/31/2025,"3,873.85",Stock purchase
+V1007,Proseware Consulting Group,Bill,PCG-2025-21137,05/05/2025,06/03/2025,"6,883.90",Consulting services
+V1014,Wide World Importers,Bill,WWI0047064,05/05/2025,05/24/2025,"9,473.78",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40453,05/06/2025,06/15/2025,"3,574.31",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40504,05/06/2025,05/25/2025,"2,296.93",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40613,05/06/2025,06/20/2025,"1,637.69",Freight
+V1003,Fabrikam Electrical Supply,Bill,44161,05/06/2025,05/29/2025,817.54,Electrical parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3787,05/06/2025,05/26/2025,732.00,Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11230,05/06/2025,06/06/2025,500.00,Office supplies
+V1002,Contoso Facilities Inc,Bill,INV-045595,05/07/2025,06/11/2025,"1,038.56",Facilities maintenance
+V1004,Tailspin Courier Services,Bill,TCS40066,05/07/2025,06/11/2025,252.72,Courier
+V1002,Contoso Facilities Inc,Bill,INV-045529,05/08/2025,06/16/2025,"2,998.46",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045618,05/08/2025,06/28/2025,"2,998.46",Facilities maintenance
+V1006,Litware Office Products,Bill,LOP11282,05/08/2025,05/26/2025,375.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-6065,05/08/2025,05/27/2025,"13,812.98",Temporary staff
+V1007,Proseware Consulting Group,Vendor Credit,CR-960,05/09/2025,,-85.10,Returned goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42544,05/09/2025,05/23/2025,465.00,Weekly cleaning
+V1003,Fabrikam Electrical Supply,Bill,44070,05/10/2025,05/30/2025,"1,997.79",Electrical parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1555,05/10/2025,06/20/2025,"1,815.41",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40121,05/10/2025,06/15/2025,223.01,Courier
+V1011,Coho Packaging Ltd,Bill,CP-47065,05/11/2025,05/27/2025,"1,869.70",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34342,05/11/2025,06/02/2025,"7,426.35",Machine parts
+V1006,Litware Office Products,Bill,LOP11297,05/12/2025,05/25/2025,68.10,Office supplies
+V1026,Wingtip Toys,Vendor Credit,CR-520,05/12/2025,,-280.00,Returned goods
+V1027,Consolidated Messenger,Bill,CM40907,05/13/2025,05/26/2025,584.00,Messenger
+V1016,Lucerne Publishing,Bill,LP5605,05/13/2025,06/12/2025,490.00,Printing
+V1027,Consolidated Messenger,Bill,CM40997,05/14/2025,06/14/2025,595.70,Messenger
+V1011,Coho Packaging Ltd,Bill,CP-47084,05/15/2025,06/12/2025,"1,348.00",Packaging
+V1027,Consolidated Messenger,Bill,CM40899,05/15/2025,06/03/2025,195.00,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045536,05/15/2025,05/24/2025,"1,671.00",Facilities maintenance
+V1011,Coho Packaging Ltd,Bill,CP-47053,05/16/2025,05/30/2025,300.00,Packaging
+V1027,Consolidated Messenger,Bill,CM40979,05/16/2025,06/27/2025,506.08,Messenger
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42545,05/16/2025,05/30/2025,465.00,Weekly cleaning
+V1003,Fabrikam Electrical Supply,Bill,44120,05/17/2025,06/29/2025,"1,704.61",Electrical parts
+V1011,Coho Packaging Ltd,Bill,CP-47077,05/18/2025,06/07/2025,"4,272.69",Packaging
+V1020,Evergreen Landscaping Co,Bill,EL-42575,05/18/2025,06/22/2025,"1,400.00",Grounds
+V1012,Fourth Coffee Supply,Bill,FC5411,05/18/2025,06/10/2025,353.00,Pantry
+V1022,Summit Staffing Partners,Bill,SSP-6017,05/19/2025,06/29/2025,"3,416.20",Temporary staff
+V1010,Bluewater Freight Co,Bill,BWF/40447,05/20/2025,06/05/2025,"3,250.00",Freight
+V1016,Lucerne Publishing,Bill,LP5603,05/20/2025,05/29/2025,94.01,Printing
+V1026,Wingtip Toys,Bill,WT-31203,05/20/2025,05/31/2025,985.55,Promotional items
+V1026,Wingtip Toys,Bill,WT-31214,05/20/2025,06/04/2025,950.00,Promotional items
+V1011,Coho Packaging Ltd,Bill,CP-47113,05/21/2025,06/11/2025,"3,950.00",Packaging
+V1003,Fabrikam Electrical Supply,Bill,44217,05/21/2025,06/03/2025,"2,715.25",Electrical parts
+V1010,Bluewater Freight Co,Bill,BWF/40495,05/22/2025,06/11/2025,"2,629.66",Freight
+V1003,Fabrikam Electrical Supply,Bill,44148,05/22/2025,06/01/2025,"1,382.92",Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5391,05/22/2025,07/06/2025,62.37,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34428,05/22/2025,06/03/2025,"5,400.00",Machine parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3788,05/22/2025,06/01/2025,"1,850.00",Plumbing repairs
+V1017,Kingfisher Plumbing & Heating,Bill,K3788,05/22/2025,06/09/2025,"1,850.00",Plumbing repairs
+V1012,Fourth Coffee Supply,Bill,FC5455,05/23/2025,07/02/2025,330.17,Pantry
+V1006,Litware Office Products,Bill,LOP11246,05/23/2025,06/06/2025,413.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-6046,05/23/2025,07/03/2025,"10,014.70",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42547,05/23/2025,06/06/2025,465.00,Weekly cleaning
+V1020,Evergreen Landscaping Co,Bill,EL-42566,05/24/2025,06/23/2025,"1,651.89",Grounds
+V1010,Bluewater Freight Co,Bill,BWF/40569,05/25/2025,06/08/2025,"2,300.00",Freight
+V1027,Consolidated Messenger,Bill,CM40932,05/25/2025,06/21/2025,515.44,Messenger
+V1021,Ironclad Machine Parts,Bill,IMP34396,05/25/2025,06/04/2025,"3,715.00",Machine parts
+V1022,Summit Staffing Partners,Bill,SSP-6014,05/25/2025,06/03/2025,"5,001.86",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS39881,05/25/2025,07/05/2025,566.08,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40529,05/26/2025,07/04/2025,"1,576.82",Freight
+V1027,Consolidated Messenger,Bill,CM40918,05/26/2025,06/02/2025,510.00,Messenger
+V1012,Fourth Coffee Supply,Bill,FC5445,05/26/2025,06/04/2025,300.00,Pantry
+V1004,Tailspin Courier Services,Bill,TCS39916,05/26/2025,06/13/2025,"1,250.00",Courier
+V1024,Trey Research Labs,Bill,TRL-21666,05/26/2025,07/04/2025,"3,007.95",Lab testing
+V1010,Bluewater Freight Co,Bill,BWF/40578,05/27/2025,06/20/2025,664.44,Freight
+V1010,Bluewater Freight Co,Bill,BWF/40578,05/27/2025,06/25/2025,664.44,Freight
+V1002,Contoso Facilities Inc,Bill,INV-045507,05/27/2025,06/30/2025,"3,770.30",Facilities maintenance
+V1023,Copperleaf Printing,Vendor Credit,CR-890,05/27/2025,,-179.00,Returned goods
+V1020,Evergreen Landscaping Co,Bill,EL-42553,05/27/2025,07/11/2025,"1,719.90",Grounds
+V1021,Ironclad Machine Parts,Bill,IMP34323,05/27/2025,06/06/2025,"5,009.02",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34440,05/27/2025,06/21/2025,"6,384.43",Machine parts
+V1011,Coho Packaging Ltd,Bill,CP-47083,05/28/2025,06/15/2025,"4,544.59",Packaging
+V1027,Consolidated Messenger,Bill,CM40896,05/28/2025,06/25/2025,310.39,Messenger
+V1025,VanArsdel Ltd,Bill,VA13520,05/28/2025,06/28/2025,"2,901.00",Components
+V1011,Coho Packaging Ltd,Bill,CP-47048,05/29/2025,06/17/2025,"4,881.45",Packaging
+V1003,Fabrikam Electrical Supply,Bill,44059,05/29/2025,06/18/2025,"1,399.56",Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5385,05/29/2025,06/18/2025,50.00,Pantry
+V1006,Litware Office Products,Bill,LOP11199,05/29/2025,07/10/2025,35.37,Office supplies
+V1022,Summit Staffing Partners,Vendor Credit,CR-609,05/29/2025,,-23.57,Returned goods
+V1002,Contoso Facilities Inc,Bill,INV-045580,05/30/2025,06/22/2025,395.59,Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44018,05/30/2025,06/16/2025,"1,950.00",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44130,05/30/2025,06/06/2025,502.83,Electrical parts
+V1006,Litware Office Products,Bill,LOP11248,05/30/2025,07/12/2025,229.92,Office supplies
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42548,05/30/2025,06/13/2025,465.00,Weekly cleaning
+V1001,Northwind Traders Ltd,Bill,NW-25-1626,05/31/2025,07/14/2025,"6,053.00",Stock purchase
+V1005,Adatum Cloud Hosting,Bill,ADH-11377,06/01/2025,06/16/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27129,06/01/2025,06/22/2025,"12,500.00",Office rent
+V1011,Coho Packaging Ltd,Bill,CP-47047,06/01/2025,06/15/2025,507.00,Packaging
+V1011,Coho Packaging Ltd,Bill,CP-47096,06/01/2025,06/15/2025,"4,186.43",Packaging
+V1003,Fabrikam Electrical Supply,Bill,44062,06/01/2025,06/08/2025,648.81,Electrical parts
+V1018,Granite Peak Security,Bill,GPS-29933,06/01/2025,06/23/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37711,06/01/2025,06/21/2025,"4,125.75",Insurance premium
+V1017,Kingfisher Plumbing & Heating,Bill,K3757,06/01/2025,07/08/2025,"2,669.17",Plumbing repairs
+V1007,Proseware Consulting Group,Bill,PCG-2025-21134,06/01/2025,07/11/2025,"8,193.32",Consulting services
+V1013,Relecloud Software,Bill,RS-37668,06/01/2025,06/13/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34719,06/01/2025,06/11/2025,987.44,Telecom
+V1025,VanArsdel Ltd,Bill,VA13565,06/02/2025,07/03/2025,"2,794.10",Components
+V1006,Litware Office Products,Bill,LOP11155,06/03/2025,06/21/2025,152.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-6052,06/03/2025,07/03/2025,"3,539.07",Temporary staff
+V1010,Bluewater Freight Co,Bill,BWF/40511,06/04/2025,07/01/2025,304.89,Freight
+V1022,Summit Staffing Partners,Bill,SSP-6053,06/04/2025,07/02/2025,"5,350.00",Temporary staff
+V1023,Copperleaf Printing,Bill,CLP27886,06/05/2025,06/13/2025,473.05,Print jobs
+V1021,Ironclad Machine Parts,Bill,IMP34312,06/06/2025,07/01/2025,"8,700.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11194,06/06/2025,07/03/2025,186.80,Office supplies
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42551,06/06/2025,06/20/2025,465.00,Weekly cleaning
+V1021,Ironclad Machine Parts,Bill,IMP34417,06/07/2025,07/12/2025,"7,650.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11247,06/07/2025,07/16/2025,335.55,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40132,06/07/2025,07/16/2025,832.00,Courier
+V1026,Wingtip Toys,Bill,WT-31212,06/07/2025,07/11/2025,"1,861.00",Promotional items
+V1010,Bluewater Freight Co,Vendor Credit,BWF/40578,06/08/2025,,-664.44,Duplicate bill reversed
+V1011,Coho Packaging Ltd,Bill,CP-47024,06/08/2025,06/27/2025,"1,987.38",Packaging
+V1020,Evergreen Landscaping Co,Bill,EL-42558,06/08/2025,06/28/2025,816.55,Grounds
+V1006,Litware Office Products,Bill,LOP11274,06/08/2025,07/08/2025,347.66,Office supplies
+V1006,Litware Office Products,Bill,LOP11304,06/08/2025,07/19/2025,53.83,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39979,06/08/2025,07/01/2025,"1,230.56",Courier
+V1011,Coho Packaging Ltd,Bill,CP-47042,06/09/2025,06/19/2025,"4,488.00",Packaging
+V1012,Fourth Coffee Supply,Bill,FC5478,06/09/2025,07/24/2025,197.53,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34434,06/09/2025,06/20/2025,"8,012.46",Machine parts
+V1006,Litware Office Products,Bill,LOP11269,06/09/2025,07/19/2025,619.64,Office supplies
+V1028,Margie's Travel,Bill,MT-29125,06/09/2025,07/08/2025,888.54,Travel bookings
+V1010,Bluewater Freight Co,Bill,BWF/40603,06/11/2025,06/19/2025,"2,985.26",Freight
+V1020,Evergreen Landscaping Co,Bill,EL-42578,06/11/2025,06/25/2025,304.00,Grounds
+V1003,Fabrikam Electrical Supply,Bill,44073,06/11/2025,07/17/2025,"1,847.34",Electrical parts
+V1006,Litware Office Products,Bill,LOP11147,06/11/2025,06/18/2025,850.00,Office supplies
+V1028,Margie's Travel,Bill,MT-29050,06/11/2025,07/14/2025,257.00,Travel bookings
+V1021,Ironclad Machine Parts,Bill,IMP34286,06/12/2025,07/04/2025,"1,698.00",Machine parts
+V1002,Contoso Facilities Inc,Bill,INV-045546,06/13/2025,07/01/2025,"3,980.00",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44077,06/13/2025,07/01/2025,678.00,Electrical parts
+V1006,Litware Office Products,Bill,LOP11188,06/13/2025,07/04/2025,836.93,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39964,06/13/2025,07/19/2025,"1,161.97",Courier
+V1004,Tailspin Courier Services,Bill,TCS40064,06/13/2025,06/21/2025,"1,180.65",Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42553,06/13/2025,06/27/2025,465.00,Weekly cleaning
+V1012,Fourth Coffee Supply,Bill,FC5422,06/14/2025,07/01/2025,287.17,Pantry
+V1012,Fourth Coffee Supply,Bill,FC5429,06/14/2025,06/22/2025,331.22,Pantry
+V1004,Tailspin Courier Services,Bill,TCS40034,06/14/2025,07/09/2025,"1,850.00",Courier
+V1004,Tailspin Courier Services,Bill,TCS40152,06/14/2025,07/26/2025,278.59,Courier
+V1027,Consolidated Messenger,Bill,CM40921,06/15/2025,07/27/2025,484.33,Messenger
+V1023,Copperleaf Printing,Bill,CLP27867,06/15/2025,07/24/2025,"1,253.87",Print jobs
+V1021,Ironclad Machine Parts,Bill,IMP34295,06/15/2025,07/08/2025,"6,485.78",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34392,06/15/2025,07/29/2025,"2,784.83",Machine parts
+V1025,VanArsdel Ltd,Bill,VA13558,06/15/2025,06/27/2025,"1,847.40",Components
+V1011,Coho Packaging Ltd,Bill,CP-47051,06/16/2025,07/11/2025,"3,261.00",Packaging
+V1004,Tailspin Courier Services,Bill,TCS40023,06/16/2025,07/27/2025,"1,604.33",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40488,06/17/2025,06/29/2025,"3,400.00",Freight
+V1027,Consolidated Messenger,Bill,CM41000,06/17/2025,07/22/2025,413.90,Messenger
+V1004,Tailspin Courier Services,Bill,TCS39925,06/17/2025,06/30/2025,"1,189.20",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40519,06/18/2025,06/25/2025,"2,450.03",Freight
+V1020,Evergreen Landscaping Co,Bill,EL-42571,06/18/2025,07/04/2025,"2,306.74",Grounds
+V1021,Ironclad Machine Parts,Bill,IMP34287,06/18/2025,07/05/2025,"1,678.67",Machine parts
+V1006,Litware Office Products,Bill,LOP11227,06/18/2025,07/31/2025,881.11,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1518,06/18/2025,07/10/2025,"3,875.82",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39953,06/18/2025,07/25/2025,252.00,Courier
+V1014,Wide World Importers,Bill,WWI0047060,06/18/2025,06/28/2025,"2,305.40",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40514,06/19/2025,07/07/2025,988.33,Freight
+V1011,Coho Packaging Ltd,Bill,CP-47061,06/19/2025,07/09/2025,"3,000.00",Packaging
+V1010,Bluewater Freight Co,Bill,BWF/40475,06/20/2025,07/11/2025,748.37,Freight
+V1003,Fabrikam Electrical Supply,Bill,44045,06/20/2025,06/29/2025,"1,079.00",Electrical parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1595,06/20/2025,07/05/2025,"1,760.62",Stock purchase
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42556,06/20/2025,07/04/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40551,06/21/2025,07/01/2025,"2,350.00",Freight
+V1017,Kingfisher Plumbing & Heating,Bill,K3737,06/21/2025,07/16/2025,832.09,Plumbing repairs
+V1017,Kingfisher Plumbing & Heating,Vendor Credit,K3788,06/21/2025,,"-1,850.00",Duplicate bill reversed
+V1028,Margie's Travel,Bill,MT-29097,06/21/2025,07/23/2025,569.57,Travel bookings
+V1007,Proseware Consulting Group,Bill,PCG-2025-21117,06/21/2025,07/21/2025,"5,650.00",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS39951,06/21/2025,08/05/2025,100.00,Courier
+V1004,Tailspin Courier Services,Bill,TCS40150,06/21/2025,07/26/2025,996.11,Courier
+V1027,Consolidated Messenger,Bill,CM40946,06/22/2025,07/27/2025,250.00,Messenger
+V1012,Fourth Coffee Supply,Bill,FC5460,06/22/2025,08/02/2025,322.00,Pantry
+V1006,Litware Office Products,Bill,LOP11300,06/22/2025,07/30/2025,609.00,Office supplies
+V1025,VanArsdel Ltd,Bill,VA13529,06/22/2025,06/30/2025,"3,350.00",Components
+V1007,Proseware Consulting Group,Bill,PCG-2025-21161,06/23/2025,07/27/2025,"15,669.68",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS39975,06/23/2025,07/25/2025,"1,737.39",Courier
+V1004,Tailspin Courier Services,Bill,TCS40042,06/23/2025,07/14/2025,"1,528.00",Courier
+V1023,Copperleaf Printing,Bill,CLP27848,06/24/2025,07/02/2025,300.00,Print jobs
+V1012,Fourth Coffee Supply,Bill,FC5459,06/24/2025,07/15/2025,160.34,Pantry
+V1028,Margie's Travel,Bill,MT-29108,06/24/2025,07/04/2025,"2,300.00",Travel bookings
+V1001,Northwind Traders Ltd,Bill,NW-25-1540,06/24/2025,07/31/2025,"4,130.78",Stock purchase
+V1003,Fabrikam Electrical Supply,Bill,44028,06/25/2025,07/26/2025,"1,733.00",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34439,06/25/2025,07/22/2025,"5,662.99",Machine parts
+V1006,Litware Office Products,Bill,LOP11299,06/25/2025,08/03/2025,947.26,Office supplies
+V1028,Margie's Travel,Bill,MT-29055,06/25/2025,07/12/2025,"4,252.81",Travel bookings
+V1028,Margie's Travel,Bill,MT-29114,06/25/2025,07/29/2025,"2,357.40",Travel bookings
+V1011,Coho Packaging Ltd,Bill,CP-47112,06/26/2025,07/30/2025,"4,987.38",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045568,06/26/2025,07/05/2025,"4,027.03",Facilities maintenance
+V1020,Evergreen Landscaping Co,Bill,EL-42534,06/26/2025,07/21/2025,984.51,Grounds
+V1012,Fourth Coffee Supply,Bill,FC5402,06/26/2025,07/21/2025,208.89,Pantry
+V1001,Northwind Traders Ltd,Bill,NW-25-1560,06/26/2025,07/04/2025,"3,650.00",Stock purchase
+V1003,Fabrikam Electrical Supply,Bill,44174,06/27/2025,07/15/2025,"2,475.02",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44189,06/27/2025,07/26/2025,"2,052.60",Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5454,06/27/2025,08/11/2025,305.67,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34433,06/27/2025,07/06/2025,"4,509.45",Machine parts
+V1028,Margie's Travel,Bill,MT-29073,06/27/2025,07/18/2025,"4,010.16",Travel bookings
+V1014,Wide World Importers,Bill,WWI0047019,06/27/2025,07/24/2025,"10,543.94",Imported goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42559,06/27/2025,07/11/2025,465.00,Weekly cleaning
+V1023,Copperleaf Printing,Bill,CLP27854,06/28/2025,08/08/2025,462.81,Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44134,06/28/2025,07/30/2025,845.68,Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34391,06/28/2025,07/23/2025,"8,111.65",Machine parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1494,06/28/2025,07/14/2025,"6,187.22",Stock purchase
+V1002,Contoso Facilities Inc,Bill,INV-045519,06/29/2025,07/29/2025,"4,037.00",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44079,06/29/2025,07/19/2025,"2,138.55",Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5405,06/29/2025,07/19/2025,150.00,Pantry
+V1006,Litware Office Products,Bill,LOP11132,06/29/2025,07/10/2025,250.00,Office supplies
+V1023,Copperleaf Printing,Bill,CLP27847,06/30/2025,08/09/2025,"1,303.44",Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44171,06/30/2025,07/16/2025,406.80,Electrical parts
+V1016,Lucerne Publishing,Bill,LP5562,06/30/2025,07/30/2025,363.27,Printing
+V1001,Northwind Traders Ltd,Bill,NW-25-1520,06/30/2025,07/26/2025,"1,529.29",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-25-1556,06/30/2025,08/10/2025,"5,821.76",Stock purchase
+V1007,Proseware Consulting Group,Bill,PCG-2025-21120,06/30/2025,07/21/2025,"6,710.87",Consulting services
+V1005,Adatum Cloud Hosting,Bill,ADH-11378,07/01/2025,07/24/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27132,07/01/2025,07/18/2025,"12,500.00",Office rent
+V1010,Bluewater Freight Co,Bill,BWF/40444,07/01/2025,08/11/2025,"1,650.00",Freight
+V1023,Copperleaf Printing,Bill,CLP27906,07/01/2025,08/09/2025,102.47,Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44108,07/01/2025,08/11/2025,"2,365.67",Electrical parts
+V1018,Granite Peak Security,Bill,GPS-29934,07/01/2025,07/22/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37714,07/01/2025,07/13/2025,"4,125.75",Insurance premium
+V1021,Ironclad Machine Parts,Bill,IMP34296,07/01/2025,07/24/2025,"8,656.00",Machine parts
+V1013,Relecloud Software,Bill,RS-37670,07/01/2025,07/16/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34721,07/01/2025,07/19/2025,987.44,Telecom
+V1024,Trey Research Labs,Vendor Credit,CR-427,07/01/2025,,-227.00,Returned goods
+V1025,VanArsdel Ltd,Bill,VA13513,07/01/2025,07/29/2025,684.00,Components
+V1006,Litware Office Products,Bill,LOP11160,07/02/2025,07/16/2025,561.35,Office supplies
+V1006,Litware Office Products,Bill,LOP11179,07/02/2025,07/27/2025,436.14,Office supplies
+V1027,Consolidated Messenger,Bill,CM40895,07/03/2025,08/10/2025,200.00,Messenger
+V1007,Proseware Consulting Group,Bill,PCG-2025-21123,07/03/2025,08/02/2025,"17,735.98",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS40020,07/03/2025,08/15/2025,300.00,Courier
+V1004,Tailspin Courier Services,Bill,TCS40058,07/03/2025,07/10/2025,"1,879.00",Courier
+V1026,Wingtip Toys,Bill,WT-31211,07/03/2025,08/12/2025,"1,924.63",Promotional items
+V1020,Evergreen Landscaping Co,Bill,EL-42550,07/04/2025,07/31/2025,517.10,Grounds
+V1024,Trey Research Labs,Bill,TRL-21652,07/04/2025,07/23/2025,"5,741.46",Lab testing
+V1025,VanArsdel Ltd,Bill,VA13508,07/04/2025,07/17/2025,"1,789.90",Components
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42562,07/04/2025,07/18/2025,465.00,Weekly cleaning
+V1007,Proseware Consulting Group,Bill,PCG-2025-21115,07/05/2025,08/04/2025,"12,488.13",Consulting services
+V1010,Bluewater Freight Co,Bill,BWF/40470,07/06/2025,08/12/2025,718.26,Freight
+V1010,Bluewater Freight Co,Bill,BWF/40537,07/06/2025,07/21/2025,"1,614.16",Freight
+V1020,Evergreen Landscaping Co,Bill,EL-42565,07/06/2025,07/29/2025,589.45,Grounds
+V1026,Wingtip Toys,Bill,WT-31254,07/06/2025,07/29/2025,"1,181.65",Promotional items
+V1011,Coho Packaging Ltd,Bill,CP-47063,07/07/2025,08/17/2025,"3,588.42",Packaging
+V1016,Lucerne Publishing,Bill,LP5567,07/07/2025,08/09/2025,176.55,Printing
+V1016,Lucerne Publishing,Bill,LP5582,07/07/2025,08/15/2025,900.00,Printing
+V1022,Summit Staffing Partners,Bill,SSP-6024,07/07/2025,07/22/2025,"3,300.00",Temporary staff
+V1024,Trey Research Labs,Bill,TRL-21650,07/08/2025,08/11/2025,"7,712.71",Lab testing
+V1002,Contoso Facilities Inc,Bill,INV-045558,07/09/2025,08/09/2025,"2,229.63",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44096,07/09/2025,07/24/2025,"2,531.30",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34293,07/09/2025,08/06/2025,"8,908.64",Machine parts
+V1022,Summit Staffing Partners,Bill,SSP-5991,07/09/2025,08/06/2025,"12,602.00",Temporary staff
+V1027,Consolidated Messenger,Vendor Credit,CR-673,07/10/2025,,-289.00,Returned goods
+V1021,Ironclad Machine Parts,Bill,IMP34401,07/11/2025,08/13/2025,"1,869.24",Machine parts
+V1022,Summit Staffing Partners,Bill,SSP-5998,07/11/2025,07/26/2025,"2,066.00",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42564,07/11/2025,07/25/2025,465.00,Weekly cleaning
+V1021,Ironclad Machine Parts,Bill,IMP34399,07/12/2025,07/23/2025,"3,000.00",Machine parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1597,07/12/2025,08/07/2025,"2,365.89",Stock purchase
+V1028,Margie's Travel,Bill,MT-29068,07/13/2025,08/11/2025,"2,380.49",Travel bookings
+V1026,Wingtip Toys,Bill,WT-31232,07/13/2025,07/28/2025,"1,438.00",Promotional items
+V1027,Consolidated Messenger,Bill,CM40985,07/14/2025,08/19/2025,343.21,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44100,07/14/2025,08/03/2025,977.64,Electrical parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3749,07/14/2025,08/25/2025,369.90,Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11277,07/14/2025,08/05/2025,612.95,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39992,07/15/2025,08/07/2025,"1,550.00",Courier
+V1014,Wide World Importers,Bill,WWI0047084,07/15/2025,08/08/2025,"3,798.47",Imported goods
+V1028,Margie's Travel,Bill,MT-29130,07/16/2025,07/24/2025,"1,150.00",Travel bookings
+V1012,Fourth Coffee Supply,Bill,FC5465,07/17/2025,08/01/2025,118.18,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34447,07/17/2025,08/18/2025,"6,659.70",Machine parts
+V1007,Proseware Consulting Group,Bill,PCG-2025-21111,07/17/2025,08/23/2025,"16,500.00",Consulting services
+V1021,Ironclad Machine Parts,Bill,IMP34360,07/18/2025,08/25/2025,"4,160.64",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34404,07/18/2025,07/31/2025,"1,711.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11145,07/18/2025,08/11/2025,856.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-6006,07/18/2025,07/29/2025,"4,331.00",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42567,07/18/2025,08/01/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40510,07/19/2025,07/26/2025,700.76,Freight
+V1012,Fourth Coffee Supply,Bill,FC5440,07/20/2025,08/19/2025,127.40,Pantry
+V1014,Wide World Importers,Bill,WWI0047050,07/20/2025,08/05/2025,"12,249.00",Imported goods
+V1004,Tailspin Courier Services,Bill,TCS40091,07/21/2025,07/30/2025,96.59,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40610,07/22/2025,08/13/2025,"2,455.84",Freight
+V1014,Wide World Importers,Bill,WWI0047013,07/22/2025,08/26/2025,"3,558.64",Imported goods
+V1007,Proseware Consulting Group,Bill,PCG-2025-21116,07/23/2025,08/02/2025,"6,350.00",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS39933,07/23/2025,08/25/2025,"1,300.00",Courier
+V1010,Bluewater Freight Co,Bill,BWF/40457,07/24/2025,08/12/2025,804.61,Freight
+V1027,Consolidated Messenger,Bill,CM40973,07/24/2025,08/12/2025,189.16,Messenger
+V1025,VanArsdel Ltd,Bill,VA13491,07/24/2025,08/11/2025,"4,620.00",Components
+V1025,VanArsdel Ltd,Bill,VA13501,07/24/2025,08/23/2025,"3,668.20",Components
+V1010,Bluewater Freight Co,Bill,BWF/40480,07/25/2025,08/02/2025,"3,463.21",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47045,07/25/2025,08/22/2025,"3,707.29",Packaging
+V1011,Coho Packaging Ltd,Bill,CP-47080,07/25/2025,08/25/2025,"2,152.63",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34351,07/25/2025,08/10/2025,"5,112.69",Machine parts
+V1028,Margie's Travel,Bill,MT-29093,07/25/2025,08/09/2025,"2,800.00",Travel bookings
+V1022,Summit Staffing Partners,Bill,SSP-6015,07/25/2025,09/07/2025,"9,525.18",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42569,07/25/2025,08/08/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40983,07/26/2025,08/16/2025,209.85,Messenger
+V1004,Tailspin Courier Services,Bill,TCS40155,07/26/2025,08/12/2025,"1,543.72",Courier
+V1002,Contoso Facilities Inc,Bill,INV-045578,07/27/2025,08/16/2025,"2,859.67",Facilities maintenance
+V1004,Tailspin Courier Services,Bill,TCS39909,07/27/2025,08/20/2025,900.00,Courier
+V1011,Coho Packaging Ltd,Bill,CP-47069,07/28/2025,09/08/2025,"3,669.74",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045520,07/28/2025,08/05/2025,"2,648.68",Facilities maintenance
+V1021,Ironclad Machine Parts,Bill,IMP34383,07/28/2025,08/11/2025,"4,583.19",Machine parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1537,07/28/2025,09/11/2025,"2,150.00",Stock purchase
+V1010,Bluewater Freight Co,Bill,BWF/40483,07/29/2025,08/11/2025,"1,100.00",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045610,07/29/2025,08/30/2025,"1,320.65",Facilities maintenance
+V1012,Fourth Coffee Supply,Bill,FC5431,07/29/2025,08/09/2025,361.09,Pantry
+V1016,Lucerne Publishing,Bill,LP5604,07/29/2025,08/12/2025,"1,550.00",Printing
+V1027,Consolidated Messenger,Bill,CM40954,07/30/2025,09/12/2025,44.88,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44001,07/30/2025,08/29/2025,"2,000.00",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44031,07/30/2025,08/22/2025,"1,360.51",Electrical parts
+V1028,Margie's Travel,Bill,MT-29100,07/30/2025,09/13/2025,"4,115.35",Travel bookings
+V1004,Tailspin Courier Services,Bill,TCS40118,07/30/2025,09/11/2025,"1,527.96",Courier
+V1002,Contoso Facilities Inc,Bill,INV-045565,07/31/2025,09/09/2025,"1,993.77",Facilities maintenance
+V1004,Tailspin Courier Services,Bill,TCS40011,07/31/2025,08/23/2025,"1,202.69",Courier
+V1004,Tailspin Courier Services,Bill,TCS40051,07/31/2025,09/07/2025,501.00,Courier
+V1005,Adatum Cloud Hosting,Bill,ADH-11381,08/01/2025,08/11/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27134,08/01/2025,08/16/2025,"12,500.00",Office rent
+V1011,Coho Packaging Ltd,Bill,CP-47058,08/01/2025,08/22/2025,381.48,Packaging
+V1018,Granite Peak Security,Bill,GPS-29936,08/01/2025,08/11/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37716,08/01/2025,08/19/2025,"4,125.75",Insurance premium
+V1017,Kingfisher Plumbing & Heating,Bill,K3801,08/01/2025,08/26/2025,"5,455.20",Plumbing repairs
+V1016,Lucerne Publishing,Bill,LP5609,08/01/2025,09/15/2025,"1,375.48",Printing
+V1013,Relecloud Software,Bill,RS-37672,08/01/2025,08/16/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34723,08/01/2025,08/23/2025,987.44,Telecom
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42571,08/01/2025,08/15/2025,465.00,Weekly cleaning
+V1028,Margie's Travel,Bill,MT-29075,08/02/2025,09/12/2025,"4,057.00",Travel bookings
+V1001,Northwind Traders Ltd,Bill,NW-25-1534,08/03/2025,08/19/2025,"4,007.00",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40092,08/03/2025,09/12/2025,845.14,Courier
+V1004,Tailspin Courier Services,Bill,TCS40124,08/03/2025,08/11/2025,"1,330.00",Courier
+V1027,Consolidated Messenger,Bill,CM40940,08/04/2025,09/18/2025,548.00,Messenger
+V1006,Litware Office Products,Bill,LOP11335,08/04/2025,09/04/2025,361.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-5970,08/04/2025,09/13/2025,"10,227.64",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS40115,08/04/2025,08/13/2025,718.00,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40593,08/06/2025,09/06/2025,387.29,Freight
+V1002,Contoso Facilities Inc,Bill,INV-045584,08/06/2025,09/18/2025,"2,968.00",Facilities maintenance
+V1023,Copperleaf Printing,Bill,CLP27903,08/06/2025,09/11/2025,103.17,Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44113,08/06/2025,08/23/2025,67.18,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44207,08/06/2025,09/14/2025,"2,500.00",Electrical parts
+V1025,VanArsdel Ltd,Bill,VA13538,08/06/2025,09/07/2025,296.39,Components
+V1014,Wide World Importers,Bill,WWI0047047,08/06/2025,09/15/2025,"13,409.87",Imported goods
+V1026,Wingtip Toys,Bill,WT-31252,08/06/2025,08/13/2025,138.39,Promotional items
+V1027,Consolidated Messenger,Bill,CM40880,08/07/2025,08/20/2025,452.83,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045572,08/07/2025,09/11/2025,"2,570.05",Facilities maintenance
+V1021,Ironclad Machine Parts,Bill,IMP34430,08/07/2025,08/29/2025,628.00,Machine parts
+V1014,Wide World Importers,Bill,WWI0047038,08/07/2025,09/03/2025,"9,687.50",Imported goods
+V1002,Contoso Facilities Inc,Bill,INV-045579,08/08/2025,09/22/2025,"1,383.01",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045613,08/08/2025,09/01/2025,"2,521.80",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,45613,08/08/2025,09/14/2025,"2,521.80",Facilities maintenance
+V1006,Litware Office Products,Bill,LOP11324,08/08/2025,08/28/2025,788.14,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39978,08/08/2025,09/19/2025,"1,790.00",Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42574,08/08/2025,08/22/2025,465.00,Weekly cleaning
+V1011,Coho Packaging Ltd,Bill,CP-47010,08/09/2025,09/02/2025,"2,270.44",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045517,08/09/2025,09/12/2025,"3,720.96",Facilities maintenance
+V1020,Evergreen Landscaping Co,Bill,EL-42531,08/09/2025,09/02/2025,"2,190.80",Grounds
+V1021,Ironclad Machine Parts,Bill,IMP34301,08/09/2025,09/06/2025,"3,983.00",Machine parts
+V1003,Fabrikam Electrical Supply,Bill,44142,08/10/2025,08/21/2025,"2,679.36",Electrical parts
+V1010,Bluewater Freight Co,Bill,BWF/40594,08/11/2025,08/26/2025,"1,750.15",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045508,08/11/2025,08/24/2025,"1,606.38",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045575,08/11/2025,09/22/2025,"1,850.00",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44093,08/11/2025,09/20/2025,"2,339.00",Electrical parts
+V1027,Consolidated Messenger,Bill,CM40864,08/12/2025,09/24/2025,250.00,Messenger
+V1011,Coho Packaging Ltd,Bill,CP-47029,08/13/2025,08/28/2025,"2,776.14",Packaging
+V1020,Evergreen Landscaping Co,Bill,EL-42574,08/13/2025,09/19/2025,470.00,Grounds
+V1003,Fabrikam Electrical Supply,Bill,44019,08/13/2025,09/22/2025,534.91,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44055,08/13/2025,08/31/2025,225.11,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44060,08/13/2025,09/06/2025,"2,431.08",Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5458,08/13/2025,09/14/2025,257.64,Pantry
+V1020,Evergreen Landscaping Co,Bill,EL-42538,08/14/2025,09/26/2025,916.96,Grounds
+V1003,Fabrikam Electrical Supply,Bill,44186,08/14/2025,09/12/2025,785.30,Electrical parts
+V1006,Litware Office Products,Bill,LOP11252,08/14/2025,09/07/2025,931.04,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40053,08/14/2025,09/27/2025,"1,550.00",Courier
+V1006,Litware Office Products,Bill,LOP11150,08/15/2025,09/29/2025,651.19,Office supplies
+V1006,Litware Office Products,Bill,LOP11338,08/15/2025,09/22/2025,788.03,Office supplies
+V1006,Litware Office Products,Bill,LOP11150,08/15/2025,10/27/2025,651.19,Office supplies
+V1016,Lucerne Publishing,Bill,LP5600,08/15/2025,09/05/2025,625.66,Printing
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42576,08/15/2025,08/29/2025,465.00,Weekly cleaning
+V1002,Contoso Facilities Inc,Bill,INV-045552,08/16/2025,09/22/2025,"1,343.00",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44206,08/16/2025,09/24/2025,"1,683.64",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34321,08/16/2025,08/30/2025,"8,613.42",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34355,08/17/2025,10/01/2025,"9,102.24",Machine parts
+V1006,Litware Office Products,Bill,LOP11123,08/17/2025,08/24/2025,559.00,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39899,08/17/2025,10/01/2025,679.59,Courier
+V1006,Litware Office Products,Bill,LOP11191,08/18/2025,09/30/2025,398.63,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1613,08/18/2025,09/29/2025,"1,762.56",Stock purchase
+V1003,Fabrikam Electrical Supply,Bill,44163,08/19/2025,08/28/2025,95.42,Electrical parts
+V1006,Litware Office Products,Bill,LOP11243,08/19/2025,09/21/2025,614.53,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-5983,08/19/2025,09/21/2025,"11,378.06",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS39873,08/19/2025,09/17/2025,517.10,Courier
+V1024,Trey Research Labs,Bill,TRL-21644,08/19/2025,09/16/2025,"8,882.27",Lab testing
+V1016,Lucerne Publishing,Bill,LP5572,08/20/2025,09/22/2025,670.45,Printing
+V1003,Fabrikam Electrical Supply,Vendor Credit,CR-358,08/21/2025,,-253.63,Returned goods
+V1021,Ironclad Machine Parts,Bill,IMP34308,08/21/2025,09/09/2025,"3,660.72",Machine parts
+V1027,Consolidated Messenger,Bill,CM40923,08/22/2025,09/30/2025,441.00,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44052,08/22/2025,10/02/2025,"1,780.23",Electrical parts
+V1004,Tailspin Courier Services,Bill,TCS39886,08/22/2025,09/20/2025,"1,783.33",Courier
+V1004,Tailspin Courier Services,Bill,TCS39895,08/22/2025,08/30/2025,764.67,Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42579,08/22/2025,09/05/2025,465.00,Weekly cleaning
+V1006,Litware Office Products,Bill,LOP11210,08/23/2025,09/14/2025,910.00,Office supplies
+V1027,Consolidated Messenger,Bill,CM40952,08/24/2025,09/14/2025,156.51,Messenger
+V1023,Copperleaf Printing,Bill,CLP27836,08/24/2025,09/20/2025,"1,069.84",Print jobs
+V1017,Kingfisher Plumbing & Heating,Bill,K3804,08/24/2025,09/07/2025,"1,635.65",Plumbing repairs
+V1022,Summit Staffing Partners,Bill,SSP-6012,08/24/2025,09/15/2025,"7,500.00",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS40112,08/24/2025,10/03/2025,768.00,Courier
+V1006,Litware Office Products,Bill,LOP11225,08/25/2025,09/25/2025,229.38,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1531,08/25/2025,09/29/2025,"5,350.00",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39994,08/25/2025,09/14/2025,848.42,Courier
+V1011,Coho Packaging Ltd,Bill,CP-47055,08/26/2025,09/17/2025,170.00,Packaging
+V1001,Northwind Traders Ltd,Bill,NW-25-1627,08/26/2025,09/27/2025,"5,414.00",Stock purchase
+V1026,Wingtip Toys,Bill,WT-31198,08/26/2025,10/03/2025,400.03,Promotional items
+V1001,Northwind Traders Ltd,Bill,NW-25-1523,08/27/2025,10/02/2025,"2,700.00",Stock purchase
+V1022,Summit Staffing Partners,Bill,SSP-6009,08/27/2025,10/01/2025,"9,354.00",Temporary staff
+V1025,VanArsdel Ltd,Bill,VA13549,08/27/2025,10/04/2025,"1,383.00",Components
+V1010,Bluewater Freight Co,Bill,BWF/40521,08/28/2025,09/24/2025,"1,135.00",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40521,08/28/2025,10/01/2025,"1,315.00",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045537,08/28/2025,10/03/2025,"1,267.11",Facilities maintenance
+V1023,Copperleaf Printing,Bill,CLP27868,08/28/2025,09/23/2025,"1,287.51",Print jobs
+V1003,Fabrikam Electrical Supply,Bill,44198,08/28/2025,09/13/2025,121.72,Electrical parts
+V1006,Litware Office Products,Bill,LOP11167,08/28/2025,09/10/2025,500.00,Office supplies
+V1006,Litware Office Products,Bill,LOP11196,08/28/2025,09/18/2025,311.00,Office supplies
+V1028,Margie's Travel,Bill,MT-29094,08/28/2025,10/04/2025,"3,233.29",Travel bookings
+V1014,Wide World Importers,Bill,WWI0047042,08/28/2025,09/12/2025,"10,588.60",Imported goods
+V1023,Copperleaf Printing,Bill,CLP27839,08/29/2025,10/06/2025,93.10,Print jobs
+V1006,Litware Office Products,Bill,LOP11208,08/29/2025,10/07/2025,477.52,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-6058,08/29/2025,09/23/2025,"7,594.54",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS40055,08/29/2025,09/18/2025,437.53,Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42581,08/29/2025,09/12/2025,465.00,Weekly cleaning
+V1006,Litware Office Products,Bill,LOP11242,08/30/2025,09/24/2025,700.00,Office supplies
+V1010,Bluewater Freight Co,Bill,BWF/40592,08/31/2025,09/15/2025,"2,050.00",Freight
+V1023,Copperleaf Printing,Bill,CLP27860,08/31/2025,09/30/2025,"1,583.25",Print jobs
+V1028,Margie's Travel,Bill,MT-29099,08/31/2025,09/20/2025,"1,536.43",Travel bookings
+V1022,Summit Staffing Partners,Bill,SSP-6043,08/31/2025,10/12/2025,"4,168.36",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS40025,08/31/2025,09/20/2025,271.51,Courier
+V1025,VanArsdel Ltd,Bill,VA13502,08/31/2025,09/18/2025,"4,596.00",Components
+V1005,Adatum Cloud Hosting,Bill,ADH-11384,09/01/2025,09/19/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27135,09/01/2025,09/12/2025,"12,500.00",Office rent
+V1027,Consolidated Messenger,Bill,CM40957,09/01/2025,10/06/2025,344.51,Messenger
+V1023,Copperleaf Printing,Bill,CLP27907,09/01/2025,09/27/2025,"2,169.18",Print jobs
+V1018,Granite Peak Security,Bill,GPS-29939,09/01/2025,09/13/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37718,09/01/2025,09/24/2025,"4,125.75",Insurance premium
+V1017,Kingfisher Plumbing & Heating,Bill,K3770,09/01/2025,09/10/2025,"2,542.72",Plumbing repairs
+V1013,Relecloud Software,Bill,RS-37674,09/01/2025,09/22/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34726,09/01/2025,09/24/2025,987.44,Telecom
+V1022,Summit Staffing Partners,Bill,SSP-6021,09/01/2025,09/12/2025,"1,576.21",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS40145,09/01/2025,10/05/2025,776.52,Courier
+V1026,Wingtip Toys,Bill,WT-31234,09/01/2025,09/10/2025,"1,350.00",Promotional items
+V1020,Evergreen Landscaping Co,Bill,EL-42548,09/02/2025,10/12/2025,950.00,Grounds
+V1020,Evergreen Landscaping Co,Bill,el 42548,09/02/2025,10/29/2025,950.00,Grounds
+V1017,Kingfisher Plumbing & Heating,Bill,K3776,09/02/2025,09/19/2025,"6,173.52",Plumbing repairs
+V1004,Tailspin Courier Services,Bill,TCS40087,09/02/2025,09/23/2025,"1,581.61",Courier
+V1020,Evergreen Landscaping Co,Bill,EL-42567,09/03/2025,10/04/2025,"1,458.00",Grounds
+V1021,Ironclad Machine Parts,Bill,IMP34335,09/03/2025,10/13/2025,"6,550.00",Machine parts
+V1028,Margie's Travel,Bill,MT-29135,09/03/2025,09/23/2025,"3,972.75",Travel bookings
+V1025,VanArsdel Ltd,Bill,VA13489,09/03/2025,10/05/2025,"1,750.00",Components
+V1010,Bluewater Freight Co,Bill,BWF/40516,09/04/2025,10/04/2025,"2,275.57",Freight
+V1003,Fabrikam Electrical Supply,Bill,44143,09/04/2025,10/05/2025,"2,655.35",Electrical parts
+V1006,Litware Office Products,Bill,LOP11296,09/04/2025,10/17/2025,794.81,Office supplies
+V1006,Litware Office Products,Bill,LOP11200,09/05/2025,09/19/2025,81.00,Office supplies
+V1024,Trey Research Labs,Bill,TRL-21662,09/05/2025,10/16/2025,"2,969.00",Lab testing
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42583,09/05/2025,09/19/2025,465.00,Weekly cleaning
+V1003,Fabrikam Electrical Supply,Bill,44040,09/06/2025,09/17/2025,"2,752.30",Electrical parts
+V1010,Bluewater Freight Co,Bill,BWF/40491,09/07/2025,10/14/2025,"1,326.56",Freight
+V1003,Fabrikam Electrical Supply,Bill,44008,09/07/2025,09/25/2025,690.43,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44193,09/07/2025,10/15/2025,"1,044.00",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44196,09/07/2025,09/20/2025,806.21,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44220,09/07/2025,10/07/2025,"1,297.87",Electrical parts
+V1016,Lucerne Publishing,Bill,LP5555,09/07/2025,10/21/2025,90.52,Printing
+V1007,Proseware Consulting Group,Bill,PCG-2025-21125,09/07/2025,09/29/2025,"16,448.43",Consulting services
+V1022,Summit Staffing Partners,Bill,SSP-6063,09/07/2025,09/20/2025,"2,527.60",Temporary staff
+V1021,Ironclad Machine Parts,Bill,IMP34379,09/08/2025,09/27/2025,"9,425.66",Machine parts
+V1004,Tailspin Courier Services,Bill,TCS39884,09/08/2025,10/20/2025,667.01,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40536,09/09/2025,10/22/2025,944.64,Freight
+V1021,Ironclad Machine Parts,Bill,IMP34412,09/09/2025,10/01/2025,"6,187.17",Machine parts
+V1025,VanArsdel Ltd,Bill,VA13536,09/09/2025,10/18/2025,"4,100.00",Components
+V1010,Bluewater Freight Co,Bill,BWF/40493,09/10/2025,10/22/2025,"2,373.63",Freight
+V1012,Fourth Coffee Supply,Bill,FC5414,09/11/2025,10/12/2025,344.14,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34348,09/11/2025,10/14/2025,"1,453.96",Machine parts
+V1016,Lucerne Publishing,Bill,LP5580,09/11/2025,09/22/2025,599.01,Printing
+V1028,Margie's Travel,Bill,MT-29048,09/11/2025,10/12/2025,"2,926.88",Travel bookings
+V1001,Northwind Traders Ltd,Bill,NW-25-1557,09/11/2025,09/28/2025,"2,234.79",Stock purchase
+V1025,VanArsdel Ltd,Bill,VA13500,09/11/2025,09/24/2025,"2,846.56",Components
+V1023,Copperleaf Printing,Bill,CLP27841,09/12/2025,09/20/2025,338.38,Print jobs
+V1006,Litware Office Products,Bill,LOP11126,09/12/2025,10/19/2025,248.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-5974,09/12/2025,09/20/2025,"9,332.07",Temporary staff
+V1022,Summit Staffing Partners,Bill,SSP-5979,09/12/2025,09/24/2025,"8,629.35",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS39928,09/12/2025,10/09/2025,791.16,Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42585,09/12/2025,09/26/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40856,09/13/2025,09/22/2025,374.80,Messenger
+V1004,Tailspin Courier Services,Bill,TCS39960,09/14/2025,10/27/2025,"1,600.00",Courier
+V1014,Wide World Importers,Bill,WWI0047041,09/14/2025,10/04/2025,"2,707.40",Imported goods
+V1011,Coho Packaging Ltd,Vendor Credit,CR-929,09/15/2025,,-250.00,Returned goods
+V1027,Consolidated Messenger,Bill,CM41008,09/15/2025,10/19/2025,547.94,Messenger
+V1001,Northwind Traders Ltd,Bill,NW-25-1605,09/16/2025,10/26/2025,"2,417.09",Stock purchase
+V1012,Fourth Coffee Supply,Bill,FC5453,09/17/2025,10/19/2025,364.26,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34300,09/17/2025,11/01/2025,"5,098.81",Machine parts
+V1027,Consolidated Messenger,Bill,CM40909,09/18/2025,09/29/2025,322.00,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045511,09/18/2025,10/19/2025,"3,080.02",Facilities maintenance
+V1012,Fourth Coffee Supply,Bill,FC5408,09/18/2025,10/11/2025,275.00,Pantry
+V1006,Litware Office Products,Bill,LOP11301,09/18/2025,10/25/2025,95.00,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39931,09/18/2025,10/06/2025,"1,849.81",Courier
+V1026,Wingtip Toys,Bill,WT-31208,09/18/2025,10/05/2025,"1,050.00",Promotional items
+V1006,Litware Office Products,Bill,LOP11218,09/19/2025,09/27/2025,740.45,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1585,09/19/2025,09/28/2025,"2,582.74",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40063,09/19/2025,10/04/2025,708.45,Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42588,09/19/2025,10/03/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40993,09/20/2025,10/31/2025,250.00,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44086,09/20/2025,10/05/2025,863.00,Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34369,09/20/2025,09/27/2025,"2,490.84",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34408,09/20/2025,10/10/2025,"8,120.39",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34393,09/21/2025,10/09/2025,"7,119.96",Machine parts
+V1016,Lucerne Publishing,Bill,LP5597,09/21/2025,09/30/2025,265.10,Printing
+V1010,Bluewater Freight Co,Bill,BWF/40601,09/22/2025,09/29/2025,"3,301.00",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47059,09/22/2025,10/01/2025,"2,315.93",Packaging
+V1017,Kingfisher Plumbing & Heating,Bill,K3799,09/22/2025,10/24/2025,"3,237.69",Plumbing repairs
+V1024,Trey Research Labs,Bill,TRL-21637,09/22/2025,11/01/2025,"6,525.00",Lab testing
+V1003,Fabrikam Electrical Supply,Bill,44117,09/23/2025,10/11/2025,785.73,Electrical parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3762,09/23/2025,10/04/2025,"4,419.21",Plumbing repairs
+V1014,Wide World Importers,Bill,WWI0047081,09/23/2025,10/01/2025,"9,365.21",Imported goods
+V1023,Copperleaf Printing,Bill,CLP27883,09/24/2025,10/23/2025,"1,169.23",Print jobs
+V1006,Litware Office Products,Bill,LOP11124,09/24/2025,10/15/2025,650.00,Office supplies
+V1006,Litware Office Products,Bill,LOP11128,09/24/2025,11/08/2025,320.77,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39963,09/24/2025,10/29/2025,829.49,Courier
+V1002,Contoso Facilities Inc,Bill,INV-045576,09/25/2025,11/08/2025,"1,186.33",Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44192,09/25/2025,10/29/2025,162.15,Electrical parts
+V1004,Tailspin Courier Services,Bill,TCS40144,09/25/2025,11/08/2025,"1,549.82",Courier
+V1014,Wide World Importers,Bill,WWI0047085,09/25/2025,10/13/2025,"1,624.43",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40466,09/26/2025,10/12/2025,787.51,Freight
+V1012,Fourth Coffee Supply,Bill,FC5449,09/26/2025,11/06/2025,260.42,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34309,09/26/2025,11/07/2025,"8,636.38",Machine parts
+V1028,Margie's Travel,Bill,MT-29090,09/26/2025,11/08/2025,"1,368.42",Travel bookings
+V1022,Summit Staffing Partners,Bill,SSP-6004,09/26/2025,10/09/2025,"11,542.74",Temporary staff
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42591,09/26/2025,10/10/2025,465.00,Weekly cleaning
+V1011,Coho Packaging Ltd,Bill,CP-47012,09/27/2025,10/19/2025,"2,000.00",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34415,09/27/2025,10/15/2025,"2,496.25",Machine parts
+V1004,Tailspin Courier Services,Bill,TCS40080,09/28/2025,10/11/2025,"1,674.72",Courier
+V1004,Tailspin Courier Services,Bill,TCS40111,09/28/2025,10/09/2025,280.03,Courier
+V1004,Tailspin Courier Services,Bill,TCS40151,09/28/2025,11/09/2025,"1,300.00",Courier
+V1021,Ironclad Machine Parts,Bill,,09/29/2025,11/22/2025,"8,636.38",Machine parts
+V1006,Litware Office Products,Bill,LOP11330,09/29/2025,11/01/2025,639.00,Office supplies
+V1014,Wide World Importers,Bill,WWI0047044,09/29/2025,10/14/2025,"3,201.47",Imported goods
+V1003,Fabrikam Electrical Supply,Bill,44089,09/30/2025,11/12/2025,"1,395.88",Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34332,09/30/2025,11/07/2025,"7,587.18",Machine parts
+V1006,Litware Office Products,Bill,LOP11233,09/30/2025,10/23/2025,711.02,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40137,09/30/2025,10/17/2025,"1,474.32",Courier
+V1004,Tailspin Courier Services,Bill,TCS40157,09/30/2025,10/12/2025,934.53,Courier
+V1005,Adatum Cloud Hosting,Bill,ADH-11386,10/01/2025,10/22/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27138,10/01/2025,10/14/2025,"12,500.00",Office rent
+V1003,Fabrikam Electrical Supply,Bill,44066,10/01/2025,10/14/2025,100.00,Electrical parts
+V1018,Granite Peak Security,Bill,GPS-29941,10/01/2025,10/15/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37721,10/01/2025,10/16/2025,"4,125.75",Insurance premium
+V1001,Northwind Traders Ltd,Bill,NW-25-1544,10/01/2025,10/11/2025,"6,400.00",Stock purchase
+V1013,Relecloud Software,Bill,RS-37677,10/01/2025,10/23/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34728,10/01/2025,10/20/2025,987.44,Telecom
+V1004,Tailspin Courier Services,Bill,TCS39941,10/01/2025,10/25/2025,"1,536.16",Courier
+V1004,Tailspin Courier Services,Bill,TCS40060,10/01/2025,11/10/2025,"1,600.00",Courier
+V1014,Wide World Importers,Bill,WWI0047027,10/01/2025,10/12/2025,"5,887.00",Imported goods
+V1003,Fabrikam Electrical Supply,Bill,44221,10/02/2025,11/05/2025,"2,567.09",Electrical parts
+V1004,Tailspin Courier Services,Bill,TCS40037,10/02/2025,11/14/2025,"1,774.87",Courier
+V1016,Lucerne Publishing,Bill,LP5574,10/03/2025,11/10/2025,949.00,Printing
+V1025,VanArsdel Ltd,Bill,VA13539,10/03/2025,10/27/2025,899.23,Components
+V1025,VanArsdel Ltd,Bill,VA13578,10/03/2025,11/07/2025,"4,148.00",Components
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42593,10/03/2025,10/17/2025,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40905,10/04/2025,11/06/2025,231.76,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44004,10/04/2025,10/29/2025,"1,500.00",Electrical parts
+V1006,Litware Office Products,Bill,LOP11216,10/04/2025,10/25/2025,872.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-5971,10/04/2025,10/15/2025,"2,042.47",Temporary staff
+V1002,Contoso Facilities Inc,Bill,INV-045582,10/05/2025,10/31/2025,"1,668.30",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045600,10/05/2025,11/11/2025,"2,548.12",Facilities maintenance
+V1027,Consolidated Messenger,Bill,CM40914,10/06/2025,10/22/2025,40.13,Messenger
+V1026,Wingtip Toys,Bill,WT-31220,10/06/2025,10/20/2025,497.32,Promotional items
+V1003,Fabrikam Electrical Supply,Bill,44211,10/07/2025,11/20/2025,875.29,Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34315,10/07/2025,11/07/2025,"3,656.86",Machine parts
+V1022,Summit Staffing Partners,Vendor Credit,CR-141,10/07/2025,,-127.25,Returned goods
+V1024,Trey Research Labs,Bill,TRL-21640,10/07/2025,10/29/2025,"7,812.19",Lab testing
+V1025,VanArsdel Ltd,Bill,VA13498,10/07/2025,11/08/2025,264.09,Components
+V1025,VanArsdel Ltd,Bill,VA13546,10/07/2025,11/17/2025,"2,398.17",Components
+V1003,Fabrikam Electrical Supply,Bill,44025,10/08/2025,10/28/2025,154.91,Electrical parts
+V1027,Consolidated Messenger,Bill,CM40916,10/09/2025,11/09/2025,481.63,Messenger
+V1004,Tailspin Courier Services,Bill,TCS40089,10/09/2025,10/17/2025,150.00,Courier
+V1023,Copperleaf Printing,Bill,CLP27899,10/10/2025,11/17/2025,200.00,Print jobs
+V1023,Copperleaf Printing,Vendor Credit,CR-415,10/10/2025,,-380.00,Returned goods
+V1021,Ironclad Machine Parts,Bill,IMP34338,10/10/2025,11/19/2025,"6,118.00",Machine parts
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42595,10/10/2025,10/24/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40469,10/11/2025,10/29/2025,"3,029.75",Freight
+V1010,Bluewater Freight Co,Bill,BWF/04469,10/11/2025,11/11/2025,"3,029.75",Freight
+V1011,Coho Packaging Ltd,Bill,CP-46998,10/11/2025,11/25/2025,"3,212.58",Packaging
+V1003,Fabrikam Electrical Supply,Bill,44175,10/11/2025,10/20/2025,"2,179.40",Electrical parts
+V1016,Lucerne Publishing,Bill,LP5569,10/11/2025,11/14/2025,"1,022.27",Printing
+V1010,Bluewater Freight Co,Vendor Credit,CR-215,10/12/2025,,-139.38,Returned goods
+V1027,Consolidated Messenger,Bill,CM40887,10/12/2025,10/22/2025,73.00,Messenger
+V1020,Evergreen Landscaping Co,Bill,EL-42530,10/12/2025,11/18/2025,"1,265.98",Grounds
+V1004,Tailspin Courier Services,Bill,TCS40129,10/13/2025,11/07/2025,208.91,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40526,10/14/2025,11/03/2025,"1,200.00",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045573,10/14/2025,11/15/2025,"2,758.42",Facilities maintenance
+V1017,Kingfisher Plumbing & Heating,Bill,K3783,10/14/2025,11/26/2025,"6,298.00",Plumbing repairs
+V1028,Margie's Travel,Bill,MT-29070,10/14/2025,10/26/2025,"3,300.00",Travel bookings
+V1014,Wide World Importers,Bill,WWI0047051,10/14/2025,11/03/2025,"5,464.23",Imported goods
+V1006,Litware Office Products,Bill,LOP11298,10/15/2025,11/21/2025,311.00,Office supplies
+V1016,Lucerne Publishing,Bill,LP5571,10/15/2025,11/12/2025,913.48,Printing
+V1014,Wide World Importers,Bill,WWI0047022,10/15/2025,11/09/2025,"9,750.00",Imported goods
+V1014,Wide World Importers,Bill,WWI0047076,10/15/2025,10/26/2025,"9,787.56",Imported goods
+V1028,Margie's Travel,Bill,MT-29121,10/16/2025,10/31/2025,571.87,Travel bookings
+V1025,VanArsdel Ltd,Bill,VA13571,10/16/2025,10/27/2025,"4,623.26",Components
+V1027,Consolidated Messenger,Bill,CM40862,10/17/2025,11/22/2025,250.00,Messenger
+V1027,Consolidated Messenger,Bill,CM40938,10/17/2025,10/26/2025,351.27,Messenger
+V1012,Fourth Coffee Supply,Bill,FC5382,10/17/2025,11/21/2025,375.68,Pantry
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42596,10/17/2025,10/31/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40559,10/18/2025,11/23/2025,"1,538.89",Freight
+V1003,Fabrikam Electrical Supply,Bill,44176,10/18/2025,11/22/2025,712.54,Electrical parts
+V1025,VanArsdel Ltd,Bill,VA13562,10/18/2025,11/24/2025,"1,829.87",Components
+V1011,Coho Packaging Ltd,Bill,CP-46997,10/19/2025,11/13/2025,"3,556.70",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045504,10/19/2025,11/13/2025,"3,985.50",Facilities maintenance
+V1006,Litware Office Products,Bill,LOP11237,10/19/2025,11/09/2025,375.88,Office supplies
+V1006,Litware Office Products,Bill,LOP11339,10/19/2025,11/14/2025,659.83,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1584,10/19/2025,11/02/2025,"4,061.11",Stock purchase
+V1007,Proseware Consulting Group,Bill,PCG-2025-21126,10/19/2025,10/26/2025,"4,698.00",Consulting services
+V1022,Summit Staffing Partners,Bill,SSP-6029,10/19/2025,11/04/2025,"2,950.00",Temporary staff
+V1014,Wide World Importers,Bill,WWI0047071,10/19/2025,11/17/2025,"7,987.74",Imported goods
+V1011,Coho Packaging Ltd,Bill,CP-47070,10/20/2025,11/07/2025,"3,223.76",Packaging
+V1006,Litware Office Products,Bill,LOP11313,10/20/2025,11/21/2025,902.99,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40097,10/20/2025,10/30/2025,93.01,Courier
+V1023,Copperleaf Printing,Bill,CLP27889,10/21/2025,11/15/2025,69.17,Print jobs
+V1006,Litware Office Products,Bill,LOP11333,10/22/2025,11/20/2025,529.20,Office supplies
+V1011,Coho Packaging Ltd,Bill,CP-47004,10/23/2025,11/19/2025,"2,482.63",Packaging
+V1017,Kingfisher Plumbing & Heating,Bill,K3736,10/24/2025,11/16/2025,"6,050.00",Plumbing repairs
+V1007,Proseware Consulting Group,Bill,PCG-2025-21147,10/24/2025,11/11/2025,"17,725.55",Consulting services
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42597,10/24/2025,11/07/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40597,10/25/2025,11/04/2025,"2,827.24",Freight
+V1027,Consolidated Messenger,Bill,CM40872,10/25/2025,11/08/2025,552.11,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44057,10/25/2025,11/09/2025,"1,879.00",Electrical parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3754,10/25/2025,11/04/2025,"7,100.28",Plumbing repairs
+V1004,Tailspin Courier Services,Vendor Credit,CR-171,10/25/2025,,-100.00,Returned goods
+V1002,Contoso Facilities Inc,Bill,INV-045597,10/26/2025,11/06/2025,333.00,Facilities maintenance
+V1002,Contoso Facilities Inc,Vendor Credit,CR-935,10/26/2025,,-191.00,Returned goods
+V1003,Fabrikam Electrical Supply,Bill,44227,10/26/2025,12/10/2025,"2,208.79",Electrical parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1502,10/26/2025,11/16/2025,"6,199.08",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-25-1521,10/26/2025,11/17/2025,"2,900.00",Stock purchase
+V1007,Proseware Consulting Group,Bill,PCG-2025-21118,10/26/2025,11/27/2025,"17,387.77",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS39935,10/26/2025,11/15/2025,934.02,Courier
+V1004,Tailspin Courier Services,Bill,TCS40018,10/26/2025,12/09/2025,"1,734.90",Courier
+V1026,Wingtip Toys,Bill,WT-31200,10/26/2025,11/09/2025,"1,676.00",Promotional items
+V1012,Fourth Coffee Supply,Bill,FC5447,10/27/2025,11/14/2025,150.00,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34389,10/27/2025,12/05/2025,"8,282.42",Machine parts
+V1011,Coho Packaging Ltd,Bill,CP-47003,10/28/2025,12/10/2025,"2,583.07",Packaging
+V1027,Consolidated Messenger,Bill,CM41011,10/28/2025,11/06/2025,42.06,Messenger
+V1020,Evergreen Landscaping Co,Bill,EL-42544,10/28/2025,11/09/2025,540.65,Grounds
+V1004,Tailspin Courier Services,Bill,TCS39938,10/28/2025,12/02/2025,"1,750.00",Courier
+V1004,Tailspin Courier Services,Bill,TCS39987,10/28/2025,11/08/2025,"1,267.78",Courier
+V1027,Consolidated Messenger,Bill,CM40967,10/30/2025,11/12/2025,160.61,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44180,10/30/2025,11/14/2025,"2,792.53",Electrical parts
+V1006,Litware Office Products,Bill,LOP11327,10/30/2025,12/03/2025,399.00,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1489,10/30/2025,11/12/2025,"4,750.00",Stock purchase
+V1020,Evergreen Landscaping Co,Bill,EL-42559,10/31/2025,11/26/2025,"1,650.00",Grounds
+V1003,Fabrikam Electrical Supply,Bill,44013,10/31/2025,12/10/2025,115.00,Electrical parts
+V1021,Ironclad Machine Parts,Bill,IMP34330,10/31/2025,12/04/2025,"3,696.11",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34349,10/31/2025,11/16/2025,"9,494.30",Machine parts
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42599,10/31/2025,11/14/2025,465.00,Weekly cleaning
+V1005,Adatum Cloud Hosting,Bill,ADH-11387,11/01/2025,11/16/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27139,11/01/2025,11/22/2025,"12,500.00",Office rent
+V1018,Granite Peak Security,Bill,GPS-29944,11/01/2025,11/18/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37722,11/01/2025,11/23/2025,"4,125.75",Insurance premium
+V1021,Ironclad Machine Parts,Bill,IMP34304,11/01/2025,11/21/2025,"3,548.66",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34317,11/01/2025,12/06/2025,"5,692.89",Machine parts
+V1013,Relecloud Software,Bill,RS-37679,11/01/2025,11/20/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34729,11/01/2025,11/17/2025,987.44,Telecom
+V1004,Tailspin Courier Services,Bill,TCS39914,11/01/2025,11/29/2025,"1,478.15",Courier
+V1004,Tailspin Courier Services,Bill,TCS39999,11/01/2025,12/08/2025,618.70,Courier
+V1011,Coho Packaging Ltd,Bill,CP-47093,11/02/2025,12/07/2025,"2,487.00",Packaging
+V1017,Kingfisher Plumbing & Heating,Bill,K3768,11/02/2025,11/27/2025,"7,050.00",Plumbing repairs
+V1001,Northwind Traders Ltd,Bill,NW-25-1623,11/02/2025,11/21/2025,"2,497.64",Stock purchase
+V1010,Bluewater Freight Co,Bill,BWF/40543,11/03/2025,11/25/2025,"3,030.00",Freight
+V1006,Litware Office Products,Bill,LOP11234,11/03/2025,12/06/2025,166.97,Office supplies
+V1006,Litware Office Products,Bill,LOP11319,11/03/2025,12/07/2025,225.00,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1582,11/03/2025,11/29/2025,"5,695.22",Stock purchase
+V1022,Summit Staffing Partners,Bill,SSP-6036,11/03/2025,12/17/2025,"12,500.57",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS40028,11/03/2025,11/12/2025,"1,871.48",Courier
+V1023,Copperleaf Printing,Bill,CLP27880,11/04/2025,11/15/2025,"1,644.78",Print jobs
+V1016,Lucerne Publishing,Bill,LP5564,11/04/2025,11/13/2025,438.76,Printing
+V1010,Bluewater Freight Co,Bill,BWF/40545,11/05/2025,12/09/2025,"1,392.84",Freight
+V1011,Coho Packaging Ltd,Vendor Credit,CR-257,11/05/2025,,-354.90,Returned goods
+V1020,Evergreen Landscaping Co,Bill,EL-42577,11/05/2025,11/14/2025,850.00,Grounds
+V1021,Ironclad Machine Parts,Bill,IMP34419,11/05/2025,12/03/2025,"1,628.69",Machine parts
+V1006,Litware Office Products,Bill,LOP11290,11/05/2025,12/06/2025,450.00,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1620,11/05/2025,11/14/2025,315.31,Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS39974,11/05/2025,11/22/2025,"1,293.25",Courier
+V1025,VanArsdel Ltd,Bill,VA13575,11/05/2025,11/27/2025,"2,750.00",Components
+V1027,Consolidated Messenger,Bill,CM40850,11/06/2025,11/16/2025,400.01,Messenger
+V1023,Copperleaf Printing,Bill,CLP27851,11/07/2025,12/12/2025,494.02,Print jobs
+V1023,Copperleaf Printing,Bill,CLP27861,11/07/2025,12/22/2025,450.00,Print jobs
+V1021,Ironclad Machine Parts,Bill,IMP34410,11/07/2025,12/15/2025,"1,200.00",Machine parts
+V1021,Ironclad Machine Parts,Bill,,11/07/2025,12/18/2025,"1,200.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11148,11/07/2025,12/20/2025,312.00,Office supplies
+V1028,Margie's Travel,Bill,MT-29056,11/07/2025,12/15/2025,"5,016.00",Travel bookings
+V1004,Tailspin Courier Services,Bill,TCS40015,11/07/2025,11/21/2025,"1,043.24",Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42600,11/07/2025,11/21/2025,465.00,Weekly cleaning
+V1016,Lucerne Publishing,Bill,LP5577,11/08/2025,12/15/2025,928.98,Printing
+V1028,Margie's Travel,Bill,MT-29061,11/08/2025,12/04/2025,"4,087.00",Travel bookings
+V1010,Bluewater Freight Co,Bill,BWF/40525,11/09/2025,11/21/2025,"3,525.00",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47036,11/09/2025,12/15/2025,174.03,Packaging
+V1027,Consolidated Messenger,Bill,CM40981,11/09/2025,12/22/2025,465.05,Messenger
+V1003,Fabrikam Electrical Supply,Bill,44125,11/09/2025,12/02/2025,225.07,Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44132,11/09/2025,11/17/2025,559.48,Electrical parts
+V1004,Tailspin Courier Services,Bill,TCS40009,11/09/2025,11/19/2025,741.12,Courier
+V1024,Trey Research Labs,Bill,TRL-21643,11/09/2025,12/17/2025,561.73,Lab testing
+V1011,Coho Packaging Ltd,Bill,CP-47087,11/10/2025,12/21/2025,"2,545.18",Packaging
+V1028,Margie's Travel,Bill,MT-29063,11/10/2025,11/17/2025,"4,903.52",Travel bookings
+V1028,Margie's Travel,Bill,MT-29086,11/10/2025,12/21/2025,"3,914.01",Travel bookings
+V1023,Copperleaf Printing,Bill,CLP27873,11/12/2025,11/22/2025,"2,149.10",Print jobs
+V1028,Margie's Travel,Bill,MT-29103,11/12/2025,12/16/2025,"1,606.07",Travel bookings
+V1006,Litware Office Products,Bill,LOP11315,11/13/2025,12/19/2025,286.72,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1519,11/13/2025,12/06/2025,"6,341.97",Stock purchase
+V1025,VanArsdel Ltd,Bill,VA13534,11/13/2025,11/23/2025,"3,060.12",Components
+V1025,VanArsdel Ltd,Bill,VA13553,11/13/2025,11/24/2025,"3,750.00",Components
+V1027,Consolidated Messenger,Bill,CM40989,11/14/2025,12/21/2025,591.55,Messenger
+V1012,Fourth Coffee Supply,Bill,FC5397,11/14/2025,12/25/2025,298.00,Pantry
+V1022,Summit Staffing Partners,Bill,SSP-6031,11/14/2025,11/24/2025,"7,121.00",Temporary staff
+V1014,Wide World Importers,Bill,WWI0047025,11/14/2025,11/21/2025,"10,427.71",Imported goods
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42603,11/14/2025,11/28/2025,465.00,Weekly cleaning
+V1006,Litware Office Products,Bill,LOP11329,11/15/2025,12/08/2025,180.96,Office supplies
+V1024,Trey Research Labs,Bill,TRL-21663,11/15/2025,12/28/2025,"6,350.00",Lab testing
+V1027,Consolidated Messenger,Bill,CM40953,11/16/2025,12/09/2025,200.00,Messenger
+V1011,Coho Packaging Ltd,Bill,CP-47085,11/17/2025,12/07/2025,"2,276.73",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34363,11/17/2025,12/10/2025,"4,958.05",Machine parts
+V1006,Litware Office Products,Bill,LOP11228,11/17/2025,12/24/2025,440.57,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1508,11/17/2025,12/08/2025,"6,073.07",Stock purchase
+V1001,Northwind Traders Ltd,Bill,NW-25-1573,11/17/2025,12/28/2025,308.98,Stock purchase
+V1027,Consolidated Messenger,Bill,CM40893,11/18/2025,12/04/2025,535.00,Messenger
+V1017,Kingfisher Plumbing & Heating,Bill,K3782,11/18/2025,12/22/2025,"3,120.00",Plumbing repairs
+V1022,Summit Staffing Partners,Bill,SSP-5994,11/18/2025,11/26/2025,"10,293.80",Temporary staff
+V1025,VanArsdel Ltd,Bill,VA13551,11/18/2025,12/03/2025,"1,031.00",Components
+V1016,Lucerne Publishing,Bill,LP5581,11/19/2025,01/03/2026,"1,516.46",Printing
+V1025,VanArsdel Ltd,Bill,VA13577,11/19/2025,12/08/2025,"1,563.74",Components
+V1006,Litware Office Products,Bill,LOP11263,11/20/2025,12/14/2025,645.91,Office supplies
+V1004,Tailspin Courier Services,Vendor Credit,CR-763,11/20/2025,,-350.19,Returned goods
+V1027,Consolidated Messenger,Bill,CM40917,11/21/2025,12/19/2025,463.44,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045585,11/21/2025,12/20/2025,"2,676.91",Facilities maintenance
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42604,11/21/2025,12/05/2025,465.00,Weekly cleaning
+V1003,Fabrikam Electrical Supply,Bill,44150,11/22/2025,12/26/2025,"1,291.99",Electrical parts
+V1022,Summit Staffing Partners,Bill,SSP-6028,11/22/2025,12/27/2025,"2,578.00",Temporary staff
+V1025,VanArsdel Ltd,Bill,VA13542,11/22/2025,12/24/2025,"1,763.28",Components
+V1023,Copperleaf Printing,Bill,CLP27838,11/23/2025,01/05/2026,76.98,Print jobs
+V1017,Kingfisher Plumbing & Heating,Bill,K3792,11/23/2025,12/04/2025,"7,051.24",Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11287,11/23/2025,12/31/2025,214.00,Office supplies
+V1021,Ironclad Machine Parts,Bill,IMP34446,11/24/2025,12/20/2025,"1,597.80",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34340,11/25/2025,12/25/2025,717.15,Machine parts
+V1011,Coho Packaging Ltd,Bill,CP-47039,11/26/2025,12/25/2025,"1,000.00",Packaging
+V1011,Coho Packaging Ltd,Bill,CP-47039,11/26/2025,01/13/2026,"1,200.00",Packaging
+V1027,Consolidated Messenger,Bill,CM40873,11/26/2025,12/27/2025,625.80,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045586,11/26/2025,12/15/2025,"2,562.14",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045590,11/26/2025,12/11/2025,"1,150.00",Facilities maintenance
+V1017,Kingfisher Plumbing & Heating,Bill,K3739,11/26/2025,12/31/2025,"5,729.36",Plumbing repairs
+V1006,Litware Office Products,Bill,LOP11142,11/26/2025,01/10/2026,577.67,Office supplies
+V1006,Litware Office Products,Bill,LOP11222,11/26/2025,12/08/2025,920.20,Office supplies
+V1027,Consolidated Messenger,Bill,CM40903,11/27/2025,01/07/2026,243.98,Messenger
+V1023,Copperleaf Printing,Bill,CLP27858,11/27/2025,12/30/2025,"1,431.00",Print jobs
+V1012,Fourth Coffee Supply,Bill,FC5438,11/27/2025,12/17/2025,229.00,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34405,11/27/2025,12/08/2025,"7,424.51",Machine parts
+V1025,VanArsdel Ltd,Bill,VA13497,11/27/2025,12/04/2025,"3,801.73",Components
+V1002,Contoso Facilities Inc,Bill,INV-045525,11/28/2025,12/05/2025,912.00,Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045609,11/28/2025,12/26/2025,"1,800.00",Facilities maintenance
+V1021,Ironclad Machine Parts,Bill,IMP34438,11/28/2025,12/06/2025,"7,244.82",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34438,11/28/2025,12/25/2025,"7,244.82",Machine parts
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42606,11/28/2025,12/12/2025,465.00,Weekly cleaning
+V1011,Coho Packaging Ltd,Bill,CP-47016,11/29/2025,12/17/2025,"3,100.00",Packaging
+V1003,Fabrikam Electrical Supply,Bill,44049,11/29/2025,12/19/2025,"2,100.00",Electrical parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1495,11/29/2025,12/22/2025,"5,637.88",Stock purchase
+V1026,Wingtip Toys,Bill,WT-31226,11/29/2025,01/07/2026,"1,179.77",Promotional items
+V1010,Bluewater Freight Co,Bill,BWF/40459,11/30/2025,12/08/2025,"1,200.00",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40588,11/30/2025,12/23/2025,"1,897.97",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40607,11/30/2025,01/08/2026,"3,236.42",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045583,11/30/2025,01/06/2026,383.99,Facilities maintenance
+V1022,Summit Staffing Partners,Bill,SSP-6069,11/30/2025,12/15/2025,"14,861.42",Temporary staff
+V1026,Wingtip Toys,Bill,WT-31241,11/30/2025,12/17/2025,"1,532.84",Promotional items
+V1005,Adatum Cloud Hosting,Bill,ADH-11388,12/01/2025,12/23/2025,"2,489.00",Hosting subscription
+V1009,Alpine Ridge Property Holdings,Bill,AR-27140,12/01/2025,12/21/2025,"12,500.00",Office rent
+V1010,Bluewater Freight Co,Bill,BWF/40540,12/01/2025,01/12/2026,917.32,Freight
+V1023,Copperleaf Printing,Bill,CLP27857,12/01/2025,01/12/2026,"1,650.00",Print jobs
+V1018,Granite Peak Security,Bill,GPS-29946,12/01/2025,12/24/2025,"3,200.00",Security services
+V1015,Humongous Insurance,Bill,HI-37724,12/01/2025,12/14/2025,"4,125.75",Insurance premium
+V1001,Northwind Traders Ltd,Bill,NW-25-1505,12/01/2025,01/15/2026,"6,257.25",Stock purchase
+V1013,Relecloud Software,Bill,RS-37682,12/01/2025,12/19/2025,"1,890.00",Software licences
+V1019,Silverline Telecom,Bill,SLT34730,12/01/2025,12/12/2025,987.44,Telecom
+V1022,Summit Staffing Partners,Bill,SSP-5990,12/01/2025,12/08/2025,"13,035.99",Temporary staff
+V1022,Summit Staffing Partners,Bill,SSP-6072,12/01/2025,01/06/2026,"12,545.59",Temporary staff
+V1010,Bluewater Freight Co,Bill,BWF/40436,12/02/2025,01/12/2026,"2,934.92",Freight
+V1299,Tailspin Courier Service,Bill,TC-7128,12/02/2025,01/02/2026,79.56,Courier
+V1004,Tailspin Courier Services,Bill,TCS39906,12/02/2025,12/30/2025,79.56,Courier
+V1004,Tailspin Courier Services,Bill,TCS40077,12/02/2025,12/09/2025,121.00,Courier
+V1014,Wide World Importers,Bill,WWI0047063,12/02/2025,12/16/2025,"6,625.67",Imported goods
+V1006,Litware Office Products,Bill,LOP11165,12/03/2025,01/01/2026,836.68,Office supplies
+V1006,Litware Office Products,Bill,LOP11215,12/03/2025,12/21/2025,939.00,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-5987,12/03/2025,12/20/2025,"11,722.58",Temporary staff
+V1011,Coho Packaging Ltd,Bill,CP-47049,12/04/2025,12/29/2025,"3,023.29",Packaging
+V1002,Contoso Facilities Inc,Bill,INV-045539,12/04/2025,01/15/2026,"2,781.86",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045616,12/04/2025,12/31/2025,"2,778.95",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-O45616,12/04/2025,01/19/2026,"2,778.95",Facilities maintenance
+V1021,Ironclad Machine Parts,Bill,IMP34400,12/04/2025,12/11/2025,"5,436.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11261,12/04/2025,01/03/2026,580.22,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS40119,12/04/2025,12/23/2025,"1,024.27",Courier
+V1025,VanArsdel Ltd,Bill,VA13506,12/04/2025,01/05/2026,"1,550.00",Components
+V1010,Bluewater Freight Co,Bill,BWF/40546,12/05/2025,01/12/2026,"3,413.72",Freight
+V1003,Fabrikam Electrical Supply,Bill,44153,12/05/2025,01/03/2026,"2,148.59",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44214,12/05/2025,01/09/2026,950.00,Electrical parts
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42607,12/05/2025,12/19/2025,465.00,Weekly cleaning
+V1004,Tailspin Courier Services,Bill,TCS40100,12/06/2025,12/14/2025,927.57,Courier
+V1011,Coho Packaging Ltd,Bill,CP-47019,12/07/2025,12/28/2025,"4,418.00",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34307,12/07/2025,01/11/2026,"4,681.00",Machine parts
+V1028,Margie's Travel,Bill,MT-29060,12/07/2025,12/21/2025,"1,655.30",Travel bookings
+V1028,Margie's Travel,Bill,MT-29079,12/07/2025,01/04/2026,"5,534.76",Travel bookings
+V1010,Bluewater Freight Co,Bill,BWF/40502,12/08/2025,01/07/2026,"1,602.31",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47007,12/08/2025,01/20/2026,456.12,Packaging
+V1011,Coho Packaging Ltd,Bill,CP-47044,12/08/2025,12/18/2025,"2,916.03",Packaging
+V1010,Bluewater Freight Co,Bill,BWF/40472,12/09/2025,01/13/2026,"2,849.00",Freight
+V1002,Contoso Facilities Inc,Bill,INV-045606,12/09/2025,01/13/2026,"3,751.47",Facilities maintenance
+V1006,Litware Office Products,Bill,LOP11257,12/09/2025,01/13/2026,315.00,Office supplies
+V1004,Tailspin Courier Services,Bill,TCS39883,12/09/2025,01/22/2026,"1,553.00",Courier
+V1026,Wingtip Toys,Bill,WT-31243,12/09/2025,01/22/2026,"1,017.00",Promotional items
+V1027,Consolidated Messenger,Bill,CM40994,12/10/2025,01/23/2026,410.00,Messenger
+V1027,Consolidated Messenger,Bill,CM40994,12/10/2025,02/03/2026,410.00,Messenger
+V1021,Ironclad Machine Parts,Bill,IMP34319,12/10/2025,12/29/2025,"9,629.61",Machine parts
+V1021,Ironclad Machine Parts,Bill,IMP34354,12/10/2025,01/20/2026,"6,442.00",Machine parts
+V1006,Litware Office Products,Bill,LOP11316,12/10/2025,01/14/2026,508.24,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1501,12/10/2025,01/09/2026,"5,029.42",Stock purchase
+V1022,Summit Staffing Partners,Bill,SSP-6001,12/10/2025,12/21/2025,"8,650.00",Temporary staff
+V1024,Trey Research Labs,Bill,TRL-21632,12/10/2025,01/09/2026,"2,295.15",Lab testing
+V1020,Evergreen Landscaping Co,Bill,EL-42543,12/11/2025,12/22/2025,"2,329.10",Grounds
+V1021,Ironclad Machine Parts,Bill,IMP34326,12/11/2025,12/30/2025,"1,425.38",Machine parts
+V1004,Tailspin Courier Services,Bill,TCS39990,12/11/2025,01/16/2026,"1,011.98",Courier
+V1026,Wingtip Toys,Bill,WT-31205,12/11/2025,01/07/2026,"1,483.81",Promotional items
+V1004,Tailspin Courier Services,Bill,TCS40103,12/12/2025,01/20/2026,"1,119.29",Courier
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42609,12/12/2025,12/26/2025,465.00,Weekly cleaning
+V1010,Bluewater Freight Co,Bill,BWF/40454,12/13/2025,01/18/2026,"1,850.00",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47023,12/13/2025,01/07/2026,579.10,Packaging
+V1006,Litware Office Products,Bill,LOP11292,12/14/2025,01/22/2026,634.09,Office supplies
+V1028,Margie's Travel,Bill,MT-29052,12/14/2025,01/12/2026,"1,150.00",Travel bookings
+V1014,Wide World Importers,Bill,WWI0047054,12/14/2025,01/27/2026,"11,950.00",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40478,12/15/2025,12/30/2025,"1,470.35",Freight
+V1010,Bluewater Freight Co,Bill,BWF/40595,12/15/2025,01/20/2026,"2,728.21",Freight
+V1001,Northwind Traders Ltd,Bill,NW-25-1541,12/15/2025,01/10/2026,800.00,Stock purchase
+V1025,VanArsdel Ltd,Bill,VA13526,12/15/2025,01/19/2026,"4,090.55",Components
+V1003,Fabrikam Electrical Supply,Bill,44167,12/16/2025,12/30/2025,"1,739.07",Electrical parts
+V1003,Fabrikam Electrical Supply,Bill,44092,12/17/2025,01/02/2026,"1,822.00",Electrical parts
+V1010,Bluewater Freight Co,Bill,BWF/40462,12/18/2025,12/28/2025,900.00,Freight
+V1022,Summit Staffing Partners,Bill,SSP-6056,12/18/2025,01/23/2026,"4,378.86",Temporary staff
+V1010,Bluewater Freight Co,Bill,BWF/40611,12/19/2025,01/10/2026,"1,884.05",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47082,12/19/2025,01/06/2026,310.76,Packaging
+V1006,Litware Office Products,Bill,LOP11264,12/19/2025,01/04/2026,406.48,Office supplies
+V1006,Litware Office Products,Bill,LOP11321,12/19/2025,01/26/2026,315.42,Office supplies
+V1022,Summit Staffing Partners,Bill,SSP-6038,12/19/2025,01/19/2026,"5,290.00",Temporary staff
+V1026,Wingtip Toys,Bill,WT-31229,12/19/2025,01/26/2026,"1,726.23",Promotional items
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42611,12/19/2025,01/02/2026,465.00,Weekly cleaning
+V1027,Consolidated Messenger,Bill,CM40965,12/20/2025,12/28/2025,57.89,Messenger
+V1002,Contoso Facilities Inc,Bill,INV-045524,12/20/2025,01/31/2026,"1,754.59",Facilities maintenance
+V1002,Contoso Facilities Inc,Bill,INV-045562,12/20/2025,01/30/2026,750.00,Facilities maintenance
+V1003,Fabrikam Electrical Supply,Bill,44229,12/20/2025,01/03/2026,"2,413.15",Electrical parts
+V1012,Fourth Coffee Supply,Bill,FC5450,12/20/2025,02/03/2026,341.04,Pantry
+V1006,Litware Office Products,Bill,LOP11182,12/20/2025,01/07/2026,898.05,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1515,12/20/2025,02/03/2026,"5,264.94",Stock purchase
+V1014,Wide World Importers,Bill,WWI0047073,12/20/2025,01/13/2026,"7,815.00",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40642,12/21/2025,01/11/2026,900.00,Freight
+V1027,Consolidated Messenger,Bill,CM40960,12/21/2025,01/15/2026,180.20,Messenger
+V1006,Litware Office Products,Bill,LOP11121,12/21/2025,01/04/2026,318.00,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1526,12/21/2025,02/03/2026,"1,789.89",Stock purchase
+V1014,Wide World Importers,Bill,WWI0047015,12/21/2025,01/15/2026,"4,167.41",Imported goods
+V1010,Bluewater Freight Co,Bill,BWF/40548,12/22/2025,01/23/2026,"1,729.07",Freight
+V1011,Coho Packaging Ltd,Bill,CP-47108,12/22/2025,01/25/2026,"2,793.00",Packaging
+V1017,Kingfisher Plumbing & Heating,Bill,K3798,12/22/2025,01/23/2026,"5,509.32",Plumbing repairs
+V1003,Fabrikam Electrical Supply,Bill,44158,12/23/2025,01/10/2026,"2,260.13",Electrical parts
+V1022,Summit Staffing Partners,Bill,SSP-6041,12/23/2025,01/10/2026,"5,400.17",Temporary staff
+V1004,Tailspin Courier Services,Bill,TCS39908,12/23/2025,02/04/2026,"1,255.00",Courier
+V1004,Tailspin Courier Services,Bill,TCS40032,12/23/2025,01/29/2026,933.42,Courier
+V1010,Bluewater Freight Co,Bill,BWF/40429,12/24/2025,01/09/2026,924.66,Freight
+V1010,Bluewater Freight Co,Bill,BWF/40498,12/24/2025,01/16/2026,"2,792.00",Freight
+V1023,Copperleaf Printing,Bill,CLP27902,12/24/2025,12/31/2025,"1,873.77",Print jobs
+V1007,Proseware Consulting Group,Bill,PCG-2025-21153,12/24/2025,01/25/2026,"6,050.00",Consulting services
+V1004,Tailspin Courier Services,Bill,TCS39998,12/24/2025,01/21/2026,"1,620.73",Courier
+V1011,Coho Packaging Ltd,Bill,CP-47100,12/25/2025,02/03/2026,"3,803.09",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34425,12/25/2025,02/03/2026,"2,365.72",Machine parts
+V1006,Litware Office Products,Bill,LOP11185,12/25/2025,01/18/2026,447.94,Office supplies
+V1001,Northwind Traders Ltd,Bill,NW-25-1575,12/25/2025,01/25/2026,"1,460.00",Stock purchase
+V1011,Coho Packaging Ltd,Bill,CP-47013,12/26/2025,01/16/2026,"4,391.68",Packaging
+V1012,Fourth Coffee Supply,Bill,FC5467,12/26/2025,01/08/2026,288.76,Pantry
+V1008,Woodgrove Commercial Cleaning,Bill,WCC42613,12/26/2025,01/09/2026,465.00,Weekly cleaning
+V1001,Northwind Traders Ltd,Bill,NW-25-1566,12/27/2025,01/09/2026,"3,246.47",Stock purchase
+V1004,Tailspin Courier Services,Bill,TCS40072,12/27/2025,01/24/2026,666.44,Courier
+V1014,Wide World Importers,Bill,WWI0047023,12/27/2025,02/01/2026,"8,967.22",Imported goods
+V1027,Consolidated Messenger,Bill,CM40911,12/28/2025,02/08/2026,160.36,Messenger
+V1027,Consolidated Messenger,Bill,CM40935,12/28/2025,01/19/2026,217.40,Messenger
+V1023,Copperleaf Printing,Bill,CLP27885,12/28/2025,02/03/2026,600.16,Print jobs
+V1012,Fourth Coffee Supply,Bill,FC5400,12/28/2025,01/18/2026,154.56,Pantry
+V1021,Ironclad Machine Parts,Bill,IMP34386,12/28/2025,01/25/2026,"1,470.52",Machine parts
+V1017,Kingfisher Plumbing & Heating,Bill,K3774,12/28/2025,01/16/2026,"3,890.28",Plumbing repairs
+V1016,Lucerne Publishing,Bill,LP5552,12/28/2025,01/11/2026,"1,100.00",Printing
+V1025,VanArsdel Ltd,Bill,VA13524,12/28/2025,02/05/2026,"3,525.21",Components
+V1011,Coho Packaging Ltd,Bill,CP-47057,12/29/2025,02/09/2026,"3,706.18",Packaging
+V1020,Evergreen Landscaping Co,Bill,EL-42532,12/29/2025,02/11/2026,759.86,Grounds
+V1001,Northwind Traders Ltd,Bill,NW-25-1571,12/29/2025,02/06/2026,"4,800.00",Stock purchase
+V1014,Wide World Importers,Bill,WWI0047033,12/29/2025,01/20/2026,"5,715.00",Imported goods
+V1021,Ironclad Machine Parts,Bill,IMP34364,12/30/2025,02/04/2026,"8,286.59",Machine parts
+V1001,Northwind Traders Ltd,Bill,NW-25-1601,12/30/2025,02/05/2026,"2,606.00",Stock purchase
+V1026,Wingtip Toys,Bill,WT-31238,12/30/2025,01/31/2026,"1,884.00",Promotional items
+V1011,Coho Packaging Ltd,Bill,CP-47028,12/31/2025,01/08/2026,"1,800.00",Packaging
+V1021,Ironclad Machine Parts,Bill,IMP34358,12/31/2025,01/09/2026,"4,523.14",Machine parts
+V1016,Lucerne Publishing,Bill,LP5584,12/31/2025,02/03/2026,"1,028.49",Printing
+V1001,Northwind Traders Ltd,Bill,NW-25-1517,12/31/2025,01/31/2026,450.00,Stock purchase
+V1022,Summit Staffing Partners,Bill,SSP-6068,12/31/2025,02/04/2026,"5,847.31",Temporary staff
+V1025,VanArsdel Ltd,Bill,VA13516,12/31/2025,01/13/2026,659.87,Components
+V1026,Wingtip Toys,Bill,WT-31217,12/31/2025,02/07/2026,77.53,Promotional items

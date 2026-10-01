@@ -1,0 +1,527 @@
+@import "tailwindcss";
+
+/*
+  PaidTwice visual system: an accounts-payable ledger on ruled paper, written in ink,
+  checked by an auditor's red pencil. Red only ever means "possibly paid twice".
+*/
+@theme {
+  --color-paper: #fbfcf9;
+  --color-sheet: #ffffff;
+  --color-ledger: #eef5ea;
+  --color-ledger-2: #e2eedc;
+  --color-rule: #c9dcc2;
+  --color-rule-strong: #8fae88;
+  --color-green-ink: #2f5f35;
+  --color-ink: #14213d;
+  --color-ink-2: #46536e;
+  --color-ink-3: #6b7790;
+  --color-pencil: #c2362b;
+  --color-pencil-dark: #9b2a21;
+  --color-pencil-wash: #fbe7e3;
+  --color-ochre: #8a5a00;
+  --color-ochre-wash: #fbf0d9;
+  --color-focus: #2f63e0;
+
+  --font-sans: "Atkinson Hyperlegible Next Variable", "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Atkinson Hyperlegible Mono Variable", "Atkinson Hyperlegible Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.4;
+  --text-sm: 0.9375rem;
+  --text-sm--line-height: 1.5;
+  --text-base: 1.0625rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.25rem;
+  --text-lg--line-height: 1.5;
+  --text-xl: 1.5rem;
+  --text-xl--line-height: 1.3;
+  --text-2xl: 1.875rem;
+  --text-2xl--line-height: 1.2;
+  --text-3xl: 2.5rem;
+  --text-3xl--line-height: 1.1;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: 1.6;
+    font-feature-settings: "kern";
+  }
+  ::selection {
+    background: #d7e6ff;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a {
+    color: inherit;
+  }
+}
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 640px) {
+    .wrap {
+      padding-inline: 28px;
+    }
+  }
+
+  .display {
+    font-weight: 780;
+    letter-spacing: -0.028em;
+    line-height: 1.02;
+    font-size: clamp(2.6rem, 6.2vw, 4.75rem);
+  }
+  .h2 {
+    font-weight: 740;
+    letter-spacing: -0.018em;
+    line-height: 1.1;
+    font-size: clamp(1.85rem, 3.4vw, 2.6rem);
+  }
+  .h3 {
+    font-weight: 720;
+    letter-spacing: -0.008em;
+    line-height: 1.25;
+    font-size: 1.25rem;
+  }
+  .lede {
+    font-size: 1.1875rem;
+    line-height: 1.55;
+    color: var(--color-ink-2);
+    max-width: 38em;
+  }
+  .num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+  .total {
+    border-bottom: 3px double currentColor;
+    padding-bottom: 1px;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0.55rem 1.1rem;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    white-space: nowrap;
+  }
+  .btn:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: #22325a;
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--color-ink);
+    border-color: var(--color-ink);
+  }
+  .btn-secondary:hover:not(:disabled) {
+    background: var(--color-ledger);
+  }
+  .btn-quiet {
+    background: transparent;
+    color: var(--color-ink);
+    border-color: var(--color-rule);
+  }
+  .btn-quiet:hover:not(:disabled) {
+    border-color: var(--color-rule-strong);
+    background: var(--color-sheet);
+  }
+  .btn-sm {
+    min-height: 36px;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.9375rem;
+  }
+  .link {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-decoration-color: var(--color-rule-strong);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+  }
+  .link:hover {
+    text-decoration-color: var(--color-ink);
+  }
+
+  /* Form controls */
+  .field {
+    display: grid;
+    gap: 0.35rem;
+  }
+  .label {
+    font-weight: 700;
+    font-size: 0.9375rem;
+  }
+  .hint {
+    font-size: 0.875rem;
+    color: var(--color-ink-3);
+  }
+  .input,
+  .select,
+  .textarea {
+    width: 100%;
+    min-height: 44px;
+    border: 1.5px solid var(--color-rule-strong);
+    border-radius: 6px;
+    background: var(--color-sheet);
+    padding: 0.5rem 0.75rem;
+    font: inherit;
+    font-size: 1rem;
+    color: var(--color-ink);
+  }
+  .textarea {
+    min-height: 110px;
+    resize: vertical;
+  }
+  .select {
+    appearance: none;
+    padding-right: 2.25rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%2314213d' stroke-width='1.8'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.8rem center;
+  }
+  .input:hover,
+  .select:hover,
+  .textarea:hover {
+    border-color: var(--color-green-ink);
+  }
+  .error-text {
+    color: var(--color-pencil-dark);
+    font-weight: 600;
+  }
+
+  /* A sheet of paper: used sparingly for the ledger and app panels. */
+  .sheet {
+    background: var(--color-sheet);
+    border: 1px solid var(--color-rule);
+    border-radius: 3px;
+    box-shadow: 0 1px 0 var(--color-rule), 0 18px 40px -28px rgba(20, 33, 61, 0.35);
+  }
+
+  /* Ledger tables */
+  .ledger {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+  }
+  .ledger th {
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    color: var(--color-green-ink);
+    padding: 0.55rem 0.75rem;
+    border-bottom: 2px solid var(--color-rule-strong);
+    white-space: nowrap;
+    background: var(--color-ledger);
+  }
+  .ledger td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--color-rule);
+    vertical-align: top;
+  }
+  .ledger td + td,
+  .ledger th + th {
+    border-left: 1px solid var(--color-rule);
+  }
+  .ledger .r {
+    text-align: right;
+  }
+  .ledger td.num,
+  .ledger td .num {
+    white-space: nowrap;
+  }
+  .ledger tr.flag td {
+    background: var(--color-pencil-wash);
+  }
+  .ledger tr.credit td {
+    background: var(--color-ledger);
+    color: var(--color-green-ink);
+  }
+
+  /* The red pencil: marks the characters that make two lines look different. */
+  .pencil {
+    color: var(--color-pencil-dark);
+    text-decoration: underline;
+    text-decoration-color: var(--color-pencil);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  .faint {
+    color: var(--color-ink-3);
+  }
+
+  /* Confidence tags */
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    border: 1.5px solid currentColor;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+  .tag-high {
+    color: var(--color-pencil-dark);
+    background: var(--color-pencil-wash);
+  }
+  .tag-medium {
+    color: var(--color-ochre);
+    background: var(--color-ochre-wash);
+  }
+  .tag-low {
+    color: var(--color-ink-2);
+    background: #eef0f4;
+  }
+  .tag-ok {
+    color: var(--color-green-ink);
+    background: var(--color-ledger);
+  }
+
+  /* Long-form text: guides and legal pages */
+  .prose {
+    max-width: 68ch;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+  .prose > * + * {
+    margin-top: 1.05em;
+  }
+  .prose h2 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-weight: 740;
+    letter-spacing: -0.012em;
+    margin-top: 2.1em;
+  }
+  .prose h3 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    font-weight: 720;
+    margin-top: 1.7em;
+  }
+  .prose h2 + *,
+  .prose h3 + * {
+    margin-top: 0.6em;
+  }
+  .prose ul,
+  .prose ol {
+    padding-left: 1.4em;
+  }
+  .prose ul {
+    list-style: disc;
+  }
+  .prose ol {
+    list-style: decimal;
+  }
+  .prose li + li {
+    margin-top: 0.4em;
+  }
+  .prose li::marker {
+    color: var(--color-green-ink);
+  }
+  .prose a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-rule-strong);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+    overflow-wrap: anywhere;
+  }
+  .prose a:hover {
+    text-decoration-color: var(--color-ink);
+  }
+  .prose code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: var(--color-ledger);
+    border: 1px solid var(--color-rule);
+    border-radius: 3px;
+    padding: 0.05em 0.35em;
+    overflow-wrap: anywhere;
+  }
+  .prose blockquote {
+    background: var(--color-sheet);
+    border: 1px solid var(--color-rule);
+    border-left: 4px solid var(--color-rule-strong);
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+  }
+  .prose blockquote > * + * {
+    margin-top: 0.75em;
+  }
+  .prose strong {
+    font-weight: 720;
+  }
+
+  /* Hero ledger and its single orchestrated moment */
+  .hero-ledger td,
+  .hero-ledger th {
+    height: 43px;
+    padding-block: 0;
+    vertical-align: middle;
+  }
+  .hero-ledger th {
+    height: 42px;
+  }
+  .hero-mark {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-decoration-color: transparent;
+    animation: mark-in 0.4s ease-out 0.9s forwards;
+  }
+  @keyframes mark-in {
+    to {
+      color: var(--color-pencil-dark);
+      text-decoration-color: var(--color-pencil);
+    }
+  }
+  .hero-ledger tr.catch td {
+    animation: wash 0.5s ease-out 0.9s both;
+  }
+  .hero-bracket path {
+    stroke-dasharray: 340;
+    stroke-dashoffset: 340;
+    animation: draw 0.75s cubic-bezier(0.6, 0, 0.3, 1) 1.15s forwards;
+  }
+  .hero-note {
+    animation: note-in 0.45s ease-out 1.8s both;
+  }
+  @keyframes wash {
+    from {
+      background-color: transparent;
+    }
+    to {
+      background-color: var(--color-pencil-wash);
+    }
+  }
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes note-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-ledger tr.catch td,
+    .hero-bracket path,
+    .hero-note,
+    .hero-mark {
+      animation: none;
+    }
+    .hero-mark {
+      color: var(--color-pencil-dark);
+      text-decoration-color: var(--color-pencil);
+    }
+    .hero-ledger tr.catch td {
+      background-color: var(--color-pencil-wash);
+    }
+    .hero-bracket path {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  /* Drop zone */
+  .dropzone {
+    border: 2px dashed var(--color-rule-strong);
+    border-radius: 6px;
+    background: var(--color-sheet);
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
+  .dropzone[data-over="true"] {
+    border-color: var(--color-ink);
+    background: var(--color-ledger);
+  }
+
+  .skip-link {
+    position: absolute;
+    left: 12px;
+    top: -60px;
+    z-index: 50;
+    background: var(--color-ink);
+    color: var(--color-paper);
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+  }
+  .skip-link:focus {
+    top: 12px;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-110%);
+  }
+  100% {
+    transform: translateX(320%);
+  }
+}
