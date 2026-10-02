@@ -256,7 +256,7 @@ function Inner({ id }: { id: string }) {
         </div>
       </fieldset>
 
-      <div className="mt-6 grid gap-6">
+      <div className="mt-6 grid grid-cols-1 gap-6">
         {visible.map((f) => (
           <FindingCard key={f.dbId} f={f} index={findings.indexOf(f) + 1} actions={<CreditEmailButton f={f} />}>
             <FindingTracker f={f} onChange={(p) => patchFinding(f.dbId, p)} />

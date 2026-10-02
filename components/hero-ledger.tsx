@@ -32,10 +32,10 @@ export function HeroLedger() {
         <table className="ledger hero-ledger table-fixed text-[0.875rem] sm:text-[0.9375rem]">
           <caption className="sr-only">Seven paid bills. Two of them are the same Contoso Facilities invoice, paid on 4 and 11 March.</caption>
           <colgroup>
-            <col className="w-[38%]" />
-            <col className="w-[27%]" />
-            <col className="w-[15%]" />
-            <col className="w-[20%]" />
+            <col className="w-[35%]" />
+            <col className="w-[26%]" />
+            <col className="w-[17%]" />
+            <col className="w-[22%]" />
           </colgroup>
           <thead>
             <tr>

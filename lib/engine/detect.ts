@@ -648,7 +648,13 @@ export function detect(norm: NormalizeOutput, settings: ScanSettings, mapping: C
   const n = docs.length;
   const dateOf = (r: NormalizedRow) => r.invoiceDate ?? r.paymentDate;
   const money = (r: NormalizedRow) => formatMoney(r.amountCents, r.currency);
-  const day = (d: number | null) => daysToIso(d) ?? "an unknown date";
+  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  /** "6 Dec 2025": unambiguous for US and UK readers alike. */
+  const day = (d: number | null) => {
+    const iso = daysToIso(d);
+    if (!iso) return "an unknown date";
+    return `${Number(iso.slice(8, 10))} ${MON[Number(iso.slice(5, 7)) - 1]} ${iso.slice(0, 4)}`;
+  };
   const invLabel = (r: NormalizedRow) => (r.invoiceNumber ? `"${r.invoiceNumber}"` : "(blank)");
 
   const hasInvoices = mapping.invoiceNumber !== undefined && docs.some((r) => r.invLoose);
@@ -720,11 +726,16 @@ export function detect(norm: NormalizeOutput, settings: ScanSettings, mapping: C
   const kindsNote = (A: NormalizedRow, B: NormalizedRow) =>
     A.docType && B.docType && A.docType.toLowerCase() !== B.docType.toLowerCase() ? ` (once as a ${A.docType}, once as a ${B.docType})` : "";
   const gapText = (A: NormalizedRow, B: NormalizedRow) => {
+    // Two different payment dates are the clearest evidence: say so.
+    if (A.paymentDate !== null && B.paymentDate !== null && A.paymentDate !== B.paymentDate) {
+      const [p1, p2] = [A.paymentDate, B.paymentDate].sort((x, y) => x - y);
+      return `, and was paid on ${day(p1)} and again on ${day(p2)}`;
+    }
     const da = dateOf(A);
     const db = dateOf(B);
     if (da === null || db === null) return "";
     const g = Math.abs(da - db);
-    return g === 0 ? ", on the same date" : `, ${plural(g, "day")} apart`;
+    return g === 0 ? ", with the same date" : `, dated ${plural(g, "day")} apart`;
   };
 
   /** Two documents that share an invoice number (exactly or once normalised). */
@@ -891,7 +902,10 @@ export function detect(norm: NormalizeOutput, settings: ScanSettings, mapping: C
                 reps[y],
                 "INV_FORMAT",
                 0.88,
-                () => `Invoice numbers ${invLabel(A)} and ${invLabel(B)} carry the same number (${A.invDigits}), one with a prefix the other lacks, with the same amount (${money(A)}).`,
+                () =>
+                  A.invPrefix === B.invPrefix
+                    ? `Invoice numbers ${invLabel(A)} and ${invLabel(B)} are the same number (${A.invDigits}) once separators and leading zeros are ignored, with the same amount (${money(A)}).`
+                    : `Invoice numbers ${invLabel(A)} and ${invLabel(B)} are the same number (${A.invDigits}) once the prefix "${A.invPrefix || B.invPrefix}" is ignored, with the same amount (${money(A)}).`,
               );
             }
           }

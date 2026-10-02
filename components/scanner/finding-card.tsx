@@ -46,7 +46,7 @@ export function FindingCard({
   const mark = (on: boolean) => (on ? "pencil" : "");
 
   return (
-    <article className="sheet" aria-labelledby={`finding-${f.id}`}>
+    <article className="sheet min-w-0" aria-labelledby={`finding-${f.id}`}>
       <div className="flex flex-wrap items-start justify-between gap-x-6 gap-y-3 p-5">
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2">

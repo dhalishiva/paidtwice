@@ -322,7 +322,7 @@ export function Results() {
             </div>
           )}
 
-          <div className="mt-6 grid gap-6">
+          <div className="mt-6 grid grid-cols-1 gap-6">
             {visible.map((f, i) => (
               <FindingCard key={f.id} f={f} index={unlocked ? filtered.indexOf(f) + 1 : i + 1} actions={unlocked && !f.reversed ? <CreditEmailButton f={f} /> : undefined} />
             ))}

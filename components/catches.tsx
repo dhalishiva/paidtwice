@@ -98,9 +98,9 @@ function renderCell(c: Cell) {
 
 export function Catches() {
   return (
-    <div className="grid gap-x-14 gap-y-12 md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-x-14 gap-y-12 md:grid-cols-2">
       {EXAMPLES.map((ex) => (
-        <article key={ex.title}>
+        <article key={ex.title} className="min-w-0">
           <h3 className="h3">{ex.title}</h3>
           <p className="mt-2 max-w-[34em] text-ink-2">{ex.text}</p>
           <div className="sheet mt-4 overflow-x-auto">
