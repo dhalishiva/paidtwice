@@ -11,7 +11,7 @@ Last updated: {{UPDATED}}
 
 ## Who is the controller
 
-{{COMPANY}} ("we", "us"), of {{ADDRESS}}, is the controller of the personal data described here, which we collect when you use PaidTwice ({{SITE}}) or contact us. For privacy questions, email {{EMAIL}}.
+{{COMPANY}} ("we", "us"), of {{ADDRESS}}, is the controller of the personal data described here, which we collect when you use PaidTwice ({{SITE}}) or contact us. For privacy questions, contact us via {{CONTACT}}.
 
 Saved audits are different. Your organisation decides what to save, so it is the controller of any personal data in them (such as a sole-trader vendor's name), and we are its processor. If your details appear in a customer's audit, please contact that customer.
 
@@ -85,13 +85,13 @@ No system is perfectly secure. If a breach affects your personal data, we will t
 
 Depending on where you live, you may have the right to access, correct or delete your personal data, to receive a portable copy, to restrict or object to how we use it (including where we rely on legitimate interests), and to complain to a data protection authority.
 
-**UK, EU and EEA.** You can complain to us at {{EMAIL}}. We will acknowledge your complaint within 30 days and tell you the outcome without undue delay. You can also complain to the UK Information Commission (formerly the Information Commissioner's Office) or to your local data protection authority.
+**UK, EU and EEA.** You can complain to us via {{CONTACT}}. We will acknowledge your complaint within 30 days and tell you the outcome without undue delay. You can also complain to the UK Information Commission (formerly the Information Commissioner's Office) or to your local data protection authority.
 
 **Australia.** You can ask to access or correct your information. If we do not resolve a privacy complaint to your satisfaction, you can contact the Office of the Australian Information Commissioner (OAIC).
 
 **California and other US states.** You may have the right to know, access, correct and delete your personal information, including through an authorised agent, and we will not discriminate against you for doing so. In the past 12 months we collected identifiers (such as name, email address and IP address), commercial information (plans, purchases and limited card details), internet activity (technical data), professional information (company name) and account login details, which are sensitive personal information that we use only to run your account. We collect them from you, from Paddle and from your device, and disclose them only to the service providers above, for the purposes above. We do not sell or share personal information, including that of anyone under 16.
 
-**How to make a request.** Email {{EMAIL}} from your account's email address, or delete your account yourself from the account page. We may need to verify your identity. We will reply within the legal time limit (usually one month, or 45 days in California), free of charge unless the law allows a fee. Requests about a customer's saved audit go to that customer, and we will help them respond.
+**How to make a request.** Contact us via {{CONTACT}} using your account's email address, or delete your account yourself from the account page. We may need to verify your identity. We will reply within the legal time limit (usually one month, or 45 days in California), free of charge unless the law allows a fee. Requests about a customer's saved audit go to that customer, and we will help them respond.
 
 ## Cookies and local storage
 
@@ -111,4 +111,4 @@ We will post any changes here with a new date. If a change is significant, we wi
 
 ## Contact
 
-For privacy questions or requests, email {{EMAIL}} or write to {{COMPANY}}, {{ADDRESS}}.
+For privacy questions or requests, contact us via {{CONTACT}} or write to {{COMPANY}}, {{ADDRESS}}.

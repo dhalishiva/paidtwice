@@ -20,7 +20,7 @@ On a paid plan, you can choose to save an audit. We then store only the findings
 
 An account needs your email address and a password. Your name and company are optional. Passwords are managed by our authentication provider and never stored in readable form.
 
-Keep your login details secure. You are responsible for activity under your account, so tell us at {{EMAIL}} straight away if you suspect misuse.
+Keep your login details secure. You are responsible for activity under your account, so tell us straight away via {{CONTACT}} if you suspect misuse.
 
 You can delete your account at any time from your account page. This removes your profile and saved audits. It does not cancel a subscription, so cancel first.
 
@@ -29,7 +29,7 @@ You can delete your account at any time from your account page. This removes you
 Use PaidTwice lawfully and only with data you are entitled to use. Do not:
 
 - access or try to access other people's accounts or data, or our systems, without permission;
-- probe or test our systems for vulnerabilities (please report security issues to {{EMAIL}});
+- probe or test our systems for vulnerabilities (please report security issues via {{CONTACT}});
 - disrupt or overload the service, or access it with bots or scripts;
 - resell, rent or sublicense PaidTwice, or share access beyond what your plan allows;
 - reverse engineer it, except where the law allows, or use it to build a competing product; or
@@ -46,7 +46,7 @@ Prices are shown in US dollars on our pricing page. At checkout, Paddle may show
 
 Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of Record for all our orders. Paddle provides all customer service inquiries and handles returns.
 
-Paddle's buyer terms, shown at checkout, also apply to your purchase. For help with PaidTwice itself, email {{EMAIL}}.
+Paddle's buyer terms, shown at checkout, also apply to your purchase. For help with PaidTwice itself, contact us via {{CONTACT}}.
 
 We may change prices, but not for a pass you have already bought. For Pro, we will email you at least 30 days before a new price applies at renewal, so you can cancel first.
 
@@ -54,7 +54,7 @@ We may change prices, but not for a pass you have already bought. For Pro, we wi
 
 Pro renews automatically at the end of each monthly or annual period, at the then-current price, until you cancel.
 
-You can cancel at any time from your account page, through the link in your Paddle receipt, at paddle.net, or by asking us at {{EMAIL}}. Your subscription then stays active until the end of the period you have paid for, and does not renew.
+You can cancel at any time from your account page, through the link in your Paddle receipt, at paddle.net, or by asking us via {{CONTACT}}. Your subscription then stays active until the end of the period you have paid for, and does not renew.
 
 You can get a full refund if you ask within 14 days of your first purchase of an Audit Pass or a Pro subscription. After 14 days, there are no partial refunds for unused time. See our refund policy.
 
@@ -138,4 +138,4 @@ We may update these terms and will post the new version on {{SITE}} with a new d
 
 ## Contact
 
-Questions about these terms? Email {{EMAIL}} or write to {{COMPANY}}, {{ADDRESS}}.
+Questions about these terms? Contact us via {{CONTACT}} or write to {{COMPANY}}, {{ADDRESS}}.

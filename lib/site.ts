@@ -10,8 +10,8 @@ export const SITE = {
   company: process.env.NEXT_PUBLIC_COMPANY_NAME ?? "Dhali Services",
   country: process.env.NEXT_PUBLIC_COMPANY_COUNTRY ?? "India",
   address: process.env.NEXT_PUBLIC_COMPANY_ADDRESS ?? "Noida, Uttar Pradesh, India",
-  email: process.env.NEXT_PUBLIC_SUPPORT_EMAIL ?? "support@paidtwice.app",
-  /** False until a real mailbox is configured; the contact form works either way. */
+  /** Empty until a real mailbox is configured; pages then point to the contact form instead. */
+  email: process.env.NEXT_PUBLIC_SUPPORT_EMAIL ?? "",
   emailConfigured: Boolean(process.env.NEXT_PUBLIC_SUPPORT_EMAIL),
   legalUpdated: "1 October 2026",
 };

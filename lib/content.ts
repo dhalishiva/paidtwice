@@ -84,7 +84,9 @@ export function getLegal(page: LegalPage): string {
     .replace(/\{\{COMPANY\}\}/g, SITE.company)
     .replace(/\{\{COUNTRY\}\}/g, SITE.country)
     .replace(/\{\{ADDRESS\}\}/g, SITE.address)
-    .replace(/\{\{EMAIL\}\}/g, `[${SITE.email}](mailto:${SITE.email})`)
+    // Until a real support mailbox is configured, point people to the contact form rather than
+    // to an address nobody reads.
+    .replace(/\{\{CONTACT\}\}/g, SITE.emailConfigured ? `[${SITE.email}](mailto:${SITE.email})` : "[our contact form](/contact)")
     .replace(/\{\{SITE\}\}/g, SITE.url.replace(/^https?:\/\//, ""))
     .replace(/\{\{UPDATED\}\}/g, SITE.legalUpdated);
   return render(filled);

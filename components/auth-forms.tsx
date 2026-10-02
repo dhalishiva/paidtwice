@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useState } from "react";
 import { callFunction, getSupabase } from "@/lib/supabase";
-import { SITE } from "@/lib/site";
 import { useAuth } from "./auth-provider";
 
 /** Only same-site relative paths are allowed as a post-login destination. */
@@ -320,11 +319,3 @@ export const SignUpForm = wrap(SignUpInner);
 export const SignInForm = wrap(SignInInner);
 export const ResetForm = wrap(ResetInner);
 export const UpdatePasswordForm = wrap(UpdatePasswordInner);
-
-export function SupportEmail() {
-  return (
-    <a className="link" href={`mailto:${SITE.email}`}>
-      {SITE.email}
-    </a>
-  );
-}

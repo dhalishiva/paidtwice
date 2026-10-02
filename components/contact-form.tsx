@@ -10,6 +10,7 @@ const TOPICS: Record<string, string> = {
   "pro-yearly": "Pro, paid yearly",
   firm: "Firm plan for several clients or entities",
   invoice: "Pay by invoice",
+  billing: "Billing or a payment problem",
   account: "Help with my account",
   security: "Security or data question",
   question: "Something else",
