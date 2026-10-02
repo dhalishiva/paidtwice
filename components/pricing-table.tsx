@@ -78,13 +78,16 @@ function Actions({ plan, buy, busy, loggedIn }: { plan: PlanKey; buy: (p: PaidPl
   );
 }
 
-function PricingInner({ returnTo }: { returnTo: string }) {
-  const { buy, state } = useCheckout(returnTo);
-  const { user, ready, plan } = useAuth();
+/**
+ * Coming back from sign-up with ?buy=<plan>: continue straight to checkout. Kept in its own
+ * Suspense boundary so reading the query string does not stop the table itself from being
+ * prerendered (prices must be in the static HTML for search engines and payment reviewers).
+ */
+function ResumePurchase({ buy }: { buy: (p: PaidPlan) => Promise<unknown> }) {
+  const { user, ready } = useAuth();
   const params = useSearchParams();
   const started = useRef(false);
 
-  // Coming back from sign-up with ?buy=<plan>: continue straight to checkout.
   useEffect(() => {
     const want = params.get("buy") as PaidPlan | null;
     if (!want || started.current || !ready || !user) return;
@@ -93,10 +96,20 @@ function PricingInner({ returnTo }: { returnTo: string }) {
     void buy(want);
   }, [params, ready, user, buy]);
 
+  return null;
+}
+
+function PricingInner({ returnTo }: { returnTo: string }) {
+  const { buy, state } = useCheckout(returnTo);
+  const { user, plan } = useAuth();
+
   const onBuy = (p: PaidPlan) => void buy(p);
 
   return (
     <div>
+      <Suspense fallback={null}>
+        <ResumePurchase buy={buy} />
+      </Suspense>
       {(state.message || state.error) && (
         <p role="status" className={`mb-6 rounded border px-4 py-3 ${state.error ? "border-pencil text-pencil-dark" : "border-rule-strong bg-ledger text-green-ink"}`}>
           {state.error ?? state.message}
@@ -208,9 +221,5 @@ function PricingInner({ returnTo }: { returnTo: string }) {
 }
 
 export function PricingTable({ returnTo = "/pricing" }: { returnTo?: string }) {
-  return (
-    <Suspense fallback={null}>
-      <PricingInner returnTo={returnTo} />
-    </Suspense>
-  );
+  return <PricingInner returnTo={returnTo} />;
 }

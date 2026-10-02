@@ -1,7 +1,6 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
-import { Suspense, useState } from "react";
+import { useEffect, useState } from "react";
 import { callFunction } from "@/lib/supabase";
 import { useAuth } from "./auth-provider";
 
@@ -18,22 +17,36 @@ const TOPICS: Record<string, string> = {
 
 const PAID_TOPICS = new Set(["audit-pass", "pro", "pro-yearly"]);
 
-function Inner() {
-  const params = useSearchParams();
+export function ContactForm() {
   const { user, session } = useAuth();
-  const initialTopic = params.get("topic") ?? "question";
+  const [initialTopic, setInitialTopic] = useState("question");
   const [form, setForm] = useState({
     name: "",
-    email: user?.email ?? "",
+    email: "",
     company: "",
     country: "",
-    topic: TOPICS[initialTopic] ? initialTopic : "question",
+    topic: "question",
     message: "",
     website: "",
   });
   const [busy, setBusy] = useState(false);
   const [done, setDone] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // The topic comes from ?topic=. It is read after hydration rather than with useSearchParams
+  // so the form is part of the prerendered page.
+  useEffect(() => {
+    const t = new URLSearchParams(window.location.search).get("topic");
+    if (t && TOPICS[t]) {
+      setInitialTopic(t);
+      setForm((f) => ({ ...f, topic: t }));
+    }
+  }, []);
+
+  useEffect(() => {
+    const email = user?.email;
+    if (email) setForm((f) => (f.email ? f : { ...f, email }));
+  }, [user]);
 
   const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) =>
     setForm((f) => ({ ...f, [k]: e.target.value }));
@@ -121,13 +134,5 @@ function Inner() {
         </button>
       </div>
     </form>
-  );
-}
-
-export function ContactForm() {
-  return (
-    <Suspense fallback={null}>
-      <Inner />
-    </Suspense>
   );
 }
