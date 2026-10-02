@@ -13,7 +13,9 @@ export const SITE = {
   /** Empty until a real mailbox is configured; pages then point to the contact form instead. */
   email: process.env.NEXT_PUBLIC_SUPPORT_EMAIL ?? "",
   emailConfigured: Boolean(process.env.NEXT_PUBLIC_SUPPORT_EMAIL),
-  legalUpdated: "1 October 2026",
+  /** Google Search Console HTML-tag token: the content="..." value Search Console shows. */
+  googleSiteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? "P__kolDmN0JhIfS3cQqhRss2HkiUtna5By0s44Dxiio",
+  legalUpdated: "2 October 2026",
 };
 
 export const PRICES = {

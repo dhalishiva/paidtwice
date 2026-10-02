@@ -125,9 +125,15 @@ export function prewarmScanner() {
 
 const MAX_BYTES = 80 * 1024 * 1024;
 
+/** Why a file cannot be scanned before reading it, or null. */
+export function fileSizeProblem(file: File): string | null {
+  return file.size > MAX_BYTES ? "That file is over 80 MB. Split it by year or entity and scan each part." : null;
+}
+
 export async function loadFile(file: File): Promise<void> {
-  if (file.size > MAX_BYTES) {
-    set({ phase: "idle", error: "That file is over 80 MB. Split it by year or entity and scan each part." });
+  const problem = fileSizeProblem(file);
+  if (problem) {
+    set({ phase: "idle", error: problem });
     return;
   }
   set({ ...initial(), phase: "reading", stage: "Reading file" });
@@ -186,4 +192,9 @@ export function markSaved(id: string) {
 
 export function clearError() {
   set({ error: null });
+}
+
+/** Shows a message on the empty scan page (e.g. when a file could not be brought over from another page). */
+export function showIdleError(message: string) {
+  set({ ...initial(), error: message });
 }

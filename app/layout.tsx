@@ -3,6 +3,7 @@ import "@fontsource-variable/atkinson-hyperlegible-next";
 import "@fontsource-variable/atkinson-hyperlegible-mono";
 import "./globals.css";
 import { AuthProvider } from "@/components/auth-provider";
+import { GoogleAnalytics, VercelInsights } from "@/components/analytics";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { SITE } from "@/lib/site";
@@ -24,6 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image", title: "PaidTwice: find the invoices you paid twice", description: SITE.description },
   formatDetection: { telephone: false },
+  // Google Search Console ownership check (HTML tag method).
+  verification: SITE.googleSiteVerification ? { google: SITE.googleSiteVerification } : undefined,
 };
 
 export const viewport: Viewport = {
@@ -44,6 +47,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <main id="main">{children}</main>
           <SiteFooter />
         </AuthProvider>
+        <GoogleAnalytics />
+        {/* Vercel serves its analytics scripts only on its own production deployments. */}
+        {process.env.VERCEL_ENV === "production" && <VercelInsights />}
       </body>
     </html>
   );

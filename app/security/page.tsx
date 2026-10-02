@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { GA_ID } from "@/lib/analytics";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -16,6 +17,13 @@ const STORED: [string, string, string][] = [
   ["Your account", "Stored", "Email address, a hashed password and any name, company and country you add."],
   ["Payments", "Paddle", "Paddle, our reseller, takes the payment. We receive its order and subscription references, never a full card number."],
   ["Enquiries", "Stored", "What you send through the contact form, so we can reply."],
+  [
+    "Visit statistics",
+    GA_ID ? "Vercel; Google if you allow" : "Vercel",
+    GA_ID
+      ? "Vercel's cookieless statistics record the page address (with record IDs and any query details other than campaign tags removed), browser, device and country. Google Analytics runs only on public pages, and only if you allow analytics cookies."
+      : "Vercel's cookieless statistics record the page address (with record IDs and any query details other than campaign tags removed), browser, device and country.",
+  ],
 ];
 
 const MEASURES: { title: string; text: React.ReactNode }[] = [
@@ -25,7 +33,9 @@ const MEASURES: { title: string; text: React.ReactNode }[] = [
   },
   {
     title: "Your browser enforces it",
-    text: "Every page carries a Content Security Policy that only lets the browser connect to this site, our Supabase backend and Paddle's checkout. Any other destination is blocked by the browser itself.",
+    text: GA_ID
+      ? "The scan page and your saved audits carry a Content Security Policy that only lets the browser connect to this site, our Supabase backend and Paddle's checkout. Any other destination is blocked by the browser itself, and no third-party analytics code ever runs on these pages."
+      : "Every page carries a Content Security Policy that only lets the browser connect to this site, our Supabase backend and Paddle's checkout. Any other destination is blocked by the browser itself.",
   },
   {
     title: "Saved audits are private to your account",
@@ -141,9 +151,10 @@ export default function SecurityPage() {
         <dl className="divide-y divide-rule border-y border-rule">
           {[
             ["Supabase", "Database, sign-in and server functions. Data stored in the London (UK) region."],
-            ["Vercel", "Hosting for the website and its content delivery network."],
+            ["Vercel", "Hosting for the website, its content delivery network, and cookieless visit and speed statistics."],
             ["Paddle", "Checkout, invoicing and tax, as our reseller and Merchant of Record."],
             ["Resend", "Transactional email, where we use it."],
+            ...(GA_ID ? [["Google", "Google Analytics on our public pages, only if you allow analytics cookies. Never on the scan page or your audits."]] : []),
           ].map(([name, what]) => (
             <div key={name} className="grid gap-1 py-4 sm:grid-cols-[9rem_1fr]">
               <dt className="font-bold">{name}</dt>

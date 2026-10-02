@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getGuides } from "@/lib/content";
 import { SITE } from "@/lib/site";
+import { CookieSettingsLink } from "./analytics";
 import { Wordmark } from "./logo";
 
 export function SiteFooter() {
@@ -31,6 +32,7 @@ export function SiteFooter() {
             { href: "/privacy", label: "Privacy policy" },
             { href: "/refunds", label: "Refund policy" },
           ]}
+          extra={<CookieSettingsLink className="cursor-pointer text-ink-2 hover:text-ink hover:underline" />}
         />
       </div>
       <div className="border-t border-rule">
@@ -43,7 +45,7 @@ export function SiteFooter() {
   );
 }
 
-function FooterList({ title, links }: { title: string; links: { href: string; label: string }[] }) {
+function FooterList({ title, links, extra }: { title: string; links: { href: string; label: string }[]; extra?: React.ReactNode }) {
   return (
     <div>
       <h2 className="text-sm font-bold text-green-ink">{title}</h2>
@@ -55,6 +57,7 @@ function FooterList({ title, links }: { title: string; links: { href: string; la
             </Link>
           </li>
         ))}
+        {extra && <li className="empty:hidden">{extra}</li>}
       </ul>
     </div>
   );

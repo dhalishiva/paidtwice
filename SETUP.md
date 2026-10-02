@@ -130,8 +130,52 @@ Set it up in the sandbox first (sandbox-vendors.paddle.com), test, then repeat w
 
 - **Vercel Pro** ($20 a month): the Hobby plan is for non-commercial use only.
 - **Supabase Pro** ($25 a month): free projects are paused after a week with no activity, which would
-  stop sign-ins and payment webhooks. Then turn on leaked-password protection
-  (https://supabase.com/docs/guides/auth/password-security).
+  stop sign-ins and payment webhooks. Then turn on leaked-password protection (Authentication →
+  Sign In / Providers → Email → "Prevent use of leaked passwords"; Pro plan and above).
+
+### 7. Search and analytics
+
+**Google Search Console.** The verification tag is already on every page.
+
+1. Go to search.google.com/search-console → Add property → choose **URL prefix** (not Domain) and
+   enter `https://paidtwice.vercel.app/`.
+2. Choose the **HTML tag** method and click Verify. If Search Console shows a different token from
+   the one in `lib/site.ts`, put the new one in the Vercel variable
+   `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` and redeploy, then verify again.
+3. Sitemaps → enter `sitemap.xml` → Submit. Optionally use URL inspection → Request indexing for the
+   home page and the four guides.
+4. When you move to your own domain, add a **Domain** property for it as well. Its TXT record goes in
+   your domain's DNS (Vercel → Domains → your domain → DNS records → TXT, name `@`).
+
+**Vercel Web Analytics and Speed Insights.** The code is in place; each needs one click.
+
+1. Vercel → project `paidtwice` → Analytics → Enable.
+2. Vercel → project `paidtwice` → Speed Insights → Enable.
+3. Deployments → ⋯ on the latest production deployment → Redeploy. Data appears within minutes of
+   the first visits.
+
+**Google Analytics 4.** The code is in place and switches on when the measurement ID is set.
+
+1. Go to analytics.google.com → Admin → Create → Account. Name it (for example "Dhali Services") and
+   keep the data sharing boxes you are comfortable with; none are needed.
+2. Create a property "PaidTwice", reporting time zone of your choice, currency US dollar. Fill in the
+   business details and objectives (any answers work).
+3. Choose platform **Web**: website URL `https://paidtwice.vercel.app`, stream name "PaidTwice". Keep
+   Enhanced measurement on. Create the stream and copy the **Measurement ID** (`G-XXXXXXXXXX`).
+4. Vercel → Settings → Environment Variables → add `NEXT_PUBLIC_GA_MEASUREMENT_ID` = that ID
+   (Production) → Save → redeploy.
+5. In Google Analytics → Admin:
+   - Data collection and modification → Data retention → set event data retention (2 or 14 months).
+     The privacy policy says "at most 14 months".
+   - Leave Google signals off (the site also switches it off in code).
+   - Account settings → accept the data processing terms (Google Ads Data Processing Terms), which
+     makes Google your processor for GDPR purposes.
+   - Product links → Search Console links → link the Search Console property.
+6. Open the site in a private window, choose Allow on the cookie banner, and check Reports → Realtime.
+
+What visitors see: a cookie banner on public pages with equal "No thanks" and "Allow" buttons. Google
+Analytics loads only after Allow and never on the scan page, saved audits, sign-in, account or payment
+pages. The privacy policy and security page switch to the wording that describes it automatically.
 
 ## Selling before Paddle is live
 
@@ -176,9 +220,10 @@ delete from auth.users where id = '11111111-1111-4111-8111-111111111111';
   vendor records paid the same amount on the same date. Voided and cancelled lines are dropped before
   the checks; duplicates already reversed by a credit note are shown apart. Findings are graded high,
   medium or low; low ones are leads and stay out of the headline total.
-- **The no-upload promise** is enforced by the Content Security Policy in `next.config.ts`: the page
-  can only connect to this site, Supabase and Paddle. Saving an audit (paid plans) stores the summary
-  and the duplicate rows, never the file.
+- **The no-upload promise** is enforced by the Content Security Policy in `lib/security-headers.ts`:
+  the scan, audit, sign-in, account and payment pages (`lib/private-routes.ts`) can only connect to
+  this site, Supabase and Paddle, and Google Analytics never runs on them. Saving an audit (paid
+  plans) stores the summary and the duplicate rows, never the file.
 - **Billing**: Paddle checkout carries the user's id. `supabase/functions/paddle-webhook` verifies the
   signature, `planEvent()` in `supabase/functions/_shared/paddle.ts` decides what the event means, and
   `public.apply_billing_event()` applies it atomically: once per event, in order, with refunds and

@@ -2,6 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { marked } from "marked";
+import { GA_ID } from "./analytics";
 import { SITE } from "./site";
 
 export interface Guide {
@@ -31,11 +32,26 @@ function parseFrontMatter(src: string): { data: Record<string, string>; body: st
   return { data, body: src.slice(m[0].length) };
 }
 
+/** "Cookies and analytics" → "cookies-and-analytics", for linkable section headings. */
+function slugify(text: string): string {
+  return text
+    .replace(/&amp;/g, "and")
+    .replace(/&[a-z#0-9]+;/gi, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function render(markdown: string): string {
   const html = marked.parse(markdown, { async: false, gfm: true }) as string;
-  // External links open in a new tab and pass no referrer details.
-  return html.replace(/<a href="(https?:\/\/[^"]+)"/g, (_m, href: string) =>
-    href.startsWith(SITE.url) ? `<a href="${href}"` : `<a href="${href}" target="_blank" rel="noopener noreferrer"`,
+  return (
+    html
+      // Section headings get ids so they can be linked to (e.g. /privacy#cookies-and-analytics).
+      .replace(/<h([23])>([^<]+)<\/h\1>/g, (_m, level: string, text: string) => `<h${level} id="${slugify(text)}">${text}</h${level}>`)
+      // External links open in a new tab and pass no referrer details.
+      .replace(/<a href="(https?:\/\/[^"]+)"/g, (_m, href: string) =>
+        href.startsWith(SITE.url) ? `<a href="${href}"` : `<a href="${href}" target="_blank" rel="noopener noreferrer"`,
+      )
   );
 }
 
@@ -81,6 +97,11 @@ export type LegalPage = "terms" | "privacy" | "refunds";
 export function getLegal(page: LegalPage): string {
   const src = fs.readFileSync(path.join(ROOT, "legal", `${page}.md`), "utf8");
   const filled = src
+    // <!-- if:ga --> … <!-- endif:ga --> appears only when Google Analytics is configured,
+    // <!-- if:no-ga --> … <!-- endif:no-ga --> only when it is not.
+    .replace(/<!-- if:(no-ga|ga) -->([\s\S]*?)<!-- endif:\1 -->\n?/g, (_m, flag: string, body: string) =>
+      (flag === "ga") === Boolean(GA_ID) ? body.replace(/^\n/, "") : "",
+    )
     .replace(/\{\{COMPANY\}\}/g, SITE.company)
     .replace(/\{\{COUNTRY\}\}/g, SITE.country)
     .replace(/\{\{ADDRESS\}\}/g, SITE.address)

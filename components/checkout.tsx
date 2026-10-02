@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
 import { useAuth, type Plan } from "./auth-provider";
+import { navigateSafely } from "@/lib/analytics";
 import { checkoutReady, openCheckout, type PaidPlan } from "@/lib/paddle";
 
 export interface CheckoutState {
@@ -27,7 +28,8 @@ export function useCheckout(returnTo: string) {
     async (plan: PaidPlan): Promise<Plan | null> => {
       if (!user) {
         const sep = returnTo.includes("?") ? "&" : "?";
-        router.push(`/signup?next=${encodeURIComponent(`${returnTo}${sep}buy=${plan}`)}`);
+        // Sign-up is a private page: a full page load when this document needs one (lib/analytics.ts).
+        navigateSafely(`/signup?next=${encodeURIComponent(`${returnTo}${sep}buy=${plan}`)}`, (href) => router.push(href));
         return null;
       }
       if (!checkoutReady(plan)) {

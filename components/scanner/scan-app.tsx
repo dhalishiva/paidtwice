@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { Suspense, useEffect } from "react";
-import { prewarmScanner, useScan } from "@/lib/scan-store";
+import { takeStashedFile } from "@/lib/handoff";
+import { loadFile, loadSample, prewarmScanner, showIdleError, useScan } from "@/lib/scan-store";
 import { DropZone } from "../drop-zone";
 import { MappingStep } from "./mapping-step";
 import { Results } from "./results";
@@ -71,9 +72,42 @@ function Idle() {
   );
 }
 
+const HANDOFF_FAILED = "The file could not be brought over from the previous page. Choose it again here.";
+
+/**
+ * Picks up what the previous page asked for: ?sample=1 loads the sample file, ?handoff=<key> takes
+ * a file handed over by a public page (see lib/handoff.ts). The query is removed first, so a reload
+ * or a second effect run does not repeat it.
+ */
+async function handleArrival() {
+  const params = new URLSearchParams(window.location.search);
+  const handoff = params.get("handoff");
+  if (!handoff && params.get("sample") !== "1") return;
+  // null state: lets Next.js see the new address (it ignores its own state objects).
+  window.history.replaceState(null, "", "/scan");
+  if (params.get("sample") === "1") {
+    void loadSample();
+    return;
+  }
+  const taken = handoff && handoff !== "failed" ? await takeStashedFile(handoff) : null;
+  if (!taken) {
+    showIdleError(HANDOFF_FAILED);
+    return;
+  }
+  try {
+    await loadFile(taken.file);
+  } finally {
+    // The file has been read into memory (or could not be read); delete the stored copy either way.
+    await taken.release();
+  }
+}
+
 function ScanInner() {
   const s = useScan();
-  useEffect(() => prewarmScanner(), []);
+  useEffect(() => {
+    prewarmScanner();
+    void handleArrival();
+  }, []);
   return (
     <div className="wrap py-10 sm:py-14">
       {s.phase === "idle" && <Idle />}

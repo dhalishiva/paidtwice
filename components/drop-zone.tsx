@@ -1,8 +1,10 @@
 "use client";
 
 import { useRouter, usePathname } from "next/navigation";
-import { useRef, useState } from "react";
-import { loadFile, loadSample, useScan } from "@/lib/scan-store";
+import { useEffect, useRef, useState } from "react";
+import { needsFreshPageForPrivate } from "@/lib/analytics";
+import { stashFile } from "@/lib/handoff";
+import { fileSizeProblem, loadFile, loadSample, showIdleError, useScan } from "@/lib/scan-store";
 
 const ACCEPT = ".csv,.tsv,.txt,.xlsx,.xls,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
 
@@ -20,17 +22,55 @@ export function DropZone({ compact = false }: { compact?: boolean }) {
   const pathname = usePathname();
   const inputRef = useRef<HTMLInputElement>(null);
   const [over, setOver] = useState(false);
+  const [opening, setOpening] = useState(false);
   const { error, phase } = useScan();
-  const busy = phase === "reading";
+  const busy = phase === "reading" || opening;
+  const onScanPage = pathname === "/scan";
+
+  // Coming back with the browser's Back button restores this page as it was left.
+  useEffect(() => {
+    const onShow = (e: PageTransitionEvent) => {
+      if (e.persisted) setOpening(false);
+    };
+    window.addEventListener("pageshow", onShow);
+    return () => window.removeEventListener("pageshow", onShow);
+  }, []);
 
   const go = () => {
-    if (pathname !== "/scan") router.push("/scan");
+    if (!onScanPage) router.push("/scan");
   };
+
+  // When Google Analytics is configured, a page that was first loaded as a public page carries a
+  // policy that allows Google's hosts, so the file is not read here: it is handed to a freshly
+  // loaded scan page, which runs with the strict policy and no third-party script.
+  const freshScanPage = !onScanPage && needsFreshPageForPrivate();
 
   const pick = (files: FileList | null) => {
     const file = files?.[0];
     if (!file) return;
-    void loadFile(file);
+    if (!freshScanPage) {
+      void loadFile(file);
+      go();
+      return;
+    }
+    const problem = fileSizeProblem(file);
+    if (problem) {
+      showIdleError(problem);
+      return;
+    }
+    setOpening(true);
+    void stashFile(file).then((key) =>
+      window.location.assign(key ? `/scan?handoff=${encodeURIComponent(key)}` : "/scan?handoff=failed"),
+    );
+  };
+
+  const sample = () => {
+    if (freshScanPage) {
+      setOpening(true);
+      window.location.assign("/scan?sample=1");
+      return;
+    }
+    void loadSample();
     go();
   };
 
@@ -56,15 +96,7 @@ export function DropZone({ compact = false }: { compact?: boolean }) {
         <button type="button" className="btn btn-primary" onClick={() => inputRef.current?.click()} disabled={busy}>
           Choose a file
         </button>
-        <button
-          type="button"
-          className="btn btn-secondary"
-          disabled={busy}
-          onClick={() => {
-            void loadSample();
-            go();
-          }}
-        >
+        <button type="button" className="btn btn-secondary" disabled={busy} onClick={sample}>
           Try the sample file
         </button>
         <input
@@ -80,9 +112,9 @@ export function DropZone({ compact = false }: { compact?: boolean }) {
           }}
         />
       </div>
-      <p className="mt-5 flex items-center gap-2 text-sm text-green-ink">
+      <p className="mt-5 flex items-center gap-2 text-sm text-green-ink" role={opening ? "status" : undefined}>
         <LockIcon />
-        Read on your computer. Never uploaded.
+        {opening ? "Opening the scanner…" : "Read on your computer. Never uploaded."}
       </p>
       {error && phase === "idle" && (
         <p role="alert" className="error-text mt-3 text-[0.9375rem]">
