@@ -55,11 +55,14 @@ Deno.serve(async (req) => {
       .map(([k, v]) => `${k}: ${v}`)
       .join("\n");
     try {
-      await fetch("https://api.resend.com/emails", {
+      const res = await fetch("https://api.resend.com/emails", {
         method: "POST",
         headers: { Authorization: `Bearer ${resendKey}`, "Content-Type": "application/json" },
         body: JSON.stringify({ from, to: [notify], reply_to: email, subject: `PaidTwice enquiry: ${lead.topic ?? "general"}`, text }),
       });
+      // The lead is already saved; a failed alert is logged (Edge Functions → lead → Logs) so the
+      // operator can see why no email arrived, e.g. an unverified sender domain.
+      if (!res.ok) console.error("lead notification rejected", res.status, (await res.text()).slice(0, 500));
     } catch (e) {
       console.error("lead notification failed", String(e));
     }

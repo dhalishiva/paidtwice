@@ -16,9 +16,10 @@ files VAT and US sales tax for you.
 ## What works today
 
 - Scanning, the sample file, accounts, the contact form, guides, legal and security pages.
-- Buy buttons send people to the contact form until Paddle is set up ("Online checkout is being
-  switched on. Leave your details and we will send you a secure payment link"). Each message is saved
-  in the `leads` table. Turn on email alerts (step 1) so you see them.
+- Until Paddle is set up, a buy button first asks the visitor to create an account (you need it to
+  unlock them later), then opens the contact form with "Online checkout is being switched on. Leave
+  your details and we will send you a secure payment link". Each message is saved in the `leads`
+  table. Turn on email alerts (step 1) so you see them.
 - You can sell by invoice right away and unlock the buyer by hand (see "Selling before Paddle is live").
 
 ## Launch checklist
@@ -33,7 +34,8 @@ Do these in order. Steps 1 to 4 take about an hour; Paddle's review (step 5) tak
    - `LEAD_NOTIFY_EMAIL` = the address you signed up to Resend with
 3. Send a test message from the contact page. Until you verify a domain in Resend, alerts come from
    `onboarding@resend.dev` and can only go to your own Resend address, which is all this needs. After
-   you verify your domain, add `LEAD_FROM_EMAIL` = `PaidTwice <hello@yourdomain>`.
+   you verify your domain, add `LEAD_FROM_EMAIL` = `PaidTwice <hello@yourdomain>`. If no alert
+   arrives, Supabase → Edge Functions → lead → Logs shows Resend's reason.
 
 ### 2. Domain
 
@@ -55,9 +57,10 @@ Do these in order. Steps 1 to 4 take about an hour; Paddle's review (step 5) tak
    so customers will not get reset links until you add your own SMTP. With Resend: verify your domain
    in Resend, then Authentication → Emails → SMTP Settings: host `smtp.resend.com`, port `465`, user
    `resend`, password = a Resend API key, sender `no-reply@yourdomain`.
-3. Sign-up does not send a confirmation email (accounts are confirmed on creation, so the product works
-   without SMTP). Once SMTP works you can switch confirmation on, but the sign-up form would then need a
-   "check your email" step; it currently signs the person straight in.
+3. Sign-up does not send a confirmation email: `supabase/functions/signup` creates accounts already
+   confirmed and the form signs the person straight in, so the product works without SMTP. The
+   dashboard's "Confirm email" switch does not affect this. Requiring confirmation later is a code
+   change (drop `email_confirm: true` in the function and add a "check your email" step to the form).
 
 ### 4. Business details shown on the site
 
@@ -89,8 +92,8 @@ Set it up in the sandbox first (sandbox-vendors.paddle.com), test, then repeat w
 3. **Webhook** (Developer tools → Notifications → New destination)
    - URL: `https://alytxtpmnohqowvlazai.supabase.co/functions/v1/paddle-webhook`
    - Events: `transaction.completed`, `subscription.created`, `subscription.updated`,
-     `subscription.canceled`, `subscription.past_due`, `subscription.paused`, `subscription.resumed`,
-     `adjustment.created`, `adjustment.updated`
+     `subscription.activated`, `subscription.canceled`, `subscription.paused`, `subscription.resumed`,
+     `subscription.past_due`, `subscription.trialing`, `adjustment.created`, `adjustment.updated`
    - Copy the destination's secret key.
 4. **Default payment link** (Checkout → Checkout settings): `https://yourdomain/pay`
 5. **Supabase → Edge Functions → Secrets**
@@ -116,8 +119,9 @@ Set it up in the sandbox first (sandbox-vendors.paddle.com), test, then repeat w
 
 7. **Test in the sandbox.** Create an account on the site, buy each plan with card
    `4242 4242 4242 4242` (any future expiry, CVC `100`). The account should unlock within a few
-   seconds. Then refund the Audit Pass in Paddle: access is removed when the refund is approved. Cancel
-   Pro from the account page: it stays active until the end of the paid period.
+   seconds. Then fully refund the Audit Pass in Paddle: access is removed when the refund is approved
+   (a partial refund leaves access in place). Cancel Pro from the account page: it stays active until
+   the end of the paid period.
 8. **Go live.** Complete Paddle's account verification and website review. Paddle reviews the site on
    your own domain (step 2) and looks for pricing, terms, privacy and refund pages, which are all in
    place. Then put the live values into steps 5 and 6 and redeploy.
@@ -168,9 +172,10 @@ delete from auth.users where id = '11111111-1111-4111-8111-111111111111';
   columns, `normalize.ts` cleans invoice numbers and vendor names, and `detect.ts` runs the checks
   listed in `TESTS` in `types.ts`: exact duplicates, invoice numbers formatted differently or mistyped,
   the same invoice under two vendor records, amounts keyed differently (including tax added once and
-  left off once), and the same amount to the same vendor on the same or nearby dates. Duplicates
-  already reversed by a credit or void are shown apart. Findings are graded high, medium or low; low
-  ones are leads and stay out of the headline total.
+  left off once), the same amount to the same vendor on the same or nearby dates, and look-alike
+  vendor records paid the same amount on the same date. Voided and cancelled lines are dropped before
+  the checks; duplicates already reversed by a credit note are shown apart. Findings are graded high,
+  medium or low; low ones are leads and stay out of the headline total.
 - **The no-upload promise** is enforced by the Content Security Policy in `next.config.ts`: the page
   can only connect to this site, Supabase and Paddle. Saving an audit (paid plans) stores the summary
   and the duplicate rows, never the file.
@@ -179,8 +184,11 @@ delete from auth.users where id = '11111111-1111-4111-8111-111111111111';
   `public.apply_billing_event()` applies it atomically: once per event, in order, with refunds and
   chargebacks taking access back.
 - **Server functions** (`supabase/functions`): `signup`, `lead`, `paddle-webhook`, `billing-portal`,
-  `delete-account`. They check the caller themselves, so they are deployed with JWT verification off.
-- **Database**: migrations in `supabase/migrations`. Row level security is on for every table.
+  `delete-account`. They check the caller themselves, so JWT verification is off for all of them
+  (`supabase/config.toml` keeps it that way when you deploy with the CLI).
+- **Database**: migrations in `supabase/migrations`. Row level security is on for every table; the
+  dashboard's recovery totals come from the `audit_summaries` view, which runs with the caller's
+  permissions.
 
 ## Development
 
@@ -193,8 +201,12 @@ npm run lint                 # type check
 npm run sample               # regenerate public/sample/northwind-ap-export-2025.csv
 ```
 
-Deploy a server function after changing it, with the Supabase CLI:
-`supabase functions deploy paddle-webhook --no-verify-jwt --project-ref alytxtpmnohqowvlazai`
+Deploy a server function after changing it, with the Supabase CLI (JWT settings come from
+`supabase/config.toml`): `supabase functions deploy paddle-webhook --project-ref alytxtpmnohqowvlazai`
+
+Vercel already has `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` and
+`NEXT_PUBLIC_SITE_URL` for production. Supabase provides `SUPABASE_URL` and the service key to the
+server functions by itself.
 
 ## Handing the product to a buyer
 

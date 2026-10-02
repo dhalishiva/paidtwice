@@ -1,0 +1,20 @@
+# Supabase CLI settings. Only what this project needs; everything else uses the CLI defaults.
+project_id = "paidtwice"
+
+# These functions check the caller themselves (Paddle signature, the user's token, or rate
+# limits for anonymous sign-ups and contact messages), so the gateway's JWT check must stay off.
+# Deploying them with it on would break sign-up, the contact form and the Paddle webhook.
+[functions.signup]
+verify_jwt = false
+
+[functions.lead]
+verify_jwt = false
+
+[functions.paddle-webhook]
+verify_jwt = false
+
+[functions.billing-portal]
+verify_jwt = false
+
+[functions.delete-account]
+verify_jwt = false
