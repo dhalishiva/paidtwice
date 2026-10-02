@@ -18,7 +18,7 @@ After 14 days, we do not give refunds, including partial refunds for unused time
 
 ## Cancelling a subscription
 
-You can cancel Pro at any time using the link in your Paddle receipt, at paddle.net, or by emailing {{EMAIL}}. Your subscription stays active until the end of the period you have paid for, and then it does not renew.
+You can cancel Pro at any time from your account page, using the link in your Paddle receipt, at paddle.net, or by emailing {{EMAIL}}. Your subscription stays active until the end of the period you have paid for, and then it does not renew.
 
 Deleting your PaidTwice account does not cancel your subscription, so please cancel first.
 

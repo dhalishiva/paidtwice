@@ -16,6 +16,18 @@ function Inner() {
   const [confirm, setConfirm] = useState("");
   const [deleteError, setDeleteError] = useState<string | null>(null);
   const [deleting, setDeleting] = useState(false);
+  const [portal, setPortal] = useState<{ busy: boolean; error: string | null }>({ busy: false, error: null });
+
+  const openPortal = async () => {
+    setPortal({ busy: true, error: null });
+    try {
+      const res = await callFunction<{ url: string | null }>("billing-portal", {}, session?.access_token);
+      if (!res.url) throw new Error("Billing management is not available right now.");
+      window.location.assign(res.url);
+    } catch (e) {
+      setPortal({ busy: false, error: e instanceof Error ? e.message : "Could not open billing management." });
+    }
+  };
 
   useEffect(() => {
     const sb = getSupabase();
@@ -41,7 +53,8 @@ function Inner() {
     setStatus(error ? "Not saved. Try again." : "Saved");
   };
 
-  const subscribed = plan === "pro" && entitlement?.paddle_subscription_id && entitlement.pro_status !== "canceled";
+  const cancelling = Boolean(entitlement?.pro_cancel_at);
+  const subscribed = plan === "pro" && entitlement?.paddle_subscription_id && entitlement.pro_status !== "canceled" && !cancelling;
 
   const remove = async () => {
     setDeleteError(null);
@@ -72,7 +85,10 @@ function Inner() {
           <p className="mt-1 text-ink-2">
             {plan === "free" && "Scans show the total at stake and the top three findings."}
             {plan === "pass" && `Full access until ${dateTime(until)}. The pass does not renew.`}
-            {plan === "pro" && `Full access, paid through ${dateTime(until)}.`}
+            {plan === "pro" &&
+              (cancelling
+                ? `Cancelled. Full access until ${dateTime(entitlement?.pro_cancel_at)}, then the plan ends.`
+                : `Full access, renews ${dateTime(until)}.`)}
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             {plan !== "pro" && (
@@ -80,15 +96,21 @@ function Inner() {
                 {plan === "free" ? "See plans" : "Switch to Pro"}
               </Link>
             )}
-            {plan === "pro" && (
-              <a href="https://paddle.net" className="btn btn-quiet btn-sm" target="_blank" rel="noopener noreferrer">
-                Manage subscription
-              </a>
+            {entitlement?.paddle_customer_id && (
+              <button type="button" className="btn btn-quiet btn-sm" disabled={portal.busy} onClick={openPortal}>
+                {portal.busy ? "Opening…" : plan === "pro" ? "Manage subscription and invoices" : "Invoices and receipts"}
+              </button>
             )}
           </div>
-          {plan === "pro" && (
+          {portal.error && (
+            <p role="alert" className="error-text mt-3">
+              {portal.error}
+            </p>
+          )}
+          {entitlement?.paddle_customer_id && (
             <p className="mt-4 text-sm text-ink-2">
-              Payments are handled by Paddle. Use the link in your receipt email, or paddle.net, to update your card, get invoices or cancel.
+              Payments are handled by Paddle, our reseller. Update your card, download invoices or cancel in Paddle&apos;s secure customer
+              portal. The link in your receipt email works too.
             </p>
           )}
         </section>

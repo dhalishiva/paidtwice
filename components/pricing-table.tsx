@@ -200,7 +200,7 @@ function PricingInner({ returnTo }: { returnTo: string }) {
         ))}
       </div>
       <p className="mt-5 text-sm text-ink-2">
-        Prices in US dollars. Checkout shows your local currency and adds sales tax or VAT where it applies. Full refund within 14 days of
+        Prices in US dollars. Checkout may show your local currency and adds sales tax or VAT where it applies. Full refund within 14 days of
         your first purchase.
       </p>
     </div>

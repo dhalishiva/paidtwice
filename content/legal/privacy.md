@@ -56,7 +56,7 @@ We do not make decisions about you based solely on automated processing that hav
 
 We store our data with Supabase in its London (UK) region. Our providers are:
 
-- **Supabase:** database and authentication.
+- **Supabase:** database, authentication and server functions (the small functions that create accounts and receive payment notifications may run in the Supabase region nearest to the person using the site).
 - **Vercel:** website hosting and content delivery network.
 - **Paddle:** payments, as our reseller and Merchant of Record.
 - **Resend:** transactional email, where we use it, including forwarding enquiries to us.
@@ -85,7 +85,7 @@ No system is perfectly secure. If a breach affects your personal data, we will t
 
 Depending on where you live, you may have the right to access, correct or delete your personal data, to receive a portable copy, to restrict or object to how we use it (including where we rely on legitimate interests), and to complain to a data protection authority.
 
-**UK, EU and EEA.** You can complain to the UK Information Commissioner's Office or your local data protection authority. We would appreciate the chance to help first.
+**UK, EU and EEA.** You can complain to us at {{EMAIL}}. We will acknowledge your complaint within 30 days and tell you the outcome without undue delay. You can also complain to the UK Information Commission (formerly the Information Commissioner's Office) or to your local data protection authority.
 
 **Australia.** You can ask to access or correct your information. If we do not resolve a privacy complaint to your satisfaction, you can contact the Office of the Australian Information Commissioner (OAIC).
 

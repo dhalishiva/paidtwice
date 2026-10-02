@@ -62,7 +62,7 @@ In column F, strip prefixes and punctuation. Adjust the prefixes to the ones you
 
 `=SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(UPPER(D2),"INV",""),"-",""),"/","")`
 
-In column G, `=IFERROR(VALUE(F2)&"",F2)` turns 00123 into 123 and leaves numbers containing letters alone. Then highlight duplicates on a key of vendor plus column G.
+In column G, `=IFERROR(VALUE(F2)&"",F2)` turns 00123 into 123 and leaves most numbers containing letters alone (check any like 12E3, which Excel reads as 12000). Then highlight duplicates on a key of vendor plus column G.
 
 Typos (48213 for 48231) and scanning errors (1O23 for 1023) won't line up this way. Sort by vendor, then amount, instead. A mistyped number usually comes with the right amount, so the two bills land on adjacent rows.
 

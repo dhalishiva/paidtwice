@@ -4,7 +4,7 @@ title: "Duplicate bills in Xero: how to find them and why they slip through"
 description: How Xero flags possible duplicate bills, why some duplicates still get paid, which reports to export, and a simple review routine.
 ---
 
-Xero now looks for duplicate bills on its own, which is a real improvement. But the duplicates that actually get paid are usually the ones that don't look identical: a reference keyed two ways, a bill under a second contact, an amount entered with tax on one copy and without it on the other. This guide covers what Xero checks, where duplicates come from, and a routine for finding the rest.
+Xero now looks for duplicate bills on its own, which is a real improvement. But the duplicates Xero doesn't flag are the ones that don't look identical: a reference keyed two ways, a bill under a second contact, an amount entered with tax on one copy and without it on the other. This guide covers what Xero checks, where duplicates come from, and a routine for finding the rest.
 
 ## What Xero checks today
 

@@ -21,9 +21,8 @@ export const metadata: Metadata = {
     title: "PaidTwice: find the invoices you paid twice",
     description: SITE.description,
     url: SITE.url,
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "PaidTwice flags two ledger lines as the same invoice paid twice" }],
   },
-  twitter: { card: "summary_large_image", title: "PaidTwice: find the invoices you paid twice", description: SITE.description, images: ["/og.png"] },
+  twitter: { card: "summary_large_image", title: "PaidTwice: find the invoices you paid twice", description: SITE.description },
   formatDetection: { telephone: false },
 };
 

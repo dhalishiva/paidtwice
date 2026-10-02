@@ -110,6 +110,19 @@ function handle(msg: WorkerOut) {
   }
 }
 
+/**
+ * Starts the scanner thread as soon as the scan page opens, so its code is already loaded and a
+ * scan keeps working even if the connection drops afterwards.
+ */
+export function prewarmScanner() {
+  if (typeof window === "undefined" || typeof Worker === "undefined") return;
+  try {
+    getWorker();
+  } catch {
+    /* created on demand instead */
+  }
+}
+
 const MAX_BYTES = 80 * 1024 * 1024;
 
 export async function loadFile(file: File): Promise<void> {
@@ -164,6 +177,7 @@ export function resetScan() {
   worker?.terminate();
   worker = null;
   set(initial());
+  prewarmScanner();
 }
 
 export function markSaved(id: string) {

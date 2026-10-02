@@ -4,7 +4,7 @@ title: How to recover a duplicate payment from a vendor
 description: Confirm a duplicate vendor payment, choose between a refund and a credit note, ask the vendor with a ready-made email, and record the recovery.
 ---
 
-Most vendors will return a duplicate payment once they see clear evidence. The work is in proving it really is a duplicate, choosing how to get the money back, and closing it out in your books so it doesn't resurface at the next reconciliation.
+Vendors are generally willing to return a duplicate payment once they see clear evidence. The work is in proving it really is a duplicate, choosing how to get the money back, and closing it out in your books so it doesn't resurface at the next reconciliation.
 
 ## Confirm it really is a duplicate
 

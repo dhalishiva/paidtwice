@@ -17,7 +17,7 @@ export const SITE = {
 };
 
 export const PRICES = {
-  pass: 199,
+  pass: 149,
   proMonthly: 99,
   proYearly: 990,
 };

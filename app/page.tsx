@@ -31,7 +31,7 @@ const DATA_ROWS: [string, string][] = [
   ["Lines that are not flagged", "Never leave your computer"],
   ["Flagged lines", "Stored only if you save an audit on a paid plan"],
   ["Your notes and recovered amounts", "Stored with the saved audit, deleted with it"],
-  ["Card details", "Handled by Paddle, our payment provider; we never see them"],
+  ["Card number and security code", "Handled by Paddle, our payment provider; we only receive the card type, last four digits and expiry"],
   ["Your account", "Email, name and company, stored in London (UK)"],
 ];
 
@@ -86,8 +86,8 @@ export default function Home() {
           <div className="max-w-2xl">
             <h2 className="h2">What it catches</h2>
             <p className="lede mt-4">
-              Exact repeats are the easy part. Most duplicates that get paid look slightly different the second time, which is why an
-              exact-match check never sees them.
+              Exact repeats are the easy part. Many duplicates look slightly different the second time, and an exact-match check never
+              sees those.
             </p>
           </div>
           <div className="mt-12">
@@ -109,9 +109,9 @@ export default function Home() {
               tab.
             </p>
             <p className="mt-4 max-w-[38em] text-ink-2">
-              You can check this yourself: open your browser&apos;s developer tools, choose the Network tab and run a scan. Nothing is
-              sent. The site&apos;s security policy also tells your browser to refuse connections to anywhere except our own servers and our
-              payment provider.
+              You can check this yourself: open your browser&apos;s developer tools, choose the Network tab and run a scan. Nothing from
+              your file is sent. The site&apos;s security policy also tells your browser to refuse connections to anywhere except this site,
+              our Supabase backend and Paddle, our payment provider.
             </p>
             <Link href="/security" className="link mt-6 inline-block font-semibold">
               How PaidTwice handles your data

@@ -37,6 +37,10 @@ export function useCheckout(returnTo: string) {
       setState({ busy: plan, message: null, error: null });
       try {
         const outcome = await openCheckout(plan, { email: user.email ?? "", userId: user.id });
+        if (outcome === "error") {
+          setState({ busy: null, message: null, error: "The checkout reported a problem. Nothing was charged; please try again or contact us." });
+          return null;
+        }
         if (outcome !== "completed") {
           setState({ busy: null, message: null, error: null });
           return null;

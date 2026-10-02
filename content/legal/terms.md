@@ -54,7 +54,7 @@ We may change prices, but not for a pass you have already bought. For Pro, we wi
 
 Pro renews automatically at the end of each monthly or annual period, at the then-current price, until you cancel.
 
-You can cancel at any time through the link in your Paddle receipt, at paddle.net, or by asking us at {{EMAIL}}. Your subscription then stays active until the end of the period you have paid for, and does not renew.
+You can cancel at any time from your account page, through the link in your Paddle receipt, at paddle.net, or by asking us at {{EMAIL}}. Your subscription then stays active until the end of the period you have paid for, and does not renew.
 
 You can get a full refund if you ask within 14 days of your first purchase of an Audit Pass or a Pro subscription. After 14 days, there are no partial refunds for unused time. See our refund policy.
 
@@ -73,7 +73,9 @@ Saved audits can include personal data, such as a sole-trader vendor's name. For
 - use only the sub-processors listed in our privacy policy, telling you before adding or replacing one so you can object;
 - help you handle requests from individuals and meet your own data protection duties;
 - tell you without undue delay about any personal data breach affecting it;
-- give you the information you reasonably need to show compliance; and
+- give you the information you reasonably need to show compliance, and allow for and contribute to reasonable audits, including inspections, by you or an auditor you appoint;
+- tell you straight away if we think an instruction from you breaks data protection law;
+- where we access it from outside the UK or EU, protect the transfer with the EU standard contractual clauses or the UK International Data Transfer Addendum; and
 - delete it when you delete it or your account.
 
 ## No professional advice and accuracy disclaimer

@@ -37,7 +37,7 @@ const EXAMPLES: Example[] = [
   },
   {
     title: "One supplier, two vendor records",
-    text: "The same invoice booked to a duplicate entry in the vendor master, so no system check ever compares them.",
+    text: "The same invoice booked to a duplicate entry in the vendor master, so per-vendor duplicate checks, like those in QuickBooks, Xero and SAP, never compare them.",
     rows: [
       [["Wide World Importers ", { f: "V1014" }], "WWI0047030", "3 Feb", "6,319.00"],
       [["Wide World Importers Inc. ", { m: "V1203" }], "WWI0047030", "24 Feb", "6,319.00"],

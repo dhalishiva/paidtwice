@@ -9,7 +9,7 @@ export const FAQ: { q: string; a: string; link?: { href: string; label: string }
   },
   {
     q: "Which accounting systems does it work with?",
-    a: `Any system that exports to CSV or Excel. Exports from ${listSentence(SYSTEMS)} are recognised as they are. Columns are matched automatically and you can correct any match before scanning.`,
+    a: `Any system that exports to CSV or Excel. Columns in exports from ${listSentence(SYSTEMS)} are usually matched automatically, including QuickBooks reports grouped by vendor and Xero's line-by-line bills export, and you can correct any match before scanning.`,
   },
   {
     q: "What should I export?",
@@ -26,7 +26,7 @@ export const FAQ: { q: string; a: string; link?: { href: string; label: string }
   },
   {
     q: "Can we pay by invoice?",
-    a: "Yes, for the Firm plan and for annual Pro. Get in touch and we will send an invoice.",
+    a: "Yes, for the Firm plan and for annual Pro. Get in touch and Paddle, our reseller, will send an invoice you can pay by bank transfer or card.",
     link: { href: "/contact?topic=invoice", label: "Ask for an invoice" },
   },
   {

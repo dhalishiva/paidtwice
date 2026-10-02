@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Suspense } from "react";
-import { useScan } from "@/lib/scan-store";
+import { Suspense, useEffect } from "react";
+import { prewarmScanner, useScan } from "@/lib/scan-store";
 import { DropZone } from "../drop-zone";
 import { MappingStep } from "./mapping-step";
 import { Results } from "./results";
@@ -73,6 +73,7 @@ function Idle() {
 
 function ScanInner() {
   const s = useScan();
+  useEffect(() => prewarmScanner(), []);
   return (
     <div className="wrap py-10 sm:py-14">
       {s.phase === "idle" && <Idle />}

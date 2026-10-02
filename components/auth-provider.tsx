@@ -10,7 +10,9 @@ export interface Entitlement {
   pass_until: string | null;
   pro_until: string | null;
   pro_status: string | null;
+  pro_cancel_at: string | null;
   paddle_subscription_id: string | null;
+  paddle_customer_id: string | null;
 }
 
 interface AuthState {
@@ -76,7 +78,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (!sb || !userId) return null;
     const { data } = await sb
       .from("entitlements")
-      .select("pass_until, pro_until, pro_status, paddle_subscription_id")
+      .select("pass_until, pro_until, pro_status, pro_cancel_at, paddle_subscription_id, paddle_customer_id")
       .eq("user_id", userId)
       .maybeSingle();
     return (data as Entitlement | null) ?? null;
