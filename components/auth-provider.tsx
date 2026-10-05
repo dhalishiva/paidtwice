@@ -1,8 +1,33 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import type { Session, User } from "@supabase/supabase-js";
-import { getSupabase } from "@/lib/supabase";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
+import type { Session, SupabaseClient, User } from "@supabase/supabase-js";
+import { isPrivatePath } from "@/lib/private-routes";
+
+// The Supabase client (about 60 KB compressed) is loaded only when it can matter: on private
+// pages (sign-in, app, account, pay), for auth links, or when this browser holds a saved session.
+// Anonymous visitors on public pages never download it.
+let clientPromise: Promise<SupabaseClient | null> | null = null;
+function loadSupabase(): Promise<SupabaseClient | null> {
+  if (!clientPromise) clientPromise = import("@/lib/supabase").then((m) => m.getSupabase());
+  return clientPromise;
+}
+const STORAGE_KEY = "paidtwice-auth"; // must match storageKey in lib/supabase.ts
+function hasStoredSession(): boolean {
+  try {
+    return Boolean(window.localStorage.getItem(STORAGE_KEY));
+  } catch {
+    return true; // storage blocked: load the client and let it decide
+  }
+}
+function needsAuthNow(pathname: string): boolean {
+  return (
+    isPrivatePath(pathname) ||
+    hasStoredSession() ||
+    /access_token|type=recovery|code=/.test(window.location.hash + window.location.search)
+  );
+}
 
 export type Plan = "free" | "pass" | "pro";
 
@@ -50,31 +75,42 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [entitlement, setEntitlement] = useState<Entitlement | null>(null);
 
+  const pathname = usePathname() ?? "/";
+  const started = useRef(false);
+  const unsubscribe = useRef<() => void>(() => {});
+
+  // Start the client the first time it is needed; client-side navigation into a private page
+  // (for example clicking Sign in) starts it too.
   useEffect(() => {
-    const sb = getSupabase();
-    if (!sb) {
-      setReady(true);
+    if (started.current) return;
+    if (!needsAuthNow(pathname)) {
+      setReady(true); // anonymous visitor on a public page: no session to look up
       return;
     }
-    let active = true;
-    sb.auth.getSession().then(({ data }) => {
-      if (!active) return;
-      setSession(data.session);
-      setReady(true);
+    started.current = true;
+    loadSupabase().then((sb) => {
+      if (!sb) {
+        setReady(true);
+        return;
+      }
+      sb.auth.getSession().then(({ data }) => {
+        setSession(data.session);
+        setReady(true);
+      });
+      const { data: sub } = sb.auth.onAuthStateChange((_event, s) => {
+        setSession(s);
+      });
+      unsubscribe.current = () => sub.subscription.unsubscribe();
     });
-    const { data: sub } = sb.auth.onAuthStateChange((_event, s) => {
-      setSession(s);
-    });
-    return () => {
-      active = false;
-      sub.subscription.unsubscribe();
-    };
-  }, []);
+  }, [pathname]);
+
+  useEffect(() => () => unsubscribe.current(), []);
 
   const userId = session?.user.id ?? null;
 
   const loadEntitlement = useCallback(async (): Promise<Entitlement | null> => {
-    const sb = getSupabase();
+    if (!userId) return null;
+    const sb = await loadSupabase();
     if (!sb || !userId) return null;
     const { data } = await sb
       .from("entitlements")
@@ -105,7 +141,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [loadEntitlement]);
 
   const signOut = useCallback(async () => {
-    const sb = getSupabase();
+    const sb = await loadSupabase();
     if (sb) await sb.auth.signOut();
     setSession(null);
     setEntitlement(null);

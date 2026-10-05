@@ -309,7 +309,9 @@ function UpdatePasswordInner() {
 const wrap = (C: React.ComponentType) =>
   function Wrapped() {
     return (
-      <Suspense fallback={<div className="wrap py-20" />}>
+      // These forms read the address (?next=…) so they render after hydration. The placeholder
+      // fills the screen so the footer is never in view to jump when the form appears.
+      <Suspense fallback={<div className="min-h-dvh" aria-hidden="true" />}>
         <C />
       </Suspense>
     );

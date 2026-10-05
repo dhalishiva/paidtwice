@@ -22,8 +22,8 @@
   --color-ochre-wash: #fbf0d9;
   --color-focus: #2f63e0;
 
-  --font-sans: "Atkinson Hyperlegible Next Variable", "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-mono: "Atkinson Hyperlegible Mono Variable", "Atkinson Hyperlegible Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-sans: var(--font-sans-web), "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-mono-web), "Atkinson Hyperlegible Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
   --text-xs: 0.8125rem;
   --text-xs--line-height: 1.4;

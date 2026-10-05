@@ -46,7 +46,10 @@ export function GoogleAnalytics() {
 
   useEffect(() => {
     // Even with Google Analytics switched off again, a file handed over earlier must not linger.
-    void purgeStaleHandoffs(Boolean(GA_ID));
+    // Runs once the browser is idle so it never competes with the first paint or first tap.
+    const purge = () => void purgeStaleHandoffs(Boolean(GA_ID));
+    if (typeof window.requestIdleCallback === "function") window.requestIdleCallback(purge, { timeout: 4000 });
+    else window.setTimeout(purge, 2000);
     if (!GA_ID) return;
     const stored = readConsent();
     setConsent(stored);

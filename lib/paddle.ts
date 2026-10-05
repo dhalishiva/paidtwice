@@ -1,6 +1,6 @@
 "use client";
 
-import { initializePaddle, type Paddle, type PaddleEventData } from "@paddle/paddle-js";
+import type { Paddle, PaddleEventData } from "@paddle/paddle-js";
 
 export type PaidPlan = "pass" | "pro_monthly" | "pro_yearly";
 
@@ -25,14 +25,19 @@ const listeners = new Set<(e: PaddleEventData) => void>();
 
 function getPaddle(): Promise<Paddle | undefined> {
   if (!paddlePromise) {
-    paddlePromise = initializePaddle({
-      environment: ENV,
-      token: TOKEN,
-      eventCallback: (e) => listeners.forEach((fn) => fn(e)),
-    }).catch(() => {
-      paddlePromise = null;
-      return undefined;
-    });
+    // Loaded only when a checkout is actually needed, keeping it out of every page's bundle.
+    paddlePromise = import("@paddle/paddle-js")
+      .then(({ initializePaddle }) =>
+        initializePaddle({
+          environment: ENV,
+          token: TOKEN,
+          eventCallback: (e) => listeners.forEach((fn) => fn(e)),
+        }),
+      )
+      .catch(() => {
+        paddlePromise = null;
+        return undefined;
+      });
   }
   return paddlePromise;
 }
