@@ -19,9 +19,9 @@ export const SITE = {
 };
 
 export const PRICES = {
-  pass: 149,
-  proMonthly: 99,
-  proYearly: 990,
+  pass: 15,
+  proMonthly: 10,
+  proYearly: 100,
 };
 
 /** Number of findings a free scan shows in full. */
